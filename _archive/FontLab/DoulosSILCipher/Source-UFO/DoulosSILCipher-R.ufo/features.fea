@@ -1,0 +1,1661 @@
+#> classes
+#/> otclasses
+@aalt1 = [uni02E9.rstaff uni02E9.1 uni02E9.2 uni02E9.3 uni02E9.4 uni02E9.5 uni02E9.rstaffno uni02E9.no];
+@aalt10 = [uniA713.lstaff.Dep51 uniA713.1.Dep51 uniA713.2.Dep51 uniA713.3.Dep51 uniA713.4.Dep51 uniA713.5.Dep51 uniA713.lstaffno.Dep51 uniA713.no.Dep51];
+@aalt11 = [uniA713.lstaff.Dep50 uniA713.1.Dep50 uniA713.2.Dep50 uniA713.3.Dep50 uniA713.4.Dep50 uniA713.5.Dep50 uniA713.lstaffno.Dep50 uniA713.no.Dep50];
+@aalt12 = [uniA713.lstaff.Dep41 uniA713.1.Dep41 uniA713.2.Dep41 uniA713.3.Dep41 uniA713.4.Dep41 uniA713.5.Dep41 uniA713.lstaffno.Dep41 uniA713.no.Dep41];
+@aalt13 = [uniA714.lstaff.Dep51 uniA714.1.Dep51 uniA714.2.Dep51 uniA714.3.Dep51 uniA714.4.Dep51 uniA714.5.Dep51 uniA714.lstaffno.Dep51 uniA714.no.Dep51];
+@aalt14 = [uniA714.lstaff.Dep50 uniA714.1.Dep50 uniA714.2.Dep50 uniA714.3.Dep50 uniA714.4.Dep50 uniA714.5.Dep50 uniA714.lstaffno.Dep50 uniA714.no.Dep50];
+@aalt15 = [uniA714.lstaff.Dep41 uniA714.1.Dep41 uniA714.2.Dep41 uniA714.3.Dep41 uniA714.4.Dep41 uniA714.5.Dep41 uniA714.lstaffno.Dep41 uniA714.no.Dep41];
+@aalt16 = [uniA715.lstaff.Dep51 uniA715.1.Dep51 uniA715.2.Dep51 uniA715.3.Dep51 uniA715.4.Dep51 uniA715.5.Dep51 uniA715.lstaffno.Dep51 uniA715.no.Dep51];
+@aalt17 = [uniA715.lstaff.Dep50 uniA715.1.Dep50 uniA715.2.Dep50 uniA715.3.Dep50 uniA715.4.Dep50 uniA715.5.Dep50 uniA715.lstaffno.Dep50 uniA715.no.Dep50];
+@aalt18 = [uniA715.lstaff.Dep41 uniA715.1.Dep41 uniA715.2.Dep41 uniA715.3.Dep41 uniA715.4.Dep41 uniA715.5.Dep41 uniA715.lstaffno.Dep41 uniA715.no.Dep41];
+@aalt19 = [uniA716.lstaff.Dep51 uniA716.1.Dep51 uniA716.2.Dep51 uniA716.3.Dep51 uniA716.4.Dep51 uniA716.5.Dep51 uniA716.lstaffno.Dep51 uniA716.no.Dep51];
+@aalt2 = [uniA712.lstaff uniA712.1 uniA712.2 uniA712.3 uniA712.4 uniA712.5 uniA712.lstaffno uniA712.no];
+@aalt20 = [uniA716.lstaff.Dep50 uniA716.1.Dep50 uniA716.2.Dep50 uniA716.3.Dep50 uniA716.4.Dep50 uniA716.5.Dep50 uniA716.lstaffno.Dep50 uniA716.no.Dep50];
+@aalt21 = [uniA716.lstaff.Dep41 uniA716.1.Dep41 uniA716.2.Dep41 uniA716.3.Dep41 uniA716.4.Dep41 uniA716.5.Dep41 uniA716.lstaffno.Dep41 uniA716.no.Dep41];
+@aalt22 = [uni02E5.rstaff uni02E5.1 uni02E5.2 uni02E5.3 uni02E5.4 uni02E5.5 uni02E5.rstaffno uni02E5.no];
+@aalt23 = [uni02E6.rstaff uni02E6.1 uni02E6.2 uni02E6.3 uni02E6.4 uni02E6.5 uni02E6.rstaffno uni02E6.no];
+@aalt24 = [uni02E7.rstaff uni02E7.1 uni02E7.2 uni02E7.3 uni02E7.4 uni02E7.5 uni02E7.rstaffno uni02E7.no];
+@aalt25 = [uni02E8.rstaff uni02E8.1 uni02E8.2 uni02E8.3 uni02E8.4 uni02E8.5 uni02E8.rstaffno uni02E8.no];
+@aalt26 = [ExclamationMrk.Sophia QuotMrk.Sophia NumSgn.Sophia DollarSgn.Sophia PercentSgn.Sophia Ampersand.Sophia Apos.Sophia LftParen.Sophia RtParen.Sophia Asterisk.Sophia PlusSgn.Sophia Comma.Sophia HyphenMinus.Sophia FullStop.Sophia Solidus.Sophia DigitZero.Sophia DigitOne.Sophia DigitTwo.Sophia DigitThree.Sophia DigitFour.Sophia DigitFive.Sophia DigitSix.Sophia DigitSeven.Sophia DigitEight.Sophia DigitNine.Sophia Colon.Sophia Semicolon.Sophia LTSgn.Sophia EqSgn.Sophia GTSgn.Sophia QstnMrk.Sophia AtSgn.Sophia LtnCapA.Sophia LtnCapB.Sophia LtnCapC.Sophia LtnCapD.Sophia LtnCapE.Sophia LtnCapF.Sophia LtnCapG.Sophia LtnCapH.Sophia LtnCapI.Sophia LtnCapJ.Sophia LtnCapK.Sophia LtnCapL.Sophia LtnCapM.Sophia LtnCapN.Sophia LtnCapO.Sophia LtnCapP.Sophia LtnCapQ.Sophia LtnCapR.Sophia LtnCapS.Sophia LtnCapT.Sophia LtnCapU.Sophia LtnCapV.Sophia LtnCapW.Sophia LtnCapX.Sophia LtnCapY.Sophia LtnCapZ.Sophia LftSqrBrac.Sophia ReverseSolidus.Sophia RtSqrBrac.Sophia CircumAccent.Sophia LowLine.Sophia GraveAccent.Sophia];
+@aalt27 = [.notdef space a aacute agrave acircumflex adieresis atilde aring uni0201 uni1EAD uni1EA5 uni1EA5.VN uni1EA7 uni1EA7.VN uni1EAB uni1EAB.VN uni1EA9 uni1EA9.VN uni0203 abreve uni1EB7 uni1EAF uni1EAF.VN uni1EB1 uni1EB1.VN uni1EB5 uni1EB5.VN uni1EB3 uni1EB3.VN uni01CE amacron uni01DF uni0227 uni01E1 aringacute uni1E9A uni1EA3 uni1EA1 uni1E01 aogonek uni2C65 eng Eng uni014A0301 uni014A0300 uni014A0302 uni014A0303 uni014A0323 uni028B uni01B2 uni0264 uni0311 uni0361 uni0308 uni02E5 uni02E6 uni02E7 uni02E8 uni02E9 uniA712 uniA713 uniA714 uniA715 uniA716 a.SC aacute.SC agrave.SC uni0201.SC acircumflex.SC uni1EAD.SC uni1EA5.SC uni1EA5.VN.SC uni1EA7.SC uni1EA7.VN.SC uni1EAB.SC uni1EAB.VN.SC uni1EA9.SC uni1EA9.VN.SC abreve.SC uni1EB7.SC uni1EAF.SC uni1EB1.SC uni1EB5.SC uni1EB3.SC uni01CE.SC atilde.SC amacron.SC adieresis.SC uni01DF.SC uni0227.SC uni01E1.SC aring.SC aringacute.SC uni1E9A.SC uni1EA3.SC uni1EA1.SC uni1E01.SC aogonek.SC uni2C65.SC uni0203.SC uni01E5.SC eng.SC uni028B.SC uniA712.Dep51 uniA712.Dep50 uniA712.Dep41 uniA713.Dep51 uniA713.Dep50 uniA713.Dep41 uniA714.Dep51 uniA714.Dep50 uniA714.Dep41 uniA715.Dep51 uniA715.Dep50 uniA715.Dep41 uniA716.Dep51 uniA716.Dep50 uniA716.Dep41];
+@aalt28 = [f g i l v z iacute igrave icircumflex idieresis ae dotlessi ogonek a.2StorySlantItalic uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni1EAF.2StorySlantItalic.VN uni1EB1.2StorySlantItalic.VN uni1EB5.2StorySlantItalic.VN uni1EB3.2StorySlantItalic.VN uni00E30301 uni00E30300 uni00E30302 uni01010301 uni01010302 uni00E40301 uni00E40300 uni00E40302 uni00E4030C uni00E40303 uni00610330 uni00610331 uni00E10331 uni00E00331 uni00E20331 uni01CE0331 uni00E40331 uni1EA10301 uni1EA10300 uni1EA1030C uni1EA10303 uni0061031C uni00E1031C uni00610327 uni00E10327 uni00E00327 uni00E20327 uni01CE0327 uni01050301 uni01050300 aogonek.RetroHookStyle atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uni0250 uni2C65.2StorySlantItalic a.SngStory aacute.SngStory agrave.SngStory uni0201.SngStory acircumflex.SngStory uni1EAD.SngStory uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni0203.SngStory abreve.SngStory uni1EB7.SngStory uni1EAF.SngStory uni1EAF.SngStory.VN uni1EB1.SngStory uni1EB1.SngStory.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni01CE.SngStory atilde.SngStory amacron.SngStory adieresis.SngStory uni01DF.SngStory uni0227.SngStory uni01E1.SngStory aring.SngStory aringacute.SngStory uni1E9A.SngStory uni1EA3.SngStory uni1EA1.SngStory uni1E01.SngStory aogonek.SngStory uni2C65.SngStory aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1E01.2StorySlantItalic aeacute uni01E3 Aogonek uni0180 uni0253 uni0181 uni0254 uni1D53 uni1D97 uni044D uni0186 uni1D10 uni042D dcaron dslash eogonek Eogonek uni1E1F f_i f_l f_f_i f_f_l f_f uni0493 uniF327 uni04FB uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5 hbar uni04BB Hbar uni0209 uni020B ibreve uni01D0 itilde imacron uni1E2F idotaccent uni1EC9 uni1E2D uni1ECB iogonek i.Dotless Iogonek uni0284 lacute uni1E3D uni1E3B uni1E37 uni1E39 lcaron Lcaron uni0272 uni019D uni01EB uni01ED emptyset uni0223 uni01EA uni01EC uni0222 uni1D3D uni1D15 uni01A5 uni027D uni2C64 tcaron uni01AD uni01AC uogonek Uogonek uni1E7D uni1E7F uni01B4 uni01B3 zacute uni1E91 zcaron zdotaccent uni1E95 uni1E93 uni0292 uni04E1 uni0293 uni01B7 uni04E0 uniA78B uniA78C uniA789 uni02BC uni02C8 uni00AD uni02CA uni02CB uni0306 uni0331 uni02C9 uni0304 uni0328 uniF1F1 uniF1F1F1F2 uniF1F1F1F3 uniF1F1F1F4 uniF1F1F1F5 uniF1F1F1F6 uniF1F1F1F7 uniF1F1F1F8 uniF1F1F1F9 uniF1F2F1F1 uniF1F2 uniF1F2F1F3 uniF1F2F1F4 uniF1F2F1F5 uniF1F2F1F6 uniF1F2F1F7 uniF1F2F1F8 uniF1F2F1F9 uniF1F3F1F1 uniF1F3F1F2 uniF1F3 uniF1F3F1F4 uniF1F3F1F5 uniF1F3F1F6 uniF1F3F1F7 uniF1F3F1F8 uniF1F3F1F9 uniF1F4F1F1 uniF1F4F1F2 uniF1F4F1F3 uniF1F4 uniF1F4F1F5 uniF1F4F1F6 uniF1F4F1F7 uniF1F4F1F8 uniF1F4F1F9 uniF1F5F1F1 uniF1F5F1F2 uniF1F5F1F3 uniF1F5F1F4 uniF1F5 uniF1F5F1F6 uniF1F5F1F7 uniF1F5F1F8 uniF1F5F1F9 uniF1F6F1F1 uniF1F6F1F2 uniF1F6F1F3 uniF1F6F1F4 uniF1F6F1F5 uniF1F6 uniF1F6F1F7 uniF1F6F1F8 uniF1F6F1F9 uniF1F7F1F1 uniF1F7F1F2 uniF1F7F1F3 uniF1F7F1F4 uniF1F7F1F5 uniF1F7F1F6 uniF1F7 uniF1F7F1F8 uniF1F7F1F9 uniF1F8F1F1 uniF1F8F1F2 uniF1F8F1F3 uniF1F8F1F4 uniF1F8F1F5 uniF1F8F1F6 uniF1F8F1F7 uniF1F8 uniF1F8F1F9 uniF1F9F1F1 uniF1F9F1F2 uniF1F9F1F3 uniF1F9F1F4 uniF1F9F1F5 uniF1F9F1F6 uniF1F9F1F7 uniF1F9F1F8 uniF1F9 uni034F uni2061 uni2063 uni2062 uni202A uni200E uni202D uni202C uni202B uni200F uni202E uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F uni2060 uni200D uniFEFF uni200C uni200B a.2StorySlantItalic.SC aacute.2StorySlantItalic.SC agrave.2StorySlantItalic.SC uni0201.2StorySlantItalic.SC acircumflex.2StorySlantItalic.SC uni1EAD.2StorySlantItalic.SC uni1EA5.2StorySlantItalic.SC uni1EA5.2StorySlantItalic.VN.SC uni1EA7.2StorySlantItalic.SC uni1EA7.2StorySlantItalic.VN.SC uni1EAB.2StorySlantItalic.VN.SC uni1EAB.2StorySlantItalic.SC uni1EA9.2StorySlantItalic.SC uni1EA9.2StorySlantItalic.VN.SC uni0203.2StorySlantItalic.SC abreve.2StorySlantItalic.SC uni1EB7.2StorySlantItalic.SC uni1EAF.2StorySlantItalic.SC uni1EAF.VN.SC uni1EB1.2StorySlantItalic.SC uni1EB1.VN.SC uni1EB5.VN.SC uni1EB5.2StorySlantItalic.SC uni1EB3.VN.SC uni1EB3.2StorySlantItalic.SC uni01CE.2StorySlantItalic.SC amacron.2StorySlantItalic.SC adieresis.2StorySlantItalic.SC uni01DF.2StorySlantItalic.SC uni0227.2StorySlantItalic.SC uni01E1.2StorySlantItalic.SC aring.2StorySlantItalic.SC aringacute.2StorySlantItalic.SC uni1E9A.2StorySlantItalic.SC uni1EA3.2StorySlantItalic.SC uni1E01.2StorySlantItalic.SC aogonek.RetroHookStyle.SC atilde.2StorySlantItalic.SC uni1EA1.2StorySlantItalic.SC uni0250.SC uni2C65.2StorySlantItalic.SC a.SngStory.SC aacute.SngStory.SC uni1EA5.SngStory.VN.SC uni1EA7.SngStory.VN.SC uni1EAB.SngStory.VN.SC uni1EA9.SngStory.VN.SC uni1EAF.SngStory.VN.SC uni1EB1.SngStory.VN.SC uni1EB5.SngStory.VN.SC uni1EB3.SngStory.VN.SC uni2C65.SngStory.SC agrave.SngStory.SC uni0201.SngStory.SC acircumflex.SngStory.SC uni1EAD.SngStory.SC uni1EA5.SngStory.SC uni1EA7.SngStory.SC uni1EAB.SngStory.SC uni1EA9.SngStory.SC uni0203.SngStory.SC abreve.SngStory.SC uni1EB7.SngStory.SC uni1EAF.SngStory.SC uni1EB1.SngStory.SC uni1EB5.SngStory.SC uni1EB3.SngStory.SC uni01CE.SngStory.SC atilde.SngStory.SC amacron.SngStory.SC adieresis.SngStory.SC uni01DF.SngStory.SC uni0227.SngStory.SC uni01E1.SngStory.SC aring.SngStory.SC aringacute.SngStory.SC uni1E9A.SngStory.SC uni1EA3.SngStory.SC uni1EA1.SngStory.SC uni1E01.SngStory.SC aogonek.SngStory.SC ae.SC aeacute.SC uni01E3.SC uni0180.SC uni0253.SC uni0254.SC uni044D.SC dcaron.SC dcroat.SC eogonek.SC f.SC uni1E1F.SC f_i.SC f_l.SC f_f_i.SC f_f_l.SC f_f.SC uni0493.SC uniF327.SC uni04FB.SC g.SC uni01F5.SC gcircumflex.SC gbreve.SC gcaron.SC uni1E21.SC gdotaccent.SC gcommaaccent.SC uni01E5.BarBowl.SC uni01E5.SngBowl.SC hbar.SC uni04BB.SC i.SC iacute.SC igrave.SC uni0209.SC icircumflex.SC uni020B.SC ibreve.SC uni01D0.SC itilde.SC imacron.SC idieresis.SC uni1E2F.SC idotaccent.SC uni1EC9.SC uni1E2D.SC uni1ECB.SC iogonek.SC dotlessi.SC i.Dotless.SC l.SC lacute.SC lcaron.SC uni1E3D.SC uni1E3B.SC uni1E37.SC uni1E39.SC uni0272.SC uni01EB.SC uni01ED.SC uni0223.SC uni01A5.SC uni027D.SC tcaron.SC uni01AD.SC uogonek.SC v.SC uni1E7D.SC uni1E7F.SC uni01B4.SC z.SC zacute.SC uni1E91.SC zcaron.SC zdotaccent.SC uni1E95.SC uni1E93.SC uni0292.SC uni04E1.SC uniA78C.SC uniA78B.Dep51 uniA78C.Dep51 uniA789.Dep51 uni02C8.Dep51 uni02C8.Dep50 uni02CA.Dep51 uni02CA.Dep50 uni02CB.Dep51 uni02CB.Dep50];
+@aalt29 = [f_l.SlantItalic f_f_i.SlantItalic f_f_l.SlantItalic f_f.SlantItalic uni0493.SlantItalic uniF327.SlantItalic uni04FB.SlantItalic uni01F5.SngBowl gcircumflex.SngBowl gbreve.SngBowl gcaron.SngBowl uni1E21.SngBowl uni00670308.SngBowl gdotaccent.SngBowl uni00670331.SngBowl uni00670323.SngBowl gcommaaccent.SngBowl uni01E5.BarBowl.SngBowl uni01E5.BarBowl hbar.VertStrk uni04BB.UCStyle Hbar.VertStrk iacute.SlantItalic igrave.SlantItalic icircumflex.SlantItalic uni0209.SlantItalic uni020B.SlantItalic ibreve.SlantItalic idieresis.SlantItalic uni01D0.SlantItalic itilde.SlantItalic imacron.SlantItalic uni1E2F.SlantItalic idotaccent.SlantItalic uni1EC9.SlantItalic uni1E2D.SlantItalic uni1ECB.SlantItalic iogonek.RetroHookStyle i.Dotless.SlantItalic Iogonek.RetroHookStyle uni0284.DblSerif lacute.SlantItalic uni1E3D.SlantItalic uni1E3B.SlantItalic uni1E37.SlantItalic uni1E39.SlantItalic lcaron.Caron Lcaron.Caron uni0272.LCStyle ae.2StorySlantItalic uni019D.LCStyle uni01EB.RetroHookStyle uni01ED.RetroHookStyle emptyset.SlashZero uni0223.OpenTop uni01EA.RetroHookStyle uni01EC.RetroHookStyle uni0222.OpenTop uni1D3D.OpenTop uni1D15.OpenTop uni01A5.BowlHook uni027D.LCStyle uni2C64.LCStyle tcaron.Caron uni01AD.RtHook uni01AC.RtHook uogonek.RetroHookStyle dotlessi.SlantItalic Uogonek.RetroHookStyle ogonek.RetroHookStyle uni1E7D.SlantItalic uni1E7F.SlantItalic a.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni01B4.RtHook uni1EA7.SngStory.SlantItalic uni01B3.RtHook uni1EA7.SngStory.SlantItalic.VN zacute.SlantItalic uni1E91.SlantItalic zcaron.SlantItalic zdotaccent.SlantItalic uni1E95.SlantItalic uni1E93.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EAB.SngStory.SlantItalic uni0292.RevSigmaStyle uni04E1.RevSigmaStyle uni0293.LrgBowl uni01B7.RevSigmaStyle uni04E0.RevSigmaStyle uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uniA78B.Lrg uniA78C.Lrg uni1EAF.SngStory.SlantItalic.VN uniA789.Wide uni02BC.Lrg uni1EB1.SngStory.SlantItalic.VN uni02C8.ChinantecTn uni1EB5.SngStory.SlantItalic.VN uni00AD.ShowInv uni02CA.ChinantecTn uni02CB.ChinantecTn uni1EB3.SngStory.SlantItalic.VN uni0306.CyShortMrkAlt uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory uni01010301.SngStory uni0331.Short uni02C9.ChinantecTn uni0304.Short uni01010302.SngStory uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni0328.RetroHookStyle uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA10301.SngStory uniF1F1.Lines uniF1F1F1F2.Lines uniF1F1F1F3.Lines uniF1F1F1F4.Lines uni1EA10300.SngStory uniF1F1F1F5.Lines uniF1F1F1F6.Lines uniF1F1F1F7.Lines uniF1F1F1F8.Lines uniF1F1F1F9.Lines uniF1F2F1F1.Lines uniF1F2.Lines uniF1F2F1F3.Lines uniF1F2F1F4.Lines uniF1F2F1F5.Lines uni1EA1030C.SngStory uniF1F2F1F6.Lines uniF1F2F1F7.Lines uniF1F2F1F8.Lines uniF1F2F1F9.Lines uniF1F3F1F1.Lines uniF1F3F1F2.Lines uniF1F3.Lines uniF1F3F1F4.Lines uniF1F3F1F5.Lines uniF1F3F1F6.Lines uni1EA10303.SngStory uniF1F3F1F7.Lines uniF1F3F1F8.Lines uniF1F3F1F9.Lines uniF1F4F1F1.Lines uniF1F4F1F2.Lines uniF1F4F1F3.Lines uniF1F4.Lines uniF1F4F1F5.Lines uniF1F4F1F6.Lines uniF1F4F1F7.Lines uniF1F4F1F8.Lines uniF1F4F1F9.Lines uniF1F5F1F1.Lines uniF1F5F1F2.Lines uniF1F5F1F3.Lines uniF1F5F1F4.Lines uniF1F5.Lines uniF1F5F1F6.Lines uniF1F5F1F7.Lines uniF1F5F1F8.Lines uni0061031C.SngStory uniF1F5F1F9.Lines uniF1F6F1F1.Lines uniF1F6F1F2.Lines uniF1F6F1F3.Lines uniF1F6F1F4.Lines uniF1F6F1F5.Lines uniF1F6.Lines uniF1F6F1F7.Lines uniF1F6F1F8.Lines uniF1F6F1F9.Lines uni00E1031C.SngStory uniF1F7F1F1.Lines uniF1F7F1F2.Lines uniF1F7F1F3.Lines uniF1F7F1F4.Lines uniF1F7F1F5.Lines uniF1F7F1F6.Lines uniF1F7.Lines uniF1F7F1F8.Lines uniF1F7F1F9.Lines uniF1F8F1F1.Lines uni00610327.SngStory uniF1F8F1F2.Lines uniF1F8F1F3.Lines uniF1F8F1F4.Lines uniF1F8F1F5.Lines uniF1F8F1F6.Lines uniF1F8F1F7.Lines uniF1F8.Lines uniF1F8F1F9.Lines uniF1F9F1F1.Lines uniF1F9F1F2.Lines uni00E10327.SngStory uniF1F9F1F3.Lines uniF1F9F1F4.Lines uniF1F9F1F5.Lines uniF1F9F1F6.Lines uniF1F9F1F7.Lines uniF1F9F1F8.Lines uniF1F9.Lines uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory uni01050301.SngStory uni01050300.SngStory aogonek.SngStory.RetroHookStyle atilde.SngStory.SlantItalic uni1EA1.SngStory.SlantItalic uni0250.2StorySlantItalic uni2C65.SngStory.SlantItalic uni034F.ShowInv uni2061.ShowInv uni2063.ShowInv uni2062.ShowInv uni202A.ShowInv uni200E.ShowInv uni202D.ShowInv uni202C.ShowInv uni202B.ShowInv uni200F.ShowInv a.SngStory.SlantItalic uni202E.ShowInv uniFE00.ShowInv uniFE01.ShowInv uniFE02.ShowInv uniFE03.ShowInv uniFE04.ShowInv uniFE05.ShowInv uniFE06.ShowInv uniFE07.ShowInv uniFE08.ShowInv uniFE09.ShowInv uniFE0A.ShowInv uniFE0B.ShowInv uniFE0C.ShowInv uniFE0D.ShowInv uniFE0E.ShowInv uniFE0F.ShowInv uni2060.ShowInv uni200D.ShowInv uniFEFF.ShowInv uni200C.ShowInv uni200B.ShowInv aacute.SngStory.SlantItalic agrave.SngStory.SlantItalic uni0201.SngStory.SlantItalic acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic a.SngStory.SlantItalic.SC aacute.SngStory.SlantItalic.SC agrave.SngStory.SlantItalic.SC uni1EA5.SngStory.SlantItalic uni0201.SngStory.SlantItalic.SC acircumflex.SngStory.SlantItalic.SC uni1EAD.SngStory.SlantItalic.SC uni1EA5.SngStory.SlantItalic.SC uni1EA5.SngStory.SlantItalic.VN.SC uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory.SlantItalic.SC uni1EA7.SngStory.SlantItalic.VN.SC uni1EAB.SngStory.SlantItalic.VN.SC uni1EAB.SngStory.SlantItalic.SC uni1EA9.SngStory.SlantItalic.SC uni1EA9.SngStory.SlantItalic.VN.SC uni0203.SngStory.SlantItalic.SC abreve.SngStory.SlantItalic.SC uni1EB7.SngStory.SlantItalic.SC uni1EAF.SngStory.SlantItalic.SC uni1EAF.SngStory.VN.SC uni1EB1.SngStory.SlantItalic.SC uni1EB1.SngStory.VN.SC uni1EB5.SngStory.VN.SC uni1EB5.SngStory.SlantItalic.SC uni1EB3.SngStory.VN.SC uni1EB3.SngStory.SlantItalic.SC uni1EA7.SngStory.SlantItalic uni01CE.SngStory.SlantItalic.SC amacron.SngStory.SlantItalic.SC adieresis.SngStory.SlantItalic.SC uni01DF.SngStory.SlantItalic.SC uni1EA7.SngStory.SlantItalic.VN uni0227.SngStory.SlantItalic.SC uni01E1.SngStory.SlantItalic.SC aring.SngStory.SlantItalic.SC aringacute.SngStory.SlantItalic.SC uni1E9A.SngStory.SlantItalic.SC uni1EA3.SngStory.SlantItalic.SC uni1E01.SngStory.SlantItalic.SC aogonek.SngStory.RetroHookStyle.SC atilde.SngStory.SlantItalic.SC uni1EA1.SngStory.SlantItalic.SC uni0250.2StorySlantItalic.SC uni2C65.SngStory.SlantItalic.SC a.SngStory.SlantItalic.SC aacute.SngStory.SlantItalic.SC uni1EAB.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN.SC uni1EA7.SngStory.SlantItalic.VN.SC uni1EAB.SngStory.SlantItalic.VN.SC uni1EA9.SngStory.SlantItalic.VN.SC uni1EAF.SngStory.SlantItalic.VN.SC uni1EAB.SngStory.SlantItalic.VN uni1EB1.SngStory.SlantItalic.VN.SC uni1EB5.SngStory.SlantItalic.VN.SC uni1EB3.SngStory.SlantItalic.VN.SC uni2C65.SngStory.SlantItalic.SC agrave.SngStory.SlantItalic.SC uni0201.SngStory.SlantItalic.SC acircumflex.SngStory.SlantItalic.SC uni1EAD.SngStory.SlantItalic.SC uni1EA5.SngStory.SlantItalic.SC uni1EA7.SngStory.SlantItalic.SC uni1EAB.SngStory.SlantItalic.SC uni1EA9.SngStory.SlantItalic.SC uni0203.SngStory.SlantItalic.SC abreve.SngStory.SlantItalic.SC uni1EB7.SngStory.SlantItalic.SC uni1EA9.SngStory.SlantItalic uni1EAF.SngStory.SlantItalic.SC uni1EB1.SngStory.SlantItalic.SC uni1EB5.SngStory.SlantItalic.SC uni1EB3.SngStory.SlantItalic.SC uni1EA9.SngStory.SlantItalic.VN uni01CE.SngStory.SlantItalic.SC atilde.SngStory.SlantItalic.SC amacron.SngStory.SlantItalic.SC adieresis.SngStory.SlantItalic.SC uni01DF.SngStory.SlantItalic.SC uni0227.SngStory.SlantItalic.SC uni01E1.SngStory.SlantItalic.SC aring.SngStory.SlantItalic.SC aringacute.SngStory.SlantItalic.SC uni1E9A.SngStory.SlantItalic.SC uni1EA3.SngStory.SlantItalic.SC uni1EA1.SngStory.SlantItalic.SC uni1E01.SngStory.SlantItalic.SC aogonek.SngStory.RetroHookStyle.SC ae.2StorySlantItalic.SC uni0203.SngStory.SlantItalic aeacute.2StorySlantItalic.SC uni01E3.2StorySlantItalic.SC uni0180.BarBowl.SC uni0253.TopBar.SC abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni0254.TopSerif.SC uni044D.MongolStyle.SC dcaron.Caron.SC dcroat.BarBowl.SC uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.SlantItalic.VN eogonek.RetroHookStyle.SC uni1EB1.SngStory.SlantItalic f.SlantItalic.SC uni1E1F.SlantItalic.SC f_i.SlantItalic.SC f_l.SlantItalic.SC f_f_i.SlantItalic.SC uni1EB1.SngStory.SlantItalic.VN f_f_l.SlantItalic.SC f_f.SlantItalic.SC uni0493.SlantItalic.SC uniF327.SlantItalic.SC uni04FB.SlantItalic.SC g.SngBowl.SC uni01F5.SngBowl.SC gcircumflex.SngBowl.SC gbreve.SngBowl.SC gcaron.SngBowl.SC uni1E21.SngBowl.SC uni1EB5.SngStory.SlantItalic gdotaccent.SngBowl.SC gcommaaccent.SngBowl.SC uni01E5.BarBowl.SngBowl.SC uni1EB5.SngStory.SlantItalic.VN uni01E5.BarBowl.SngBowl.SC hbar.VertStrk.SC uni04BB.UCStyle.SC uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN i.SlantItalic.SC iacute.SlantItalic.SC igrave.SlantItalic.SC uni0209.SlantItalic.SC icircumflex.SlantItalic.SC uni020B.SlantItalic.SC ibreve.SlantItalic.SC uni01D0.SlantItalic.SC itilde.SlantItalic.SC imacron.SlantItalic.SC idieresis.SlantItalic.SC uni1E2F.SlantItalic.SC idotaccent.SlantItalic.SC uni1EC9.SlantItalic.SC uni01CE.SngStory.SlantItalic uni1E2D.SlantItalic.SC uni1ECB.SlantItalic.SC iogonek.RetroHookStyle.SC dotlessi.SlantItalic.SC i.Dotless.SlantItalic.SC atilde.SngStory.SlantItalic l.SlantItalic.SC lacute.SlantItalic.SC lcaron.Caron.SC uni1E3D.SlantItalic.SC uni1E3B.SlantItalic.SC uni1E37.SlantItalic.SC uni1E39.SlantItalic.SC amacron.SngStory.SlantItalic uni0272.LCStyle.SC adieresis.SngStory.SlantItalic uni01EB.RetroHookStyle.SC uni01ED.RetroHookStyle.SC uni0223.OpenTop.SC uni01A5.BowlHook.SC uni01DF.SngStory.SlantItalic uni027D.LCStyle.SC uni0227.SngStory.SlantItalic tcaron.Caron.SC uni01AD.RtHook.SC uni01E1.SngStory.SlantItalic aring.SngStory.SlantItalic uogonek.RetroHookStyle.SC aringacute.SngStory.SlantItalic v.SlantItalic.SC uni1E7D.SlantItalic.SC uni1E7F.SlantItalic.SC uni1E9A.SngStory.SlantItalic uni1EA3.SngStory.SlantItalic uni01B4.RtHook.SC z.SlantItalic.SC zacute.SlantItalic.SC uni1E91.SlantItalic.SC zcaron.SlantItalic.SC zdotaccent.SlantItalic.SC uni1E95.SlantItalic.SC uni1E93.SlantItalic.SC uni0292.RevSigmaStyle.SC uni04E1.RevSigmaStyle.SC uniA78C.Lrg.SC uni1EA1.SngStory.SlantItalic uni1E01.SngStory.SlantItalic aogonek.SngStory.RetroHookStyle uni2C65.SngStory.SlantItalic aacute.SngStory.SlantItalic agrave.SngStory.SlantItalic uni0201.SngStory.SlantItalic acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni0203.SngStory.SlantItalic abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory.SlantItalic uni1EB1.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic uniA78B.Lrg.Dep51 uniA78C.Lrg.Dep51 uniA789.Wide.Dep51 uni01CE.SngStory.SlantItalic uni02C8.ChinantecTn.Dep51 uni02C8.ChinantecTn.Dep50 amacron.SngStory.SlantItalic uni02CA.ChinantecTn.Dep51 uni02CA.ChinantecTn.Dep50 uni02CB.ChinantecTn.Dep51 uni02CB.ChinantecTn.Dep50 adieresis.SngStory.SlantItalic uni01DF.SngStory.SlantItalic uni0227.SngStory.SlantItalic uni01E1.SngStory.SlantItalic aring.SngStory.SlantItalic aringacute.SngStory.SlantItalic uni1E9A.SngStory.SlantItalic uni1EA3.SngStory.SlantItalic uni1E01.SngStory.SlantItalic aeacute.2StorySlantItalic uni01E3.2StorySlantItalic Aogonek.RetroHookStyle uni0180.BarBowl uni0253.TopBar uni0181.TopBar uni0254.TopSerif uni1D53.TopSerif uni1D97.TopSerif uni044D.MongolStyle uni0186.TopSerif uni1D10.TopSerif uni042D.MongolStyle dcaron.Caron dcroat.BarBowl f.SlantItalic g.SngBowl i.SlantItalic l.SlantItalic eogonek.RetroHookStyle v.SlantItalic z.SlantItalic Eogonek.RetroHookStyle uni1E1F.SlantItalic f_i.SlantItalic];
+@aalt3 = [uniA713.lstaff uniA713.1 uniA713.2 uniA713.3 uniA713.4 uniA713.5 uniA713.lstaffno uniA713.no];
+@aalt4 = [uniA714.lstaff uniA714.1 uniA714.2 uniA714.3 uniA714.4 uniA714.5 uniA714.lstaffno uniA714.no];
+@aalt5 = [uniA715.lstaff uniA715.1 uniA715.2 uniA715.3 uniA715.4 uniA715.5 uniA715.lstaffno uniA715.no];
+@aalt6 = [uniA716.lstaff uniA716.1 uniA716.2 uniA716.3 uniA716.4 uniA716.5 uniA716.lstaffno uniA716.no];
+@aalt7 = [uniA712.lstaff.Dep51 uniA712.1.Dep51 uniA712.2.Dep51 uniA712.3.Dep51 uniA712.4.Dep51 uniA712.5.Dep51 uniA712.lstaffno.Dep51 uniA712.no.Dep51];
+@aalt8 = [uniA712.lstaff.Dep50 uniA712.1.Dep50 uniA712.2.Dep50 uniA712.3.Dep50 uniA712.4.Dep50 uniA712.5.Dep50 uniA712.lstaffno.Dep50 uniA712.no.Dep50];
+@aalt9 = [uniA712.lstaff.Dep41 uniA712.1.Dep41 uniA712.2.Dep41 uniA712.3.Dep41 uniA712.4.Dep41 uniA712.5.Dep41 uniA712.lstaffno.Dep41 uniA712.no.Dep41];
+@c2sc1 = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Adieresis Aring Ccedilla Eacute Ntilde Odieresis Udieresis AE Oslash Agrave Atilde Otilde OE Ydieresis Acircumflex Ecircumflex Aacute Edieresis Egrave Iacute Icircumflex Idieresis Igrave Oacute Ocircumflex Ograve Uacute Ucircumflex Ugrave uni0410 uni0200 uni1EA4 uni1EA6 uni1EAA uni1EA8 uni1EAC uni0202 Abreve uni1EAE uni1EB0 uni1EB4 uni1EB2 uni1EB6 uni04D0 uni01CD Amacron uni04D2 uni01DE uni0226 uni01E0 Aringacute uni1EA2 uni1EA0 uni1E00 Aogonek uni023A uni2C6F uniA734 uniA732 uni2C6D uni04D4 AEacute uni01E2 uni0412 uni1E02 uni1E06 uni1E04 uni0243 uni0181 uni0184 uni0182 uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 uni0421 Cacute Ccircumflex Ccaron Cdotaccent uni1E08 uni04AA uni023B uni0187 uni0186 uni0404 uni042D uni04EC Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0415 uni0400 uni0204 uni1EBE uni1EC0 uni1EC4 uni1EC2 uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC Emacron uni1E16 uni1E14 uni0401 Edotaccent uni1EBA uni1E18 uni1E1A uni1EB8 uni0228 uni1E1C Eogonek uni0246 uni04BC uni04BE uni018E uni018F uni04D8 uni04DA uni0190 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 uni1E1E uni0191 uni0413 uni0403 uni0490 uni04F6 uni0492 uni04FA uni01F4 Gcircumflex Gbreve Gcaron uni1E20 Gdotaccent Gcommaaccent uni01E4 uni0193 uni050C uni041D uni0522 Hcircumflex uni021E uni1E26 uni1E22 uni1E2A uni1E24 uni1E28 Hbar uniA726 uni2C67 uni01F6 uni2C75 uni04BA uni0494 uni04A4 uni04A2 uni04C9 uni040A uni04C7 uni050A uni041F uni04A6 uni040F uni0426 uni0428 uni0429 uni0406 uni04C0 uni0208 uni020A Ibreve uni01CF Itilde Imacron uni0407 uni1E2E Idot uni1EC8 uni1E2C uni1ECA Iogonek uni0197 IJ uni0196 uni042E uni0408 Jcircumflex uni0248 uni041B uni04C5 uni0409 uni0512 uni0508 uni0520 uni0514 uni0414 uni1E30 uni01E8 uni1E34 uni1E32 Kcommaaccent uniA740 uni0198 uni2C69 uni041A uni040C uni049A uni04A0 uni049E uni049C uni04C3 uni051E uni0416 uni04C1 uni04DC uni0496 Lacute uni1E3C uni1E3A uni1E36 uni1E38 Lcommaaccent Ldot Lcaron uni023D uni2C60 uni2C62 Lslash uni01C8 uni01C7 uni1EFA uni041C uni1E3E uni1E40 uni1E42 uni2C6E uni019C uni04CD Nacute uni01F8 Ncaron uni1E44 uni1E4A uni1E48 uni1E46 Ncommaaccent uni019D Eng uni0220 uni01CB uni01CA uni0418 uni040D uni0419 uni048A uni04E4 uni04E2 uni041E Ohungarumlaut uni020C uni1ED0 uni1ED2 uni1ED6 uni1ED4 uni1ED8 uni020E Obreve uni01D1 uni1E4C uni022C uni1E4E Omacron uni1E52 uni1E50 uni04E6 uni022A uni022E uni0230 uni1ECE uni1ECC uni01EA uni01EC uni019F uni04E8 uni04EA uni0472 Oslashacute Ohorn uni1EDA uni1EDC uni1EE0 uni1EDE uni1EE2 uni04A8 uni01A2 uniA74E uni0222 uni0420 uni1E54 uni1E56 uni048E uni2C63 uni01A4 uni0516 Thorn uni01F7 uni0424 uni051A uni024A Racute uni0210 uni0212 Rcaron uni1E58 uni1E5E uni1E5A uni1E5C Rcommaaccent uni024C uni2C64 uni01A6 uni042F uni0518 uni0405 Sacute uni1E64 Scircumflex Scaron uni1E66 uni1E60 uni1E62 uni1E68 Scommaaccent Scedilla uni01A7 uniA72C uniA72E uni0422 Tcaron uni1E6A uni1E70 uni1E6E uni1E6C uni021A uni0162 Tbar uni023E uni01AC uni01AE uniA728 uni04AC uni050E uni04B4 uni040B uni0402 Uhungarumlaut uni0214 uni0216 Ubreve uni01D3 Utilde uni1E78 Umacron uni1E7A uni01D7 uni01DB uni01D9 uni01D5 Uring uni1EE6 uni1E76 uni1E74 uni1E72 uni1EE4 Uogonek uni0244 Uhorn uni1EE8 uni1EEA uni1EEE uni1EEC uni1EF0 uni01B2 uni1EFC uni01B1 uni0474 uni1E7C uni1E7E uni0245 uni0194 uni051C Wacute Wgrave Wcircumflex Wdieresis uni1E86 uni1E88 uni2C72 uni0425 uni1E8C uni1E8A uni04FE uni04FC uni04B2 uni04AE Yacute Ygrave Ycircumflex uni1EF8 uni0232 uni1E8E uni1EF6 uni1EF4 uni024E uni04B0 uni01B3.RtHook uni1EFE uni0423 uni04F2 uni040E uni04EE uni04F0 uni0427 uni04F4 uni04B8 uni04B6 uni04CB Zacute uni1E90 Zcaron Zdotaccent uni1E94 uni1E92 uni01B5 uni0224 uni2C6B uni01A9 uni01B7 uni04E0 uni01EE uni01B8 uniA72A uni021C uni0241 uni01BC uniA78B];
+@c2sc2 = [uni050F.SC uni0457.SC uni1E45.SC uni04C4.SC uni0450.SC uni045E.SC uni1E53.SC uni2C66.SC uni04A7.SC ograve.SC ycircumflex.SC uni04E1.SC uni1E31.SC uni01C9.SC uni1E1F.SC uni0215.SC uni0499.SC uogonek.SC uni022B.SC ccedilla.SC uni1E87.SC ccircumflex.SC uniA735.SC uni043D.SC uni0511.SC jcircumflex.SC uni1E63.SC uni0163.SC lcommaaccent.SC uni04DF.SC uni1E41.SC uni0280.SC uni0436.SC uni0217.SC obreve.SC uni1E1B.SC uni1EA3.SC uni0448.SC racute.SC uni1E57.SC scommaaccent.SC oslash.SC uni026F.SC uniA72D.SC uni04B9.SC iacute.SC uni1E93.SC uni1E19.SC uni0259.SC uni04F7.SC uni1E37.SC uni1ECD.SC uni020B.SC uni0257.SC idieresis.SC uni1E5D.SC uni1EDF.SC uni044D.SC uni1ED3.SC n.SC oacute.SC uni0473.SC uni01DF.SC uni1EC3.SC uni1E27.SC ohungarumlaut.SC uni01F5.SC uni1EAD.SC w.SC wacute.SC uni1E75.SC gcaron.SC a.SC wdieresis.SC aogonek.SC uni1E4B.SC thorn.SC uniA729.SC uni0223.SC uni051F.SC uni1E2D.SC uni0247.SC uni1E4F.SC uni1E77.SC tbar.SC uni04E9.SC uni045F.SC uni04B1.SC oslashacute.SC uni1EAB.SC uni01A8.SC uni0203.SC uni1E7F.SC uni04F9.SC uni01DA.SC uni0447.SC oe.SC uni044B.SC uhungarumlaut.SC kcommaaccent.SC uni0517.SC uni021F.SC uni0458.SC uni0199.SC uni1E35.SC uni04BF.SC itilde.SC uni1EF7.SC uni04CE.SC cdotaccent.SC uni01A3.SC uni0451.SC i.SC uni0254.SC uni1EE3.SC umacron.SC hcircumflex.SC yacute.SC edieresis.SC uni0505.SC v.SC uni01CC.SC uni021D.SC eogonek.SC uni04C2.SC uni020F.SC uni1EB7.SC uni01DC.SC uni01EF.SC uni1E6B.SC dcaron.SC uni0493.SC uni049F.SC uni026B.SC uni1E8F.SC uni024D.SC gcircumflex.SC uni1ECF.SC uni01C6.SC uni2C6C.SC uni0515.SC uni1E7D.SC aacute.SC uni01A5.SC uni0260.SC uni04DD.SC uni1E51.SC ntilde.SC uni1E8D.SC uni1E43.SC uni1EEF.SC uni1E1D.SC uni04AF.SC uni044A.SC uni1E09.SC uni04CC.SC uni1E15.SC uni0253.SC uni1EF1.SC uni1E47.SC uni0434.SC uni04EB.SC uni04ED.SC uni04A5.SC aring.SC uni2C65.SC uni0455.SC atilde.SC dcroat.SC uni0213.SC uni1ED5.SC scedilla.SC uni1EC5.SC uni1EDD.SC uni1E0F.SC iogonek.SC q.SC uni1E6D.SC uni1E73.SC h.SC uni043B.SC uni01D2.SC uni0289.SC uni01E5.SC uni0188.SC uni1E25.SC rcommaaccent.SC igrave.SC uni1EA5.SC uni1EBB.SC zcaron.SC eth.SC uni1E29.SC acircumflex.SC uring.SC zdotaccent.SC uni0269.SC uni0449.SC uni04D3.SC uni0201.SC uni1D7D.SC uni0503.SC uni1E5F.SC uni1EF9.SC odieresis.SC uni1E95.SC uni0283.SC uni043C.SC uni1EC7.SC uni018C.SC uni049B.SC ncommaaccent.SC uni1E3F.SC uni0456.SC c.SC uni1E2B.SC uni019A.SC uni019E.SC uni051D.SC lacute.SC uni04FB.SC uni045D.SC zacute.SC uni01D0.SC uni1EB9.SC uni1E5B.SC uni024B.SC uni1EB1.SC uni0180.SC uni021B.SC omacron.SC uni01DD.SC uni028A.SC b.SC uni1E0B.SC uni0275.SC uni01B9.SC uni01D8.SC p.SC uni1EED.SC otilde.SC uni01ED.SC uhorn.SC uni027D.SC adieresis.SC uni0435.SC uni04DB.SC icircumflex.SC uni01BD.SC ibreve.SC uni2C76.SC uni01AD.SC uni048B.SC ohorn.SC uni0444.SC uni0185.SC nacute.SC rcaron.SC uni1EE5.SC uni1EBD.SC uni04F1.SC uni0209.SC uni025B.SC uni1EFD.SC emacron.SC uni01B6.SC uni0443.SC uni0242.SC uni0195.SC uni2C68.SC uni0440.SC ij.SC uni0251.SC uni1EB3.SC uni0463.SC uni04CF.SC uni1ED7.SC k.SC e.SC y.SC uni0292.SC uni0268.SC uni01E3.SC eng.SC uni1E23.SC uni0454.SC tcaron.SC uni04AD.SC scaron.SC ae.SC uni045B.SC imacron.SC uni1E8B.SC uni04A3.SC uni1E39.SC uni04FF.SC uniA74F.SC uni0501.SC uni01CE.SC wgrave.SC gbreve.SC uni0432.SC uni0439.SC uni1E3B.SC uni04D9.SC amacron.SC abreve.SC uni1E7B.SC uni1EC9.SC uni1EE7.SC uni04A9.SC uni04FD.SC m.SC uni1E07.SC uni1E89.SC uni0272.SC uni0288.SC uni1EFB.SC uni01BF.SC florin.SC uni1E03.SC s.SC aringacute.SC uni04D7.SC j.SC uni0183.SC d.SC cacute.SC x.SC uni01EB.SC uni024F.SC ncaron.SC udieresis.SC uni1E6F.SC uniA78C.SC uni0495.SC uni01C6.SC uni043A.SC uni0433.SC uni023C.SC uacute.SC uni0229.SC uni048F.SC uni04E5.SC uni045C.SC uni1E65.SC uni0446.SC uni0211.SC uni0507.SC uni1EA7.SC uni1E21.SC uni04CA.SC uni04D1.SC uni1E69.SC uni0513.SC uni044E.SC uni0523.SC uni04B7.SC uni050B.SC wcircumflex.SC eacute.SC uni1ED9.SC uni0233.SC uni04E3.SC uni1EC1.SC uni1E49.SC uni01F3.SC uni2C61.SC uni022D.SC uniA727.SC lslash.SC u.SC uni1E61.SC r.SC ocircumflex.SC uni1EA1.SC g.SC uni022F.SC uniA741.SC uni1EAF.SC uni0459.SC uni01F9.SC uni0452.SC uni01E9.SC uni0438.SC uni0431.SC i.SC uni050D.SC uni01F3.SC ygrave.SC uni04BB.SC egrave.SC l.SC uni1EEB.SC uniA72F.SC uni1EBF.SC uni2C6A.SC ccaron.SC utilde.SC uni1E3D.SC uni0445.SC uni1EFF.SC uni04C6.SC uni1E55.SC hbar.SC uniA733.SC uni1E59.SC uni044F.SC uni1E11.SC ecircumflex.SC uni01D6.SC uni043E.SC uni04A1.SC uni0430.SC uni0437.SC uni04F5.SC uni020D.SC uni028C.SC uni01CC.SC uni0475.SC uni0263.SC uni01B4.RtHook.SC uni0491.SC uni1E17.SC uni01E1.SC z.SC uni01D4.SC f.SC uni04D5.SC ecaron.SC uni1E05.SC uni1ED1.SC uni1E71.SC aeacute.SC uni1EB5.SC uni0271.SC t.SC uni049D.SC uni028B.SC uni0497.SC uni0231.SC ldot.SC lcaron.SC uni1EE9.SC uni1EDB.SC uni0249.SC uni1E33.SC uni0250.SC uni1E0D.SC uni1EE1.SC uni2C73.SC uni051B.SC uni1E01.SC uni0441.SC uni1ECB.SC uni1E79.SC uniA72B.SC uni04E7.SC uni1EA9.SC uni04B5.SC uni0442.SC uni0205.SC uni01C9.SC ugrave.SC ebreve.SC uni04BD.SC sacute.SC uni0521.SC scircumflex.SC uni04F3.SC uni044C.SC uni0519.SC uni04C8.SC uni04AB.SC uni1E91.SC uni0509.SC uni1E4D.SC uni0207.SC uni1E2F.SC uni0227.SC ydieresis.SC uni0225.SC uni1EF5.SC gcommaaccent.SC uni0453.SC ubreve.SC uni04B3.SC uni1E13.SC edotaccent.SC uni1E67.SC uni048D.SC agrave.SC uni04EF.SC ucircumflex.SC uni045A.SC o.SC uni043F.SC gdotaccent.SC];
+@ccmp1 = [uniA716.1 uniA716.2 uniA716.3 uniA716.4 uniA716.5 uniA716];
+@ccmp10 = [uni0363 uni0368 uni0369 uni0364 uni036A uni0365 uni036B uni0366 uni036C uni036D uni0367 uni036E uni036F uni0312 uni0314 acutecomb uni030B gravecomb uni030F uni0302 uni0302_acutecomb.VN uni0302_gravecomb.VN uni0302_tildecomb.VN uni0302_hookabovecomb.VN uni0311 uni0311.UU uni0311.UL uni0311.LL uni0352 uni0361.UU uni0361.UL uni0361.LL uni0306 uni0306_acutecomb.VN uni0306_gravecomb.VN uni0306_tildecomb.VN uni0306_hookabovecomb.VN uni0310 uni0306.CyShortMrkAlt CombBreve.CyShortMrkAlt.UCHt uni1DCB uni030C uni1DC7 uni1DC4 uni1DCC uni1DC5 uni1DC6 uni1DC9 uni1DC8 tildecomb uni034A uni034C uni034B uni033E uni035B uni033D uni0304 uni0304.Short uni0305 uni033F uni0308 uni0308.UU uni0308.LL uni0308.UL uni0308.Sup uni0307 uni0313 uni030A uni0351 uni0357 hookabovecomb uni030D uni030E uni0346 uni1DFE uni0350 uni1DC7.Dep51 uni1DC7.Dep50 uni1DC4.Dep51 uni1DC4.Dep50 uni1DC5.Dep51 uni1DC5.Dep50 uni1DC6.Dep51 uni1DC6.Dep50 uni1DC9.Dep51 uni1DC9.Dep50 uni1DC8.Dep51 uni1DC8.Dep50];
+@ccmp11 = [uni1EA5 uni1EA5.2StorySlantItalic uni1EA7 uni1EA7.2StorySlantItalic uni1EAB uni1EAB.2StorySlantItalic uni1EA9 uni1EA9.2StorySlantItalic uni1EAF uni1EB1 uni1EB5 uni1EB3 uni1EA5.SngStory uni1EA5.SngStory.SlantItalic uni1EA7.SngStory uni1EA7.SngStory.SlantItalic uni1EAB.SngStory uni1EAB.SngStory.SlantItalic uni1EA9.SngStory uni1EA9.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB5.SngStory uni1EB5.SngStory.SlantItalic uni1EB3.SngStory uni1EB3.SngStory.SlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni1EA4 uni1EA6 uni1EAA uni1EA8 uni1EAE uni1EB0 uni1EB4 uni1EB2 uni1EBF uni1EC1 uni1EC5 uni1EC3 uni1EBE uni1EC0 uni1EC4 uni1EC2 uni1ED1 uni1ED3 uni1ED7 uni1ED5 uni1ED0 uni1ED2 uni1ED6 uni1ED4 uni1EA5.SC uni1EA5.2StorySlantItalic.SC uni1EA7.SC uni1EA7.2StorySlantItalic.SC uni1EAB.SC uni1EAB.2StorySlantItalic.SC uni1EA9.SC uni1EA9.2StorySlantItalic.SC uni1EAF.SC uni1EB1.SC uni1EB5.SC uni1EB3.SC uni1EA5.SngStory.SC uni1EA5.SngStory.SlantItalic.SC uni1EA7.SngStory.SC uni1EA7.SngStory.SlantItalic.SC uni1EAB.SngStory.SC uni1EAB.SngStory.SlantItalic.SC uni1EA9.SngStory.SC uni1EA9.SngStory.SlantItalic.SC uni1EAF.SngStory.SC uni1EAF.SngStory.SlantItalic.SC uni1EB1.SngStory.SC uni1EB1.SngStory.SlantItalic.SC uni1EB5.SngStory.SC uni1EB5.SngStory.SlantItalic.SC uni1EB3.SngStory.SC uni1EB3.SngStory.SlantItalic.SC uni1EBF.SC uni1EC1.SC uni1EC5.SC uni1EC3.SC uni1ED1.SC uni1ED3.SC uni1ED7.SC uni1ED5.SC];
+@ccmp12 = [uni1EBF.VN.SC uni1EA5.SngStory.VN.SC uni1EA7.SngStory.VN.SC uni1EAB.SngStory.SlantItalic.VN uni1ED0.VN uni1EAB.SngStory.SlantItalic.VN.SC uni1EA6.VN uni1EB1.SngStory.SlantItalic.VN uni1ED3.VN uni1ED1.VN uni1EAB.2StorySlantItalic.VN uni1EB1.SngStory.VN.SC uni1EC1.VN uni1EA5.SngStory.SlantItalic.VN uni1EB0.VN uni1EBE.VN uni1EB3.SngStory.VN uni1ED7.VN uni1ED6.VN uni1ED5.VN.SC uni1EC4.VN uni1EB5.SngStory.VN uni1EB3.SngStory.SlantItalic.VN uni1EB2.VN uni1EA9.2StorySlantItalic.VN uni1EAB.2StorySlantItalic.VN.SC uni1EB5.VN.SC uni1ED5.VN uni1EB3.VN uni1EB3.VN.SC uni1EAF.VN.SC uni1EC0.VN uni1EA5.2StorySlantItalic.VN.SC uni1EA9.VN uni1ED3.VN.SC uni1ED7.VN.SC uni1EB3.SngStory.SlantItalic.VN.SC uni1EA4.VN uni1ED1.VN.SC uni1EA7.SngStory.SlantItalic.VN.SC uni1EA5.SngStory.SlantItalic.VN.SC uni1EA9.SngStory.SlantItalic.VN uni1EB5.VN uni1EC5.VN.SC uni1EC2.VN uni1EB5.SngStory.SlantItalic.VN uni1EAB.VN.SC uni1EA7.2StorySlantItalic.VN uni1EAB.SngStory.VN.SC uni1EB4.VN uni1EC3.VN.SC uni1EB3.SngStory.VN.SC uni1EA9.VN.SC uni1EB1.2StorySlantItalic.VN uni1EA7.2StorySlantItalic.VN.SC uni1EC5.VN uni1EB1.VN.SC uni1EB5.SngStory.VN.SC uni1EA5.2StorySlantItalic.VN uni1EAA.VN uni1EB1.VN uni1EC1.VN.SC uni1ED4.VN uni1EA7.VN uni1EBF.VN uni1EA8.VN uni1EA9.SngStory.VN.SC uni1EA9.SngStory.SlantItalic.VN.SC uni1EA9.SngStory.VN uni1EAF.SngStory.VN uni1EA5.VN.SC uni1EB1.SngStory.VN uni1EB3.2StorySlantItalic.VN uni1EA5.SngStory.VN uni1EA7.VN.SC uni1EAE.VN uni1EC3.VN uni1EAF.2StorySlantItalic.VN uni1EB5.2StorySlantItalic.VN uni1EA7.SngStory.SlantItalic.VN uni1EAB.VN uni1EAF.VN uni1EA5.VN uni1EAF.SngStory.SlantItalic.VN.SC uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory.SlantItalic.VN.SC uni1EA7.SngStory.VN uni1EAB.SngStory.VN uni1EA9.2StorySlantItalic.VN.SC uni1EB5.SngStory.SlantItalic.VN.SC uni1EAF.SngStory.VN.SC uni1ED2.VN];
+@ccmp13 = [uni1DCA uni0320 uni0317 uni0316 uni032D uni032F uni032E uni032C uni0330 uniF17B uni0359 uni0353 uni032B uni033C uni0331 uni0331.Short uni0332 uni0333 uni0347 uni0324 dotbelowcomb uni0358 uni0326 uni0315 uni031B uni0325 uni035A uni031C uni0339 uni0329 uni0348 uni031F uni031E uni031D uni0318 uni0319 uni0349 uni0327 uni0328 CombOgonek.Lrg uni0328.RetroHookStyle uni1DC2 uni032A uni033A uni033B uni02DE uni02DE02DE uni02E9.rstaff uni02E8.rstaff uni02E7.rstaff uni02E6.rstaff uni02E5.rstaff uni02E9.1 uni02E9.2 uni02E9.3 uni02E9.4 uni02E9.5 uni02E8.1 uni02E8.2 uni02E8.3 uni02E8.4 uni02E8.5 uni02E7.1 uni02E7.2 uni02E7.3 uni02E7.4 uni02E7.5 uni02E6.1 uni02E6.2 uni02E6.3 uni02E6.4 uni02E6.5 uni02E5.1 uni02E5.2 uni02E5.3 uni02E5.4 uni02E5.5 uniA716.1 uniA715.1 uniA714.1 uniA713.1 uniA712.1 uniA716.2 uniA715.2 uniA714.2 uniA713.2 uniA712.2 uniA716.3 uniA715.3 uniA714.3 uniA713.3 uniA712.3 uniA716.4 uniA715.4 uniA714.4 uniA713.4 uniA712.4 uniA716.5 uniA715.5 uniA714.5 uniA713.5 uniA712.5 uni02E9.rstaffno uni02E8.rstaffno uni02E7.rstaffno uni02E6.rstaffno uni02E5.rstaffno uni02E9.no uni02E8.no uni02E7.no uni02E6.no uni02E5.no uni034E uni20EE uni20ED uni20EF uni20EC uni034D uni0354 uni0355 uni0356 uni1DFF uni034F uni1DCA.Dep51 uni1DCA.Dep50 uni1DC2.Dep51 uni1DC2.Dep50 uni1DC2.Dep41 uniA716.1.Dep51 uniA716.1.Dep50 uniA716.1.Dep41 uniA715.1.Dep51 uniA715.1.Dep50 uniA715.1.Dep41 uniA714.1.Dep51 uniA714.1.Dep50 uniA714.1.Dep41 uniA713.1.Dep51 uniA713.1.Dep50 uniA713.1.Dep41 uniA712.1.Dep51 uniA712.1.Dep50 uniA712.1.Dep41 uniA716.2.Dep51 uniA716.2.Dep50 uniA716.2.Dep41 uniA715.2.Dep51 uniA715.2.Dep50 uniA715.2.Dep41 uniA714.2.Dep51 uniA714.2.Dep50 uniA714.2.Dep41 uniA713.2.Dep51 uniA713.2.Dep50 uniA713.2.Dep41 uniA712.2.Dep51 uniA712.2.Dep50 uniA712.2.Dep41 uniA716.3.Dep51 uniA716.3.Dep50 uniA716.3.Dep41 uniA715.3.Dep51 uniA715.3.Dep50 uniA715.3.Dep41 uniA714.3.Dep51 uniA714.3.Dep50 uniA714.3.Dep41 uniA713.3.Dep51 uniA713.3.Dep50 uniA713.3.Dep41 uniA712.3.Dep51 uniA712.3.Dep50 uniA712.3.Dep41 uniA716.4.Dep51 uniA716.4.Dep50 uniA716.4.Dep41 uniA715.4.Dep51 uniA715.4.Dep50 uniA715.4.Dep41 uniA714.4.Dep51 uniA714.4.Dep50 uniA714.4.Dep41 uniA713.4.Dep51 uniA713.4.Dep50 uniA713.4.Dep41 uniA712.4.Dep51 uniA712.4.Dep50 uniA712.4.Dep41 uniA716.5.Dep51 uniA716.5.Dep50 uniA716.5.Dep41 uniA715.5.Dep51 uniA715.5.Dep50 uniA715.5.Dep41 uniA714.5.Dep51 uniA714.5.Dep50 uniA714.5.Dep41 uniA713.5.Dep51 uniA713.5.Dep50 uniA713.5.Dep41 uniA712.5.Dep51 uniA712.5.Dep50 uniA712.5.Dep41];
+@ccmp2 = [uniA715.1 uniA715.2 uniA715.3 uniA715.4 uniA715.5 uniA715];
+@ccmp3 = [uniA714.1 uniA714.2 uniA714.3 uniA714.4 uniA714.5 uniA714];
+@ccmp4 = [uniA713.1 uniA713.2 uniA713.3 uniA713.4 uniA713.5 uniA713];
+@ccmp5 = [uniA712.1 uniA712.2 uniA712.3 uniA712.4 uniA712.5 uniA712];
+@ccmp6 = [scedilla Scedilla uni0163 uni0162 scedilla.SC uni0163.SC];
+@ccmp7 = [scedilla.CommaStyle uni0162.CommaStyle Scedilla.CommaStyle uni0163.CommaStyle uni0163.CommaStyle.SC scedilla.CommaStyle.SC];
+@ccmp8 = [uni02E9.2 uni02E9.3 uni02E9.4 uni02E9.5 uni02E8.1 uni02E8.3 uni02E8.4 uni02E8.5 uni02E7.1 uni02E7.2 uni02E7.4 uni02E7.5 uni02E6.1 uni02E6.2 uni02E6.3 uni02E6.5 uni02E5.1 uni02E5.2 uni02E5.3 uni02E5.4];
+@ccmp9 = [uniA715.1 uniA714.1 uniA713.1 uniA712.1 uniA716.2 uniA714.2 uniA713.2 uniA712.2 uniA716.3 uniA715.3 uniA713.3 uniA712.3 uniA716.4 uniA715.4 uniA714.4 uniA712.4 uniA716.5 uniA715.5 uniA714.5 uniA713.5];
+@class36 = [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50];
+@class37 = [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+@smcp1 = [a b c d e f g h i j k l m n o p q r s t u v w x y z aacute agrave acircumflex adieresis atilde aring ccedilla eacute egrave ecircumflex edieresis iacute igrave icircumflex idieresis ntilde oacute ograve ocircumflex odieresis otilde uacute ugrave ucircumflex udieresis ae oslash florin oe ydieresis dotlessi a.2StorySlantItalic uni0430 uni0201 uni1EAD uni1EA5 uni1EA5.VN uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7 uni1EA7.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB uni1EAB.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9 uni1EA9.VN uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni0203 abreve uni1EB7 uni1EAF uni1EAF.VN uni1EB1 uni1EB1.VN uni1EB5 uni1EB5.VN uni1EB3 uni1EB3.VN uni04D1 uni01CE amacron uni04D3 uni01DF uni0227 uni01E1 aringacute uni1E9A uni1EA3 uni1EA1 uni1E01 aogonek aogonek.RetroHookStyle uni2C65 atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uniA733 uniA735 uni0250 uni0250.2StorySlantItalic uni0251 uni2C65.2StorySlantItalic a.SngStory a.SngStory.SlantItalic uni2C65.SngStory.SlantItalic aacute.SngStory aacute.SngStory.SlantItalic agrave.SngStory agrave.SngStory.SlantItalic uni0201.SngStory uni0201.SngStory.SlantItalic acircumflex.SngStory uni1EAD.SngStory acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EA7.SngStory.SlantItalic uni1EA7.SngStory.SlantItalic.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EAB.SngStory.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uni0203.SngStory uni0203.SngStory.SlantItalic abreve.SngStory uni1EB7.SngStory abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.VN uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB1.SngStory.VN uni1EB1.SngStory.SlantItalic.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB5.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN uni01CE.SngStory uni01CE.SngStory.SlantItalic atilde.SngStory atilde.SngStory.SlantItalic amacron.SngStory amacron.SngStory.SlantItalic adieresis.SngStory adieresis.SngStory.SlantItalic uni01DF.SngStory uni01DF.SngStory.SlantItalic uni0227.SngStory uni0227.SngStory.SlantItalic uni01E1.SngStory uni01E1.SngStory.SlantItalic aring.SngStory aring.SngStory.SlantItalic aringacute.SngStory aringacute.SngStory.SlantItalic uni1E9A.SngStory uni1E9A.SngStory.SlantItalic uni1EA3.SngStory uni1EA3.SngStory.SlantItalic uni1EA1.SngStory uni1E01.SngStory uni1E01.SngStory.SlantItalic aogonek.SngStory aogonek.SngStory.RetroHookStyle uni2C65.SngStory aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1EA1.SngStory.SlantItalic uni1E01.2StorySlantItalic uni0252 ae.2StorySlantItalic uni04D5 aeacute aeacute.2StorySlantItalic uni01E3 uni01E3.2StorySlantItalic uniF247 uni1E03 uni1E07 uni1E05 uni0180.BarBowl uni0180 uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0441 cacute ccircumflex ccaron cdotaccent uni1E09 uni04AB uni023C uni0188 uni0254 uni0254.TopSerif uni0454 uni044D uni04ED uni044D.MongolStyle uni0501 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron dcroat.BarBowl dslash uni0257 uni018C uni01F3 uni01C6 uni0503 eth uni01F2 uni01C5 uni0435 uni0450 uni0205 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD emacron uni1E17 uni1E15 uni0451 edotaccent uni1EBB uni1E19 uni1E1B uni1EB9 uni0229 uni1E1D eogonek eogonek.RetroHookStyle uni0247 uni04BD uni04BF uni01DD uni0259 uni04D9 uni04DB uni025B uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 f.SlantItalic uni1E1F uni1E1F.SlantItalic f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic f_f_l f_f_l.SlantItalic f_f f_f.SlantItalic uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uni01F5 gcircumflex gbreve gcaron uni1E21 gdotaccent gcommaaccent uni01E5.BarBowl uni01E5 g.SngBowl uni01F5.SngBowl gcircumflex.SngBowl gbreve.SngBowl gcaron.SngBowl uni1E21.SngBowl gdotaccent.SngBowl gcommaaccent.SngBowl uni01E5.BarBowl.SngBowl uni0260 uni050D hcircumflex uni021F uni1E27 uni1E23 uni1E2B uni1E25 uni1E29 hbar hbar.VertStrk uni045B uni0452 uniA727 uni2C68 uni0195 uni2C76 uni0265 uni04BB uni04BB.UCStyle uni0495 uni043D uni04A5 uni04A3 uni04CA uni045A uni04C8 uni050B uni0523 uni043F uni04A7 uni045F uni0446 uni0448 uni0449 i.SlantItalic uni0456 iacute.SlantItalic igrave.SlantItalic uni0209 uni0209.SlantItalic icircumflex.SlantItalic uni020B uni020B.SlantItalic ibreve ibreve.SlantItalic uni01D0 uni01D0.SlantItalic itilde itilde.SlantItalic imacron imacron.SlantItalic idieresis.SlantItalic uni0457 uni1E2F uni1E2F.SlantItalic idotaccent idotaccent.SlantItalic uni1EC9 uni1EC9.SlantItalic uni1E2D uni1E2D.SlantItalic uni1ECB uni1ECB.SlantItalic iogonek iogonek.RetroHookStyle uni0268 i.Dotless dotlessi.SlantItalic i.Dotless.SlantItalic ij uni0269 uni044E uni04CF uni0458 jcircumflex uni0249 uni043B uni04C6 uni0459 uni0513 uni0509 uni0434 uni0521 uni0515 uni1E31 uni01E9 uni1E35 uni1E33 kcommaaccent uniA741 uni0199 uni2C6A uni043A uni045C uni049B uni04A1 uni049F uni049D uni04C4 uni051F uni0436 uni04C2 uni04DD uni0497 l.SlantItalic lacute lacute.SlantItalic lcaron.Caron uni1E3D uni1E3D.SlantItalic uni1E3B uni1E3B.SlantItalic uni1E37 uni1E37.SlantItalic uni1E39 uni1E39.SlantItalic lcommaaccent ldot lcaron uni019A uni2C61 uni026B lslash uni01C9 uni1EFB uni01C8 uni1E3F uni1E41 uni1E43 uni0271 uni026F uni043C uni04CE nacute uni01F9 ncaron uni1E45 uni1E4B uni1E49 uni1E47 ncommaaccent uni0272 uni0272.LCStyle eng eng.BaselineHook eng.UCStyle eng.Kom uni019E uni01CC uni0438 uni045D uni0439 uni048B uni04E3 uni04E5 uni01CB uni043E ohungarumlaut uni020D uni1ED1 uni1ED1.VN uni1ED3 uni1ED3.VN uni1ED7 uni1ED7.VN uni1ED5 uni1ED5.VN uni1ED9 uni020F obreve uni01D2 uni1E4D uni022D uni1E4F omacron uni1E53 uni1E51 uni04E7 uni022B uni022F uni0231 uni1ECF uni1ECD uni01EB uni01ED uni01EB.RetroHookStyle uni01ED.RetroHookStyle uni0275 uni04E9 uni04EB uni0473 oslashacute ohorn uni1EDB uni1EDD uni1EE1 uni1EDF uni1EE3 uni04A9 uni01A3 uniA74F uni0223 uni0223.OpenTop uni0440 uni1E55 uni1E57 uni1D7D uni048F thorn uni01A5 uni01A5.BowlHook uni0517 uni01BF uni0444 uni051B uni024B racute uni0211 uni0213 rcaron uni1E59 uni1E5F uni1E5B uni1E5D rcommaaccent uni024D uni027D uni027D.LCStyle uni0280 uni044F uni0519 uni0455 sacute uni1E65 scircumflex scaron uni1E67 uni1E61 uni1E63 uni1E69 scommaaccent scedilla.CommaStyle scedilla uni01A8 uni0283 tcaron.Caron uni1E6B uni1E71 uni1E6F uni1E6D uni021B uni0163.CommaStyle tcaron uni0163 tbar uni2C66 uni01AD uni01AD.RtHook uni0288 uniA729 uni0442 uni04AD uni050F uni04B5 uhungarumlaut uni0215 uni0217 ubreve uni01D4 utilde uni1E79 umacron uni1E7B uni01D8 uni01DC uni01DA uni01D6 uring uni1EE7 uni1E77 uni1E75 uni1E73 uni1EE5 uogonek uogonek.RetroHookStyle uni0289 uhorn uni1EE9 uni1EEB uni1EEF uni1EED uni1EF1 uni028B uni1EFD uni028A v.SlantItalic uni1E7D uni1E7D.SlantItalic uni1E7F uni1E7F.SlantItalic uni028B.StraightLft uni028B.StraightLftHighHook uni028C uni0263 uni0475 uni051D wacute wgrave wcircumflex wdieresis uni1E87 uni1E89 uni2C73 uni0445 uni1E8D uni1E8B uni04FF uni04FD uni04B3 uni0443 yacute uni04F3 ygrave ycircumflex uni045E uni1EF9 uni0233 uni04EF uni04F1 uni1E8F uni1EF7 uni1EF5 uni024F uni01B4.RtHook uni01B4 uni1EFF uni04AF uni04B1 uni0447 uni04F5 uni04B9 uni04B7 uni04CC z.SlantItalic zacute zacute.SlantItalic uni1E91 uni1E91.SlantItalic zcaron zcaron.SlantItalic zdotaccent zdotaccent.SlantItalic uni1E95 uni1E95.SlantItalic uni1E93 uni1E93.SlantItalic uni1D8E uni01B6 uni0225 uni2C6C uni0292 uni0292.RevSigmaStyle uni04E1 uni04E1.RevSigmaStyle uni01EF uni01B9 uniA72B uniA72D uniA72F uni021D uni0242 uni01BD uniA78C uniA78C.Lrg];
+@smcp2 = [m.SC uni0491.SC aeacute.2StorySlantItalic.SC uni0513.SC uni0503.SC uni1E79.SC g.SngBowl.SC uni044B.SC uni024F.SC uni1EB7.SngStory.SC uni0457.SC uniA78C.SC uni2C6A.SC uni01D6.SC aacute.SngStory.SlantItalic.SC z.SlantItalic.SC utilde.SC uni1EA7.2StorySlantItalic.SC uni1E53.SC uni026B.SC f_l.SlantItalic.SC acircumflex.SngStory.SC uni04F9.SC uni0441.SC uni1E1F.SlantItalic.SC lcommaaccent.SC uni1E4D.SC aringacute.SC uni01D8.SC uni1EBF.VN.SC uni0436.SC uni1EA9.SC uni0499.SC uni01DD.SC uni1EA5.SngStory.VN.SC uni0459.SC edotaccent.SC uni04EF.SC uniA72B.SC uni1E95.SlantItalic.SC uni028C.SC uni1EA3.SngStory.SlantItalic.SC uni043A.SC uni0509.SC uhorn.SC ldot.SC uni1EA7.SngStory.VN.SC uni1EDF.SC uni1E63.SC uni0163.SC f_f_l.SlantItalic.SC uni1EAB.SngStory.SlantItalic.VN.SC uni04A7.SC uni0517.SC c.SC odieresis.SC uni04F7.SC uni1E91.SC uni021D.SC uni1EAD.SC uniF247.SC agrave.SngStory.SlantItalic.SC uni0288.SC uni01E5.SC uni1EA5.SngStory.SC rcaron.SC uni1E2F.SC scommaaccent.SC uni1EB1.SC aacute.2StorySlantItalic.SC uni0445.SC uni0505.SC uni0438.SC atilde.2StorySlantItalic.SC uni1E23.SC uni1E9A.SngStory.SC agrave.SC uni01B4.SC uni04CC.SC uni1ECD.SC uni2C65.SngStory.SlantItalic.SC acircumflex.2StorySlantItalic.SC florin.SC uni0252.SC uni045F.SC uni1E17.SC uacute.SC uni1EB1.SngStory.VN.SC x.SC uni1E37.SlantItalic.SC lacute.SC i.SC uni027D.LCStyle.SC uni01B9.SC uni04B3.SC uni1E7F.SlantItalic.SC r.SC uni0188.SC uni0280.SC f_f.SC uni01CC.SC uni1EAD.SngStory.SlantItalic.SC yacute.SC scircumflex.SC uni1EB7.SngStory.SlantItalic.SC uni01D0.SlantItalic.SC agrave.SngStory.SC uni1E51.SC uni0495.SC uni0265.SC eogonek.RetroHookStyle.SC f_i.SlantItalic.SC amacron.SC uni0463.SC uni0449.SC uni1E05.SC uni1EA9.2StorySlantItalic.SC uni0430.SC uni1D7D.SC ocircumflex.SC lacute.SlantItalic.SC ibreve.SC uni1E13.SC agrave.2StorySlantItalic.SC eng.BaselineHook.SC ucircumflex.SC uni1EB1.SngStory.SC uogonek.SC uni026F.SC uni1EB7.2StorySlantItalic.SC uni1EE3.SC uni0199.SC uni0254.SC uni1E69.SC uni04E1.SC uni1ED5.VN.SC uni01E1.SngStory.SC uni024D.SC uni1E7D.SC uni044D.SC uni1E73.SC uni04D1.SC uni1E0F.SC uni1E45.SC uni0227.2StorySlantItalic.SC uni1E8F.SC aacute.SngStory.SC uni0272.SC gcommaaccent.SC uring.SC uniA735.SC gbreve.SC uni01D0.SC uni1E2B.SC uni04CE.SC uni1E87.SC p.SC uni043E.SC uni1EBB.SC uni0443.SC ntilde.SC uni04F1.SC uni1E39.SlantItalic.SC w.SC rcommaaccent.SC ncaron.SC uni1E0D.SC uni01EB.SC uni0251.SC uniA727.SC uni045E.SC uni01F9.SC uni0203.SC uniF327.SC uni048F.SC uniA729.SC uni1E8B.SC uni0507.SC uni1EC5.SC uni1E7D.SlantItalic.SC uni1EAF.SngStory.SC uni1E09.SC uni01DC.SC ohungarumlaut.SC uni0454.SC uni1EB5.2StorySlantItalic.SC uni019A.SC uni1ECB.SlantItalic.SC uni1D8E.SC wcircumflex.SC jcircumflex.SC uni01C9.SC uni1EF1.SC uni1EAD.2StorySlantItalic.SC uni1EB1.2StorySlantItalic.SC uni1EAB.2StorySlantItalic.VN.SC uni04C8.SC uni1E6D.SC uni1EB5.VN.SC uni1E47.SC i.Dotless.SC uni04D7.SC uni0260.SC lcaron.SC ubreve.SC uni1E1F.SC uni01C5.SC uni1E59.SC uni1E4B.SC udieresis.SC uni1EA1.SngStory.SlantItalic.SC uni049D.SC oe.SC uni1E37.SC uni1EB3.2StorySlantItalic.SC uni2C76.SC uni0250.2StorySlantItalic.SC uni0242.SC uni01E1.2StorySlantItalic.SC aringacute.2StorySlantItalic.SC uni051F.SC uni0203.2StorySlantItalic.SC eacute.SC uni01ED.RetroHookStyle.SC uni1E93.SlantItalic.SC uni0268.SC uni1E1D.SC e.SC uni01DF.SC s.SC uni0215.SC uni045D.SC uni1ED1.SC zdotaccent.SlantItalic.SC uni0473.SC a.SC uni1EB3.VN.SC uni020F.SC uni1EAF.VN.SC uni1E3B.SC uni023C.SC uni04B1.SC uni1E01.2StorySlantItalic.SC uni0455.SC amacron.SngStory.SlantItalic.SC uni1EB5.SngStory.SC uni01F3.SC ycircumflex.SC uni04E3.SC uni019E.SC dcroat.BarBowl.SC tcaron.Caron.SC uni1E61.SC uni1EAF.2StorySlantItalic.SC uni04E1.RevSigmaStyle.SC uni0275.SC uni1E65.SC uni1E9A.SngStory.SlantItalic.SC uni04EB.SC uni1EA3.SC imacron.SlantItalic.SC aringacute.SngStory.SlantItalic.SC uni1EA5.2StorySlantItalic.VN.SC uni01F2.SC uni1E0B.SC uni01A3.SC uni04FB.SlantItalic.SC uni0211.SC uni04FD.SC dcroat.SC uni049B.SC uni2C61.SC ydieresis.SC ae.SC uni045A.SC uni1EE9.SC eth.SC uni0253.TopBar.SC uni1E19.SC uni1EE1.SC uni1ED3.VN.SC uni04B9.SC ccircumflex.SC uni1E8D.SC uniA741.SC uni1EA5.SC uni1EA9.SngStory.SC racute.SC dotlessi.SC uni1E2D.SC uni04DB.SC uni1E5D.SC uni2C66.SC f_i.SC aacute.SC a.SngStory.SlantItalic.SC uni1EAB.SngStory.SC uni1E1B.SC uni1E3D.SC uni0448.SC aogonek.RetroHookStyle.SC uni04CA.SC dcaron.SC uni1ED7.SC uni1E21.SC uni028A.SC uni043B.SC uni1E41.SC aring.SngStory.SC uni0201.2StorySlantItalic.SC uni048B.SC uni051B.SC uni0440.SC uni1EB1.SngStory.SlantItalic.SC uni04A1.SC uni1ED7.VN.SC uni0453.SC uni04F5.SC y.SC iacute.SlantItalic.SC f_f_i.SC j.SC adieresis.SngStory.SlantItalic.SC abreve.SngStory.SC uni1E15.SC uni1EFF.SC uni028B.SC uni1EB3.SngStory.SlantItalic.VN.SC uni1EA5.SngStory.SlantItalic.SC lslash.SC gcaron.SngBowl.SC uni1EA1.SC uni1EA5.2StorySlantItalic.SC oslashacute.SC uni0442.SC uni1E5B.SC uni01C8.SC uni1EB9.SC uni01C6.SC uni04BF.SC uni044D.MongolStyle.SC uni1ED1.VN.SC uni04A3.SC uni01DA.SC uni04F3.SC v.SC uni043D.SC f_f.SlantItalic.SC uni1E25.SC uni0433.SC uni0201.SC uni2C65.SC uni2C68.SC ae.2StorySlantItalic.SC atilde.SngStory.SC edieresis.SC uni1EA7.SngStory.SlantItalic.VN.SC umacron.SC uni1EA5.SngStory.SlantItalic.VN.SC uni04AF.SC tcaron.SC eng.SC scaron.SC uni1EDB.SC uni1EC5.VN.SC uni1EA3.2StorySlantItalic.SC uni0446.SC uni01B6.SC uni024B.SC uni1EAB.VN.SC a.2StorySlantItalic.SC uni0225.SC abreve.SC uni1E5F.SC uni0447.SC wgrave.SC uni04AD.SC uni01A5.BowlHook.SC uni1ECB.SC uni0227.SngStory.SlantItalic.SC uogonek.RetroHookStyle.SC obreve.SC uni1E27.SC uni0205.SC igrave.SlantItalic.SC uni1E55.SC uni1EAB.SngStory.VN.SC uni1E2D.SlantItalic.SC ccedilla.SC f_f_l.SC uni0289.SC uniA733.SC uni1EAF.SC uni0203.SngStory.SlantItalic.SC k.SC uni1EA1.SngStory.SC otilde.SC ugrave.SC uni0213.SC uni1E07.SC l.SlantItalic.SC uni1E71.SC uni1EF7.SC uni1EC3.VN.SC uni0227.SngStory.SC eogonek.SC uni04C6.SC amacron.SngStory.SC uni1E2F.SlantItalic.SC uni1EB3.SngStory.VN.SC uni1EA3.SngStory.SC uni0434.SC uni0263.SC uni1EA9.VN.SC t.SC i.SlantItalic.SC uni0247.SC uni1E11.SC ecaron.SC uni1EA7.SC uni0501.SC uni01AD.RtHook.SC uni04AB.SC uni1E43.SC uni1EB3.SngStory.SlantItalic.SC uni0223.OpenTop.SC uni1ED3.SC uni1E57.SC gcircumflex.SngBowl.SC uni01A5.SC uni1EB7.SC uni1E01.SngStory.SC uni0451.SC adieresis.SngStory.SC aogonek.SngStory.RetroHookStyle.SC uni0515.SC uni1EA7.2StorySlantItalic.VN.SC uni0452.SC uni0203.SngStory.SC uni01E3.2StorySlantItalic.SC a.SngStory.SC cdotaccent.SC uni1EB1.VN.SC uni01D4.SC uni0180.BarBowl.SC uni022B.SC uni1EB5.SngStory.VN.SC uni04B5.SC uni044F.SC uni1EC7.SC h.SC iogonek.SC uni01BD.SC dotlessi.SlantItalic.SC uni1E33.SC dcaron.Caron.SC tbar.SC uni1E35.SC uni0227.SC uni0511.SC uni1EB3.SngStory.SC uni04D5.SC uni1EC9.SlantItalic.SC uni020B.SlantItalic.SC uni0435.SC aogonek.SC uni04BB.SC uni045B.SC acircumflex.SC aring.SC uniA78C.Lrg.SC oacute.SC gdotaccent.SngBowl.SC wacute.SC uni01AD.SC iacute.SC uni0180.SC uni1E3B.SlantItalic.SC uni0431.SC igrave.SC uni0272.LCStyle.SC uni1EC1.VN.SC uni0195.SC uni1E93.SC uni1E7F.SC uni1E49.SC uni04E9.SC uni0283.SC oslash.SC zcaron.SC uni0207.SC kcommaaccent.SC uni1E3F.SC f_l.SC uni1EFD.SC uni050B.SC uni1E9A.SC gcaron.SC uni01E5.BarBowl.SC uni1ECF.SC uni01CE.2StorySlantItalic.SC uni1E3D.SlantItalic.SC b.SC uni043C.SC zdotaccent.SC f_f_i.SlantItalic.SC uni1E75.SC uni0458.SC uni027D.SC uni049F.SC uni01CE.SC z.SC icircumflex.SC uni0257.SC uni0269.SC uni01E1.SC uni1EBF.SC uni1EF5.SC aring.2StorySlantItalic.SC ij.SC uni01CE.SngStory.SC uni1EC3.SC uni1E39.SC uni1E91.SlantItalic.SC uni0292.SC uni020D.SC uni1E6F.SC uni01E9.SC q.SC aogonek.SngStory.SC cacute.SC uni0223.SC l.SC amacron.2StorySlantItalic.SC uni044C.SC uni04E7.SC uni0493.SC uni1E01.SngStory.SlantItalic.SC uni0185.SC ibreve.SlantItalic.SC itilde.SC ccaron.SC uni1ED5.SC uni1EEF.SC omacron.SC uni1EC1.SC uni0183.SC uni01F5.SngBowl.SC hbar.VertStrk.SC uni1EA9.SngStory.SlantItalic.SC uni04ED.SC lcaron.Caron.SC uni045C.SC uni022D.SC atilde.SC uni0229.SC uni01F5.SC idieresis.SlantItalic.SC scedilla.SC uni021B.SC uni025B.SC uni1EA9.SngStory.VN.SC imacron.SC ecircumflex.SC eng.Kom.SC uni04D3.SC uni1EC9.SC uni1EA9.SngStory.SlantItalic.VN.SC uni0493.SlantItalic.SC d.SC hbar.SC uni0475.SC uni2C73.SC eng.UCStyle.SC uni1EBD.SC uni0444.SC uni01EF.SC uni0521.SC gcommaaccent.SngBowl.SC uni1E95.SC emacron.SC uniA74F.SC uni01E3.SC uni0231.SC uni020B.SC aringacute.SngStory.SC uni048D.SC uni1EE5.SC uni04CF.SC uni1E7B.SC uni1EAD.SngStory.SC zacute.SC uniF327.SlantItalic.SC uni1EA5.VN.SC uni1EAB.SC uni04FB.SC uni1E21.SngBowl.SC abreve.2StorySlantItalic.SC iogonek.RetroHookStyle.SC uni01E5.BarBowl.SngBowl.SC ygrave.SC gdotaccent.SC uni01CB.SC uniA72F.SC uni0217.SC zacute.SlantItalic.SC gcircumflex.SC uni0259.SC uni0163.CommaStyle.SC uni04C4.SC uhungarumlaut.SC uni0437.SC uni01DF.2StorySlantItalic.SC uni04E5.SC gbreve.SngBowl.SC uni1EA7.SngStory.SC uni1EAF.SngStory.SlantItalic.SC aring.SngStory.SlantItalic.SC itilde.SlantItalic.SC uni04A9.SC uni1E77.SC acircumflex.SngStory.SlantItalic.SC uni0523.SC uni043F.SC uni1EA7.VN.SC hcircumflex.SC uniA72D.SC uni1E29.SC u.SC uni01E1.SngStory.SlantItalic.SC zcaron.SlantItalic.SC uni0250.SC f.SC uni2C65.SngStory.SC scedilla.CommaStyle.SC uni050D.SC adieresis.SC uni1ED9.SC uni04BD.SC uni2C65.2StorySlantItalic.SC uni04DD.SC uni0209.SC uni04DF.SC uni1EAB.2StorySlantItalic.SC uni1EA7.SngStory.SlantItalic.SC uni04A5.SC g.SC uni1EF9.SC uni028B.StraightLft.SC atilde.SngStory.SlantItalic.SC idotaccent.SlantItalic.SC uni01D2.SC v.SlantItalic.SC nacute.SC uni0201.SngStory.SC uni1E03.SC uni1E31.SC ebreve.SC uni1EAF.SngStory.SlantItalic.VN.SC aeacute.SC uni0497.SC uni01DF.SngStory.SlantItalic.SC uni0450.SC uni1EEB.SC uni0432.SC uni050F.SC f.SlantItalic.SC n.SC uni04FF.SC uni1E67.SC sacute.SC uni1EB1.SngStory.SlantItalic.VN.SC uni01BF.SC uni1EDD.SC uni051D.SC uni04D9.SC uni1E4F.SC ohorn.SC uni04B7.SC uni1E9A.2StorySlantItalic.SC thorn.SC uni0201.SngStory.SlantItalic.SC icircumflex.SlantItalic.SC uni2C6C.SC uni1E01.SC uni1EB5.SngStory.SlantItalic.SC ograve.SC uni01DF.SngStory.SC uni0253.SC uni1E6B.SC uni01EB.RetroHookStyle.SC uni1EB5.SC uni018C.SC uni0271.SC wdieresis.SC uni1EA1.2StorySlantItalic.SC i.Dotless.SlantItalic.SC uni022F.SC idieresis.SC uni01B4.RtHook.SC uni1EA9.2StorySlantItalic.VN.SC uni1EB5.SngStory.SlantItalic.VN.SC uni044E.SC uni1EAB.SngStory.SlantItalic.SC uni1EAF.SngStory.VN.SC uni04C2.SC uni0209.SlantItalic.SC adieresis.2StorySlantItalic.SC uni0254.TopSerif.SC abreve.SngStory.SlantItalic.SC uni01A8.SC uni01ED.SC egrave.SC uni1EB3.SC uni1EED.SC ncommaaccent.SC uni0519.SC uni1E89.SC idotaccent.SC uni0292.RevSigmaStyle.SC uni01CE.SngStory.SlantItalic.SC uni04BB.UCStyle.SC uni0249.SC uni044A.SC o.SC uni0439.SC uni0233.SC uni028B.StraightLftHighHook.SC uni021F.SC uni0456.SC uni1EE7.SC uni1EFB.SC];
+@ss011 = [a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde Adieresis Aring Ccedilla Eacute Ntilde Odieresis Udieresis aacute agrave acircumflex adieresis atilde aring ccedilla eacute egrave ecircumflex edieresis iacute igrave icircumflex idieresis ntilde oacute ograve ocircumflex odieresis otilde uacute ugrave ucircumflex udieresis dagger degree cent sterling section bullet paragraph germandbls registered copyright trademark acute dieresis notequal AE Oslash infinity plusminus lessequal greaterequal yen mu partialdiff summation product pi integral ordfeminine ordmasculine Omega ae oslash questiondown exclamdown logicalnot radical florin approxequal increment guillemotleft guillemotright ellipsis uni00A0 Agrave Atilde Otilde OE oe endash emdash quotedblleft quotedblright quoteleft quoteright divide lozenge ydieresis Ydieresis fraction currency guilsinglleft guilsinglright fi fl daggerdbl middot quotesinglbase quotedblbase perthousand Acircumflex Ecircumflex Aacute Edieresis Egrave Iacute Icircumflex Idieresis Igrave Oacute Ocircumflex uni25CC Ograve Uacute Ucircumflex Ugrave dotlessi circumflex tilde overscore breve dotaccent ring cedilla hungarumlaut ogonek caron a.2StorySlantItalic uni0430 uni2090 uni1D43 uni0363 uni0201 uni1EAD uni1EA5 uni1EA5.VN uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7 uni1EA7.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB uni1EAB.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9 uni1EA9.VN uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni0203 abreve uni1EB7 uni1EAF uni1EAF.VN uni1EAF.2StorySlantItalic.VN uni1EB1 uni1EB1.VN uni1EB1.2StorySlantItalic.VN uni1EB5 uni1EB5.VN uni1EB5.2StorySlantItalic.VN uni1EB3 uni1EB3.VN uni1EB3.2StorySlantItalic.VN uni04D1 uni01CE uni00E30301 uni00E30300 uni00E30302 amacron uni01010301 uni01010302 uni04D3 uni00E40301 uni00E40300 uni00E40302 uni00E4030C uni00E40303 uni01DF uni0227 uni01E1 aringacute uni1E9A uni1EA3 uni0061030D uni00610330 uni00610331 uni00E10331 uni00E00331 uni00E20331 uni01CE0331 uni00E40331 uni1EA1 uni1EA10301 uni1EA10300 uni1EA1030C uni1EA10303 uni1E01 uni0061031C uni00E1031C uni00610327 uni00E10327 uni00E00327 uni00E20327 uni01CE0327 aogonek uni01050301 uni01050300 aogonek.RetroHookStyle uni1D8F uni2C65 atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uniA733 uniA735 uni0250 uni0250.2StorySlantItalic uni1D44 uni0251 uni2C65.2StorySlantItalic a.SngStory a.SngStory.SlantItalic uni2C65.SngStory.SlantItalic aacute.SngStory aacute.SngStory.SlantItalic agrave.SngStory agrave.SngStory.SlantItalic uni0201.SngStory uni0201.SngStory.SlantItalic acircumflex.SngStory uni1EAD.SngStory acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EA7.SngStory.SlantItalic uni1EA7.SngStory.SlantItalic.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EAB.SngStory.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uni0203.SngStory uni0203.SngStory.SlantItalic abreve.SngStory uni1EB7.SngStory abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.VN uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB1.SngStory.VN uni1EB1.SngStory.SlantItalic.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB5.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN uni01CE.SngStory uni01CE.SngStory.SlantItalic atilde.SngStory atilde.SngStory.SlantItalic uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory amacron.SngStory amacron.SngStory.SlantItalic uni01010301.SngStory uni01010302.SngStory adieresis.SngStory adieresis.SngStory.SlantItalic uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni01DF.SngStory uni01DF.SngStory.SlantItalic uni0227.SngStory uni0227.SngStory.SlantItalic uni01E1.SngStory uni01E1.SngStory.SlantItalic aring.SngStory aring.SngStory.SlantItalic aringacute.SngStory aringacute.SngStory.SlantItalic uni1E9A.SngStory uni1E9A.SngStory.SlantItalic uni1EA3.SngStory uni1EA3.SngStory.SlantItalic uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA1.SngStory uni1EA10301.SngStory uni1EA10300.SngStory uni1EA1030C.SngStory uni1EA10303.SngStory uni1E01.SngStory uni1E01.SngStory.SlantItalic uni0061031C.SngStory uni00E1031C.SngStory uni00610327.SngStory uni00E10327.SngStory uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory aogonek.SngStory uni01050301.SngStory uni01050300.SngStory aogonek.SngStory.RetroHookStyle uni2C65.SngStory uni1D45 aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1EA1.SngStory.SlantItalic uni1E01.2StorySlantItalic uni1D90 uni0252 uni1D9B ae.2StorySlantItalic uni04D5 uniF1A1 aeacute aeacute.2StorySlantItalic uni01E3 uni01E3.2StorySlantItalic uni00E60330 uni1D02 uni1D46 alpha uniF247 uniF248 uni0410 uni1D2C uni1D00 uni0200 uni1EA4 uni1EA4.VN uni1EA6 uni1EA6.VN uni1EAA uni1EAA.VN uni1EA8 uni1EA8.VN uni1EAC uni0202 Abreve uni1EAE uni1EAE.VN uni1EB0 uni1EB0.VN uni1EB4 uni1EB4.VN uni1EB2 uni1EB2.VN uni1EB6 uni04D0 uni01CD uni00C30301 uni00C30300 uni00C30302 Amacron uni01000301 uni01000302 uni04D2 uni00C40301 uni00C40300 uni00C40302 uni00C4030C uni00C40303 uni01DE uni0226 uni01E0 Aringacute uni1EA2 uni0041030D uni00410330 uni00410331 uni00C10331 uni00C00331 uni00C20331 uni01CD0331 uni00C40331 uni1EA0 uni1EA00301 uni1EA00300 uni1EA0030C uni1EA00303 uni1E00 uni0041031C uni00C1031C uni00410327 uni00C10327 uni00C00327 uni00C20327 uni01CD0327 Aogonek uni01040301 uni01040300 Aogonek.RetroHookStyle uni023A uni2C6F uniA734 uniA732 uni20B3 uni2C6D uni2C6D0301 uni2C6D0300 uni2C6D0302 uni2C6D030C uniF209 uni04D4 uni1D2D uni1D01 AEacute uni01E2 uni00C60330 uni1D47 uni00620303 uni1E03 uni1E07 uni1E05 uni1D80 uni0180.BarBowl uni0180 uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dslash dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5];
+@ss012 = [a.SngStory b c d e f g.SngBowl h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde Adieresis Aring Ccedilla Eacute Ntilde Odieresis Udieresis aacute.SngStory agrave.SngStory acircumflex.SngStory adieresis.SngStory atilde.SngStory aring.SngStory ccedilla eacute egrave ecircumflex edieresis iacute igrave icircumflex idieresis ntilde oacute ograve ocircumflex odieresis otilde uacute ugrave ucircumflex udieresis dagger degree cent sterling section bullet paragraph germandbls registered copyright trademark acute dieresis notequal AE Oslash infinity plusminus lessequal greaterequal yen mu partialdiff summation product pi integral ordfeminine ordmasculine Omega ae oslash questiondown exclamdown logicalnot radical florin approxequal increment guillemotleft guillemotright ellipsis uni00A0 Agrave Atilde Otilde OE oe endash emdash quotedblleft quotedblright quoteleft quoteright divide lozenge ydieresis Ydieresis fraction currency guilsinglleft guilsinglright fi fl daggerdbl middot quotesinglbase quotedblbase perthousand Acircumflex Ecircumflex Aacute Edieresis Egrave Iacute Icircumflex Idieresis Igrave Oacute Ocircumflex uni25CC Ograve Uacute Ucircumflex Ugrave dotlessi circumflex tilde overscore breve dotaccent ring cedilla hungarumlaut ogonek caron a.2StorySlantItalic uni0430 uni2090 uni1D43 uni0363 uni0201.SngStory uni1EAD.SngStory uni1EA5.SngStory uni1EA5.VN uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7.SngStory uni1EA7.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB.SngStory uni1EAB.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9.SngStory uni1EA9.VN uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni0203.SngStory abreve.SngStory uni1EB7.SngStory uni1EAF.SngStory uni1EAF.VN uni1EAF.2StorySlantItalic.VN uni1EB1.SngStory uni1EB1.VN uni1EB1.2StorySlantItalic.VN uni1EB5.SngStory uni1EB5.VN uni1EB5.2StorySlantItalic.VN uni1EB3.SngStory uni1EB3.VN uni1EB3.2StorySlantItalic.VN uni04D1 uni01CE.SngStory uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory amacron.SngStory uni01010301.SngStory uni01010302.SngStory uni04D3 uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni01DF.SngStory uni0227.SngStory uni01E1.SngStory aringacute.SngStory uni1E9A.SngStory uni1EA3.SngStory uni0061030D uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA1.SngStory uni1EA10301.SngStory uni1EA10300.SngStory uni1EA1030C.SngStory uni1EA10303.SngStory uni1E01.SngStory uni0061031C.SngStory uni00E1031C.SngStory uni00610327.SngStory uni00E10327.SngStory uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory aogonek.SngStory uni01050301.SngStory uni01050300.SngStory aogonek.RetroHookStyle uni1D8F uni2C65.SngStory atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uniA733 uniA735 uni0250 uni0250.2StorySlantItalic uni1D44 uni0251 uni2C65.2StorySlantItalic a.SngStory a.SngStory.SlantItalic uni2C65.SngStory.SlantItalic aacute.SngStory aacute.SngStory.SlantItalic agrave.SngStory agrave.SngStory.SlantItalic uni0201.SngStory uni0201.SngStory.SlantItalic acircumflex.SngStory uni1EAD.SngStory acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EA7.SngStory.SlantItalic uni1EA7.SngStory.SlantItalic.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EAB.SngStory.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uni0203.SngStory uni0203.SngStory.SlantItalic abreve.SngStory uni1EB7.SngStory abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.VN uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB1.SngStory.VN uni1EB1.SngStory.SlantItalic.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB5.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN uni01CE.SngStory uni01CE.SngStory.SlantItalic atilde.SngStory atilde.SngStory.SlantItalic uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory amacron.SngStory amacron.SngStory.SlantItalic uni01010301.SngStory uni01010302.SngStory adieresis.SngStory adieresis.SngStory.SlantItalic uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni01DF.SngStory uni01DF.SngStory.SlantItalic uni0227.SngStory uni0227.SngStory.SlantItalic uni01E1.SngStory uni01E1.SngStory.SlantItalic aring.SngStory aring.SngStory.SlantItalic aringacute.SngStory aringacute.SngStory.SlantItalic uni1E9A.SngStory uni1E9A.SngStory.SlantItalic uni1EA3.SngStory uni1EA3.SngStory.SlantItalic uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA1.SngStory uni1EA10301.SngStory uni1EA10300.SngStory uni1EA1030C.SngStory uni1EA10303.SngStory uni1E01.SngStory uni1E01.SngStory.SlantItalic uni0061031C.SngStory uni00E1031C.SngStory uni00610327.SngStory uni00E10327.SngStory uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory aogonek.SngStory uni01050301.SngStory uni01050300.SngStory aogonek.SngStory.RetroHookStyle uni2C65.SngStory uni1D45 aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1EA1.SngStory.SlantItalic uni1E01.2StorySlantItalic uni1D90 uni0252 uni1D9B ae.2StorySlantItalic uni04D5 uniF1A1 aeacute aeacute.2StorySlantItalic uni01E3 uni01E3.2StorySlantItalic uni00E60330 uni1D02 uni1D46 alpha uniF247 uniF248 uni0410 uni1D2C uni1D00 uni0200 uni1EA4 uni1EA4.VN uni1EA6 uni1EA6.VN uni1EAA uni1EAA.VN uni1EA8 uni1EA8.VN uni1EAC uni0202 Abreve uni1EAE uni1EAE.VN uni1EB0 uni1EB0.VN uni1EB4 uni1EB4.VN uni1EB2 uni1EB2.VN uni1EB6 uni04D0 uni01CD uni00C30301 uni00C30300 uni00C30302 Amacron uni01000301 uni01000302 uni04D2 uni00C40301 uni00C40300 uni00C40302 uni00C4030C uni00C40303 uni01DE uni0226 uni01E0 Aringacute uni1EA2 uni0041030D uni00410330 uni00410331 uni00C10331 uni00C00331 uni00C20331 uni01CD0331 uni00C40331 uni1EA0 uni1EA00301 uni1EA00300 uni1EA0030C uni1EA00303 uni1E00 uni0041031C uni00C1031C uni00410327 uni00C10327 uni00C00327 uni00C20327 uni01CD0327 Aogonek uni01040301 uni01040300 Aogonek.RetroHookStyle uni023A uni2C6F uniA734 uniA732 uni20B3 uni2C6D uni2C6D0301 uni2C6D0300 uni2C6D0302 uni2C6D030C uniF209 uni04D4 uni1D2D uni1D01 AEacute uni01E2 uni00C60330 uni1D47 uni00620303 uni1E03 uni1E07 uni1E05 uni1D80 uni0180.BarBowl uni0180 uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dslash dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5.SngBowl gcircumflex.SngBowl gbreve.SngBowl gcaron.SngBowl uni1E21.SngBowl uni00670308.SngBowl gdotaccent.SngBowl uni00670331.SngBowl uni00670323.SngBowl gcommaaccent.SngBowl uni01E5.BarBowl.SngBowl uni01E5.BarBowl.SngBowl];
+@ss021 = [scedilla uni0282 uni1DB3 uni1D8A uni1D74 uni023F uni01A8 uni0283 uni1DB4 uni1D98 uni1D8B uni0286 uni0405 uniA731 Sacute uni1E64 Scircumflex Scaron uni1E66 uni1E60 uni1E62 uni1E62030C uni1E68 Scommaaccent Scedilla.CommaStyle Scedilla uni01A7 uni20B4 uni1D57 uni036D tcaron.Caron uni00740304 uni1E97 uni1E6B uni1E71 uni1E6F uni1E6D uni021B uni0163.CommaStyle tcaron uni0163 uni01AB uni1DB5 tbar uni1D75 uni2C66 uni01AD uni01AD.RtHook uni0288 uni0236 uni1D7A uni02A8 uni02A6 uni02A7 uniA729 uniA72C uniA72E uni0287 uni0442 uni04AD uni050F uni04B5 uni0422 uni1D40 uni1D1B Tcaron uni00540304 uni1E6A uni1E70 uni1E6E uni1E6C uni021A uni0162.CommaStyle uni0162];
+@ss022 = [scedilla.CommaStyle uni0282 uni1DB3 uni1D8A uni1D74 uni023F uni01A8 uni0283 uni1DB4 uni1D98 uni1D8B uni0286 uni0405 uniA731 Sacute uni1E64 Scircumflex Scaron uni1E66 uni1E60 uni1E62 uni1E62030C uni1E68 Scommaaccent Scedilla.CommaStyle Scedilla.CommaStyle uni01A7 uni20B4 uni1D57 uni036D tcaron.Caron uni00740304 uni1E97 uni1E6B uni1E71 uni1E6F uni1E6D uni021B uni0163.CommaStyle tcaron uni0163.CommaStyle uni01AB uni1DB5 tbar uni1D75 uni2C66 uni01AD uni01AD.RtHook uni0288 uni0236 uni1D7A uni02A8 uni02A6 uni02A7 uniA729 uniA72C uniA72E uni0287 uni0442 uni04AD uni050F uni04B5 uni0422 uni1D40 uni1D1B Tcaron uni00540304 uni1E6A uni1E70 uni1E6E uni1E6C uni021A uni0162.CommaStyle uni0162.CommaStyle];
+@ss031 = [uni0180 uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dslash dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5];
+@ss032 = [uni0180.BarBowl uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dcroat.BarBowl dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5.BarBowl];
+@ss041 = [ogonek caron a.2StorySlantItalic uni0430 uni2090 uni1D43 uni0363 uni0201 uni1EAD uni1EA5 uni1EA5.VN uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7 uni1EA7.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB uni1EAB.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9 uni1EA9.VN uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni0203 abreve uni1EB7 uni1EAF uni1EAF.VN uni1EAF.2StorySlantItalic.VN uni1EB1 uni1EB1.VN uni1EB1.2StorySlantItalic.VN uni1EB5 uni1EB5.VN uni1EB5.2StorySlantItalic.VN uni1EB3 uni1EB3.VN uni1EB3.2StorySlantItalic.VN uni04D1 uni01CE uni00E30301 uni00E30300 uni00E30302 amacron uni01010301 uni01010302 uni04D3 uni00E40301 uni00E40300 uni00E40302 uni00E4030C uni00E40303 uni01DF uni0227 uni01E1 aringacute uni1E9A uni1EA3 uni0061030D uni00610330 uni00610331 uni00E10331 uni00E00331 uni00E20331 uni01CE0331 uni00E40331 uni1EA1 uni1EA10301 uni1EA10300 uni1EA1030C uni1EA10303 uni1E01 uni0061031C uni00E1031C uni00610327 uni00E10327 uni00E00327 uni00E20327 uni01CE0327 aogonek uni01050301 uni01050300 aogonek.RetroHookStyle uni1D8F uni2C65 atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uniA733 uniA735 uni0250 uni0250.2StorySlantItalic uni1D44 uni0251 uni2C65.2StorySlantItalic a.SngStory a.SngStory.SlantItalic uni2C65.SngStory.SlantItalic aacute.SngStory aacute.SngStory.SlantItalic agrave.SngStory agrave.SngStory.SlantItalic uni0201.SngStory uni0201.SngStory.SlantItalic acircumflex.SngStory uni1EAD.SngStory acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EA7.SngStory.SlantItalic uni1EA7.SngStory.SlantItalic.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EAB.SngStory.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uni0203.SngStory uni0203.SngStory.SlantItalic abreve.SngStory uni1EB7.SngStory abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.VN uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB1.SngStory.VN uni1EB1.SngStory.SlantItalic.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB5.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN uni01CE.SngStory uni01CE.SngStory.SlantItalic atilde.SngStory atilde.SngStory.SlantItalic uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory amacron.SngStory amacron.SngStory.SlantItalic uni01010301.SngStory uni01010302.SngStory adieresis.SngStory adieresis.SngStory.SlantItalic uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni01DF.SngStory uni01DF.SngStory.SlantItalic uni0227.SngStory uni0227.SngStory.SlantItalic uni01E1.SngStory uni01E1.SngStory.SlantItalic aring.SngStory aring.SngStory.SlantItalic aringacute.SngStory aringacute.SngStory.SlantItalic uni1E9A.SngStory uni1E9A.SngStory.SlantItalic uni1EA3.SngStory uni1EA3.SngStory.SlantItalic uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA1.SngStory uni1EA10301.SngStory uni1EA10300.SngStory uni1EA1030C.SngStory uni1EA10303.SngStory uni1E01.SngStory uni1E01.SngStory.SlantItalic uni0061031C.SngStory uni00E1031C.SngStory uni00610327.SngStory uni00E10327.SngStory uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory aogonek.SngStory uni01050301.SngStory uni01050300.SngStory aogonek.SngStory.RetroHookStyle uni2C65.SngStory uni1D45 aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1EA1.SngStory.SlantItalic uni1E01.2StorySlantItalic uni1D90 uni0252 uni1D9B ae.2StorySlantItalic uni04D5 uniF1A1 aeacute aeacute.2StorySlantItalic uni01E3 uni01E3.2StorySlantItalic uni00E60330 uni1D02 uni1D46 alpha uniF247 uniF248 uni0410 uni1D2C uni1D00 uni0200 uni1EA4 uni1EA4.VN uni1EA6 uni1EA6.VN uni1EAA uni1EAA.VN uni1EA8 uni1EA8.VN uni1EAC uni0202 Abreve uni1EAE uni1EAE.VN uni1EB0 uni1EB0.VN uni1EB4 uni1EB4.VN uni1EB2 uni1EB2.VN uni1EB6 uni04D0 uni01CD uni00C30301 uni00C30300 uni00C30302 Amacron uni01000301 uni01000302 uni04D2 uni00C40301 uni00C40300 uni00C40302 uni00C4030C uni00C40303 uni01DE uni0226 uni01E0 Aringacute uni1EA2 uni0041030D uni00410330 uni00410331 uni00C10331 uni00C00331 uni00C20331 uni01CD0331 uni00C40331 uni1EA0 uni1EA00301 uni1EA00300 uni1EA0030C uni1EA00303 uni1E00 uni0041031C uni00C1031C uni00410327 uni00C10327 uni00C00327 uni00C20327 uni01CD0327 Aogonek uni01040301 uni01040300 Aogonek.RetroHookStyle uni023A uni2C6F uniA734 uniA732 uni20B3 uni2C6D uni2C6D0301 uni2C6D0300 uni2C6D0302 uni2C6D030C uniF209 uni04D4 uni1D2D uni1D01 AEacute uni01E2 uni00C60330 uni1D47 uni00620303 uni1E03 uni1E07 uni1E05 uni1D80 uni0180.BarBowl uni0180 uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dslash dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5 g.SngBowl uni0261 uni1DA2 uni01F5.SngBowl gcircumflex.SngBowl gbreve.SngBowl gcaron.SngBowl uni1E21.SngBowl uni00670308.SngBowl gdotaccent.SngBowl uni00670331.SngBowl uni00670323.SngBowl gcommaaccent.SngBowl uni1D83 uni01E5.BarBowl.SngBowl uni0260 uni1D77 uni1D79 uni050D uni1D33 uni0262 uni01F4 Gcircumflex Gbreve Gcaron uni1E20 uni00470308 Gdotaccent uni00470331 uni00470323 Gcommaaccent uni01E4 uni0193 uni029B uni20B2 uni050C uni02B0 uni036A hcircumflex uni021F uni1E27 uni1E23 uni1E2B uni1E96 uni1E25 uni1E29 hbar hbar.VertStrk uni045B uniF1BC uni0452 uni0266 uni02B1 uniA727 uni0267 uni2C68 uni0195 uni2C76 uni0265 uni1DA3 uni02AE uni02AF uni04BB uni04BB.UCStyle uni0495 uniF32D uni043D uni04A5 uni04A3 uni04CA uni045A uni04C8 uni050B uni0523 uni043F uni0525 uni04A7 uni045F uni0446 uni0448 uni0449 uni1D28 uni041D uni0522 uni1D34 uni1D78 uni029C Hcircumflex uni021E uni1E26 uni1E22 uni1E2A uni00480331 uni1E24 uni1E28 Hbar Hbar.VertStrk uniA726 uni2C67 uni01F6 uni2C75 uniF26B uni04BA uni0494 uniF32C uni04A4 uni04A2 uni04C9 uni040A uni04C7 uni050A uni041F uni0524 uni04A6 uni040F uni0426 uni0428 uni0429 GrCapPi i.SlantItalic uni0456 uni2170 uni1D62 uni2071 uni0365 iacute.SlantItalic igrave.SlantItalic uni0209 uni0209.SlantItalic uni00691DC7 icircumflex.SlantItalic uni020B uni020B.SlantItalic ibreve ibreve.SlantItalic uni01D0 uni01D0.SlantItalic itilde itilde.SlantItalic uni01290301 uni01290300 uni01290302 imacron uni00691DC6 imacron.SlantItalic uni012B0301 uni012B0300 uni012B0302 idieresis.SlantItalic uni0457 uni1E2F uni1E2F.SlantItalic uni00EF0300 uni00EF0302 uni00EF0303 idotaccent idotaccent.SlantItalic uni0069030A uni1EC9 uni1EC9.SlantItalic uni0069030D uni1E2D uni1E2D.SlantItalic uni00690331 uni00ED0331 uni00EC0331 uni00EE0331 uni01D00331 uni00EF0331 uni1ECB uni1ECB.SlantItalic uni1ECB0301 uni1ECB0300 uni1ECB0302 uni1ECB030C uni1ECB0303 uni0069031C uni00ED031C uni0069031C0331 uni00690327 uni00ED0327 uni00EC0327 uni00EE0327 uni01D00327 iogonek uni012F0301 uni012F0300 iogonek.RetroHookStyle uni1D96 uni0268 uni1DA4 uni02680330 uni02680331 i.Dotless dotlessi.SlantItalic i.Dotless.SlantItalic uni0456.Dotless uni1D62.Dotless uni2071.Dotless uni1E2D.Dotless uni1ECB.Dotless iogonek.Dotless uni1D96.Dotless uni0268.Dotless uni1DA4.Dotless uni02680301 uni02680300 uni02680302 uni0268030C uni02680303 uni02680304 uni02680308 uni1D09 uni1D4E ij uni2171 uni2172 uni2173 uni2178 uni0269 uni1DA5 uni02690301 uni02690300 uni02691DC7 uni02690302 uni0269030C uni02690303 uni02691DC6 uni02690330 uni1D7C uni044E uni0406 uni04C0 uni04CF uni2160 uni1D35 uni026A uni1DA6 uni0208 uni00491DC7 uni020A Ibreve uni01CF Itilde uni01280301 uni01280300 uni01280302 Imacron uni00491DC6 uni012A0301 uni012A0300 uni012A0302 uni0407 uni1E2E uni00CF0300 uni00CF0302 uni00CF0303 Idot uni0049030A uni1EC8 uni0049030D uni1E2C uni00490331 uni00CD0331 uni00CC0331 uni00CE0331 uni01CF0331 uni00CF0331 uni1ECA uni1ECA0301 uni1ECA0300 uni1ECA0302 uni1ECA030C uni1ECA0303 uni0049031C uni00CD031C uni0049031C0331 uni00490327 uni00CD0327 uni00CC0327 uni00CE0327 uni01CF0327 Iogonek uni012E0301 uni012E0300 Iogonek.RetroHookStyle uni0197 uni1D7B uni1DA7 uni01970301 uni01970300 uni01970302 uni0197030C uni01970303 uni01970304 uni01970308 uni01970330 uni01970331 uniA7FE IJ uni2161 uni2162 uni2163 uni2168 uniF258 uni0196 uni01960301 uni01960300 uni01961DC7 uni01960302 uni0196030C uni01960303 uni01961DC6 uni01960330 uni042E uni0458 uni2C7C uni02B2 jcircumflex uni01F0 uni006A0323 uni0249 uni029D uni1DA8 j.Dotless uni0237 uni0458.Dotless uni02B2.Dotless uni006A0303 uni025F uni0249.Dotless uni1DA1 uni029D.Dotless uni1DA8.Dotless uni0284.DblSerif uni0284 uni043B uni04C6 uni0459 uni0513 uni0509 uni0434 uni0521 uni0515 uni0408 uni1D36 uni1D0A Jcircumflex uni004A0303 uni004A0323 uni0248 uni041B uni1D2B uni04C5 uni0409 uni0512 uni0508 uni0520 uni0514 uni0414 uni1D4F uni1E31 uni01E9 uni006B0304 uni006B0307 uni1E35 uni1E33 kcommaaccent uni1D84 uniA741 uni0199 uni2C6A uni029E kgreenlandic uni043A uni045C uni049B uni04A1 uni049F uni049D uni04C4 uni051F uni0436 uni04C2 uni04DD uni0497 uni1D37 uni1D0B uni1E30 uni01E8 uni004B0304 uni004B0307 uni1E34 uni1E32 Kcommaaccent uniA740 uni0198 uni2C69 uni20AD uni041A uni040C uni049A uni04A0 uni049E uni049C uni04C3 uni051E uni0416 uni04C1 uni04DC uni0496 l.SlantItalic uni217C uni02E1 lacute lacute.SlantItalic lcaron.Caron uni006C0325 uni1E3D uni1E3D.SlantItalic uni1E3B uni1E3B.SlantItalic uni1E37 uni1E37.SlantItalic uni1E39 uni1E39.SlantItalic lcommaaccent ldot lcaron uni1D85 uni1DAA uni019A uni2C61 uni026B lslash uni026D uni1DA9 uni0234 uni026C uniF266 uni01C9 uni1EFB uni02AA uni02AB uni026E uni20B0 lira uni216C uni1D38 uni029F uni1DAB uniF268 Lacute uni004C0325 uni1E3C uni1E3A uni1E36 uni1E38 Lcommaaccent Ldot Lcaron Lcaron.Caron uni023D uni2C60 uni2C62 Lslash uni1D0C uni01C8 uni01C7 uni1EFA uni217F uni1D50 uni036B uni1E3F uni006D0300 uni006D0302 uni006D030C uni006D0303 uni006D0304 uni1E41 uni006D030A uni006D030D uni006D0331 uni1E43 uni1D86 uni1D6F uni20A5 uni0271 uni1DAC uni026F uni1D5A uni0270 uni1DAD uni1D1F uni043C uni04CE uni041C uni216F uni1D39 uni1D0D uni1E3E uni004D0300 uni004D0302 uni004D030C uni004D0303 uni004D0304 uni1E40 uni004D030A uni004D030D uni004D0331 uni1E42 uni2C6E uni019C uniA7FD uniA7FF uni04CD u1D510 uni207F nacute uni01F9 uni006E0302 ncaron uni006E0304 uni1E45 uni006E030A uni006E030D uni1E4B uni1E49 uni1E47 ncommaaccent napostrophe uni1D87 uni1D70 uni0272 uni1DAE uni02720301 uni02720304 uni0272.LCStyle eng eng.BaselineHook eng.UCStyle uni1D51 eng.Kom uni014B0301 uni014B0300 uni014B0302 uni014B0303 uni014B0323 uni0273 uni1DAF uni0235 uni019E uni01CC uni0438 uni045D uni0439 uni048B uni04E3 uni04E5 uni1D3A uni0274 uni1DB0 Nacute uni01F8 uni004E0302 Ncaron uni004E0304 uni1E44 uni004E030A uni004E030D uni1E4A uni1E48 uni1E46 Ncommaaccent uni20A6 uni019D uni019D0301 uni019D0304 Eng.UCStyle uni014A0301.UCStyle uni014A0300.UCStyle uni014A0302.UCStyle uni014A0303.UCStyle uni014A0323.UCStyle uni1D0E uni1D3B uni019D.LCStyle Eng.BaselineHook uni014A0301.BaselineHook uni014A0300.BaselineHook uni014A0302.BaselineHook uni014A0303.BaselineHook uni014A0323.BaselineHook Eng uni014A0301 uni014A0300 uni014A0302 uni014A0303 uni014A0323 uni0220 Eng.Kom uni014A0301.Kom uni014A0300.Kom uni014A0302.Kom uni014A0303.Kom uni014A0323.Kom uni01CB uni01CA uni2116 uni0418 uni040D uni0419 uni048A uni04E4 uni04E2 uni043E uni2092 uni1D52 uni0366 ohungarumlaut uni020D uni006F1DC7 uni1ED1 uni1ED1.VN uni1ED3 uni1ED3.VN uni1ED7 uni1ED7.VN uni1ED5 uni1ED5.VN uni1ED9 uni020F obreve uni01D2 uni1E4D uni00F50300 uni00F50302 uni022D uni1E4F omacron uni006F1DC6 uni1E53 uni1E51 uni014D0302 uni04E7 uni00F60301 uni00F60300 uni00F60302 uni00F60303 uni022B uni022F uni0231 uni006F030A uni1ECF uni006F030D uni006F0330 uni006F0331 uni00F30331 uni00F20331 uni00F40331 uni01D20331 uni00F60331 uni1ECD uni1ECD0301 uni1ECD0300 uni1ECD030C uni1ECD0303 uni006F031C uni00F3031C uni006F031C0331 uni006F0327 uni00F30327 uni00F20327 uni00F40327 uni01D20327 uni01EB uni01EB0301 uni01EB0300 uni01ED uni01EB.RetroHookStyle uni01ED.RetroHookStyle uni018D uni0275 uni04E9 uni1DB1 uni02750301 uni04EB theta uni1DBF uni0473 uniF1AB oslashacute uni00F80331 emptyset.SlashZero emptyset ohorn uni1EDB uni1EDD uni1EE1 uni1EDF uni1EE3 sigma uni04A9 uni1D11 uni1D13 uniF1AD uni01530301 uni01530300 uni01530302 uni0153030C uni1D14 uni01A3 uniA74F uni0223 uni0223.OpenTop uni1D17 uni1D55 uni1D16 uni1D54 uni041E uni1D3C uni1D0F Ohungarumlaut uni020C uni004F1DC7 uni1ED0 uni1ED0.VN uni1ED2 uni1ED2.VN uni1ED6 uni1ED6.VN uni1ED4 uni1ED4.VN uni1ED8 uni020E Obreve uni01D1 uni1E4C uni00D50300 uni00D50302 uni022C uni1E4E Omacron uni004F1DC6 uni1E52 uni1E50 uni014C0302 uni04E6 uni00D60301 uni00D60300 uni00D60302 uni00D60303 uni022A uni022E uni0230 uni004F030A uni1ECE uni004F030D uni004F0330 uni004F0331 uni00D30331 uni00D20331 uni00D40331 uni01D10331 uni00D60331 uni1ECC uni1ECC0301 uni1ECC0300 uni1ECC030C uni1ECC0303 uni004F031C uni00D3031C uni004F031C0331 uni004F0327 uni00D30327 uni00D20327 uni00D40327 uni01D10327 uni01EA uni01EA0301 uni01EA0300 uni01EC uni01EA.RetroHookStyle uni01EC.RetroHookStyle uni019F uni04E8 uni019F0301 uni04EA Theta uni0472 Oslashacute uni00D80331 Ohorn uni1EDA uni1EDC uni1EE0 uni1EDE uni1EE2 uni04A8 uni0276 uniF1AE uni01520301 uni01520300 uni01520302 uni0152030C uni01A2 uniA74E uni0222 uni0222.OpenTop uni1D3D uni1D3D.OpenTop uni1D15 uni1D15.OpenTop uni03A9 uni0298 uni0440 uni1D56 uni1E55 uni00700303 uni00700304 uni1E57 uni00700331 uni1D88 uni1D7D uni048F uni1D71 thorn uni01A5 uni01A5.BowlHook uni0517 uni01BF GrSmRho uni1D68 uni0278 uni1DB2 uni0444 uni1D69 uni1D60 uni2C77 uni0420 uni1D3E uni1D18 uni1D29 uni1E54 uni00500303 uni00500304 uni1E56 uni00500331 uni048E uni2C63 uni01A4 uni0516 uni20B1 peseta Thorn uni01F7 u1D513 uni0424 uni1D2A uni051B uni02A0 uni024B uni01AA uni0239 uni051A uni024A uni1D63 uni1DCA uni02B3 uni036C racute uni0211 uni0213 rcaron uni00720303 uni1E59 uni00720325 uni1E5F uni1E5B uni1E5D rcommaaccent uni1D89 uni024D uni1D72 uni027D uni027D.LCStyle uni027C uni0279 uni02B4 uni027B uni02B5 uniF269 uni027A uni2C79 uni027E uni1D73 uni0285 uni027F uni1D3F uni0280 Racute uni0210 uni0212 Rcaron uni00520303 uni1E58 uni00520325 uni1E5E uni1E5A uni1E5C Rcommaaccent uni024C uni2C64 uni2C64.LCStyle uni01A6 uni20A8 uni211F uni1D1A uni0281 uni02B6 uni042F uni1D19 uni044F uni0519 uni0518 uni0455 uni02E2 sacute uni1E65 scircumflex scaron uni1E67 uni1E61 uni1E63 uni1E63030C uni1E69 scommaaccent scedilla.CommaStyle scedilla uni0282 uni1DB3 uni1D8A uni1D74 uni023F uni01A8 uni0283 uni1DB4 uni1D98 uni1D8B uni0286 uni0405 uniA731 Sacute uni1E64 Scircumflex Scaron uni1E66 uni1E60 uni1E62 uni1E62030C uni1E68 Scommaaccent Scedilla.CommaStyle Scedilla uni01A7 uni20B4 uni1D57 uni036D tcaron.Caron uni00740304 uni1E97 uni1E6B uni1E71 uni1E6F uni1E6D uni021B uni0163.CommaStyle tcaron uni0163 uni01AB uni1DB5 tbar uni1D75 uni2C66 uni01AD uni01AD.RtHook uni0288 uni0236 uni1D7A uni02A8 uni02A6 uni02A7 uniA729 uniA72C uniA72E uni0287 uni0442 uni04AD uni050F uni04B5 uni0422 uni1D40 uni1D1B Tcaron uni00540304 uni1E6A uni1E70 uni1E6E uni1E6C uni021A uni0162.CommaStyle uni0162 Tbar uni20AE uni023E uni01AC uni01AC.RtHook uni01AE uniA728 uni04AC uni050E uni04B4 uni040B uni0402 uni1D64 uni1D58 uni0367 uhungarumlaut uni00F90303 uni0215 uni0217 ubreve uni01D4 utilde uni1E79 uni01690300 uni01690302 umacron uni016B0301 uni016B0300 uni016B0302 uni1E7B uni01D8 uni01DC uni00FC0302 uni01DA uni00FC0303 uni00FC03030301 uni01D6 uring uni1EE7 uni0075030D uni1E77 uni1E75 uni00750331 uni00FA0331 uni00F90331 uni00FB0331 uni01D40331 uni00FC0331 uni01D80331 uni1E73 uni1EE5 uni1EE50301 uni1EE50300 uni1EE50302 uni1EE5030C uni1EE50303 uni0075031C uni00FA031C uni0075031C0331 uni00750327 uni00FA0327 uni00F90327 uni00FB0327 uni01D40327 uogonek uogonek.RetroHookStyle uni1D99 uni0289 uni1DB6 uni02890301 uni02890300 uni02890302 uni0289030C uni02890308 uni02890331 uhorn uni1EE9 uni1EEB uni1EEF uni1EED uni1EF1 uni1D6B uni1D1D uni1D59 uni1D1E uni028B uni1DB9 uni028B0301 uni028B0300 uni028B0302 uni028B0303 uni028B0330 uni1EFD uni028A uni1DB7 uni028A0301 uni028A0300 uni028A0302 uni028A030C uni1D7F uniF259 uni1D41 uni1D1C uni1DB8 Uhungarumlaut uni00D90303 uni0214 uni0216 Ubreve uni01D3 Utilde uni1E78 uni01680300 uni01680302 Umacron uni016A0301 uni016A0300 uni016A0302 uni1E7A uni01D7 uni01DB uni00DC0302 uni01D9 uni00DC0303 uni00DC03030301 uni01D5 Uring uni1EE6 uni0055030D uni1E76 uni1E74 uni00550331 uni00DA0331 uni00D90331 uni00DB0331 uni01D30331 uni00DC0331 uni01D70331 uni1E72 uni1EE4 uni1EE40301 uni1EE40300 uni1EE40302 uni1EE4030C uni1EE40303 uni0055031C uni00DA031C uni0055031C0331 uni00550327 uni00DA0327 uni00D90327 uni00DB0327 uni01D30327 Uogonek Uogonek.RetroHookStyle uni0244 uni1D7E uniF1CD uni02440301 uni02440300 uni02440302 uni0244030C uni02440308 uni02440331 Uhorn uni1EE8 uni1EEA uni1EEE uni1EEC uni1EF0 uni01B2 uni01B20301 uni01B20300 uni01B20302 uni01B20303 uni01B20330 uni1EFC uni01B1 uni01B10301 uni01B10300 uni01B10302 uni01B1030C v.SlantItalic uni2174 uni1D65 uni1D5B uni036E uni1E7D uni1E7D.SlantItalic uni1E7F uni1E7F.SlantItalic uni1D8C uni2C71 uni028B.StraightLft uni028B.StraightLftHighHook uni0474 uni2C74 uni2175 uni2176 uni2177 uni028C uni1DBA uni0264.LrgBowl uni0264 uniF1B5 uni0264.GammaStyle uni0263 uni02E0 gamma uni1D67 uni1D5E uni2164 uni1D20 uni1E7C uni1E7E uni2123 uni01B2.StraightLft uni01B2.StraightLftHighHook uni0475 uni2165 uni2166 uni2167 uni0245 uni1D27 uni0194 uni051D uni02B7 wacute wgrave wcircumflex wdieresis uni1E87 uni1E98 uni00770330 uni00770331 uni1E89 uni2C73 uni02AC uni028D uni0277 uni051C uni1D42 uni1D21 Wacute Wgrave Wcircumflex Wdieresis uni1E86 uni00570330 uni00570331 uni1E88 uni2C72 uni20A9 uni0445 uni2179 uni2093 uni02E3 uni036F uni1E8D uni1E8B uni00780331 uni1D8D uni04FF uni04FD uni04B3 uni217A uni217B chi uni1D6A uni1D61 uni0425 uni2169 uni1E8C uni1E8A uni00580331 uni04FE uni04FC uni04B2 uni216A uni216B uni0443 uni02B8 yacute uni04F3 ygrave ycircumflex uni045E uni1EF9 uni0233 uni04EF uni04F1 uni1E8F uni1E99 uni1EF7 uni1EF5 uni024F uni01B4.RtHook uni01B4 uni1EFF uni04AF uni04B1 uni028E uniF1CE uniF267 lambda uni019B uni0447 uni04F5 uni04B9 uni04B7 uni04CC uni04AE uni028F uniF1B4 Yacute Ygrave Ycircumflex uni1EF8 uni0232 uni1E8E uni1EF6 uni1EF4 uni024E uni04B0 uni01B3 uni01B3.RtHook uni1EFE uni0423 uni04F2 uni040E uni04EE uni04F0 uni0427 uni04F4 uni04B8 uni04B6 uni04CB z.SlantItalic uni1DBB zacute zacute.SlantItalic uni1E91 uni1E91.SlantItalic uni007A0306 zcaron zcaron.SlantItalic uni007A0303 zdotaccent zdotaccent.SlantItalic uni1E95 uni1E95.SlantItalic uni1E93 uni1E93.SlantItalic uni1E930306 uni1E93030C uni0290 uni1DBC uni1D8E uni01B6 uni1D76 uni0291 uni1DBD uni0225 uni2C6C uni0240 uni1D22 Zacute uni1E90 uni005A0306 Zcaron uni005A0303 Zdotaccent uni1E94 uni1E92 uni1E920306 uni1E92030C uniF234 uni01B5 uni0224 uni2C6B uni01A9 uni01B7.RevSigmaStyle uni04E0.RevSigmaStyle uni0292 uni0292.RevSigmaStyle uni04E1 uni04E1.RevSigmaStyle uni1DBE uni01EF uni1D9A uniF235 uni0293 uni0293.LrgBowl uni01BA uni01B9 uniA72B uniA72D uniA72F uni021D uni01B7 uni04E0 uni1D23 uni01EE uni01B8 uniA72A uni021C uni0294 uni02C0 uni0242 uni0241 uni02A1 uni0295 uni02C1 uni02E4 uni02A2 uni0296 uni01BE uni1D24 uni1D25 uni1D5C uni2C7D uni20AA uni2080 uni2070 uni2081 onesuperior uni2082 twosuperior uni01BB uni2083 threesuperior uni2084 uni2074 uni2085 uni2075 uni01BC uni01BD uni2086 uni2076 uni2087 uni2077 uni2088 uni2078 uni2089 uni2079 uni215F onehalf onethird onequarter uni2155 uni2159 oneeighth twothirds uni2156 threequarters uni2157 threeeighths uni2158 uni215A fiveeighths seveneighths uni01C3 uniA71D uniA71F uniA71E exclamdbl uniA78B uniA78B.Lrg uniA78C uniA78C.Lrg onedotenleader twodotenleader uni02F8 uniA789 uniA789.Wide uni02BB uni0312 quotereversed uni02BD uni0314 uni02BC uni02BC.Lrg uni201F uni02EE uni02D0 uni02D1 anoteleia uni2027 uni2219 uni208D uni207D uni208E uni207E uni27E6 uni27E7 uni2308 uni231C uni2309 uni231D uni230A uni231E uni230B uni231F uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23AA uni23A9 uni23AB uni23AC uni23AD uni01C0 uni01C1 uni01C2 uni2016 ParallelTo brokenbar uni02CC uni02C8 uni0337 uni0338 uni20E5 uni2010 uni2011 uni00AD figuredash uni2015 minus uni02D7 uni208B uni207B uni0320 uni0335 uni0336 uni02CF uni0317 uni02CA acutecomb minute uni02B9 second uni02BA uni02F6 uni030B uni2034 uni2057 uni02CE uni0316 uni02F4 uni02CB gravecomb uni2035 uni2036 uni02F5 uni030F uni2037 uni2038 uni032D uniA788 uni0302 uni0302_acutecomb.VN uni0302_gravecomb.VN uni0302_tildecomb.VN uni0302_hookabovecomb.VN uni032F uni0311 uni0311.UU uni0311.UL uni0311.LL uni0352 uni2040 uni0361 uni0361.UU uni0361.UL uni0361.LL uniFE20 uniFE21 uni032E uni0306 uni0306_acutecomb.VN uni0306_gravecomb.VN uni0306_tildecomb.VN uni0306_hookabovecomb.VN uni0310 uni0306.CyShortMrkAlt CombBreve.CyShortMrkAlt.UCHt uni1DCB uni203F uni035C uni035D uni1DCD uni02EC uni032C uni030C uni1DC7 uni1DC4 uni1DCC uni1DC5 uni1DC6 uni1DC9 uni1DC8 uni02F7 uni0330 uni0334 tildecomb uni034A CombTildeOverlay.Lrg similar uni2053 uni034C uniF17B uni034B uni0360 uniFE22 uniFE23 uni033E uni035B uni0359 uni0353 uni02DF uni033D multiply uni032B uni033C uni02CD uni0331 uni0331.Short uni02C9 uni0304 uni0304.Short uni035F uni035E uni0332 uni0305 underscoredbl uni0333 uni0347 uni033F uni02ED uniA78A uni208C uni207C uni225F equivalence uni0324 uni0308 uni0308.UU uni0308.LL uni0308.UL uni0308.Sup uniF17A dotbelowcomb uni0307 uni0358 uni0326 uni0313 uni0315 uni031B uni02F3 uni0325 uni030A uni035A uni031C uni02D3 uni02BF uni0351 uni0339 uni02D2 uni02BE uni0357 uniA724 uniA725 uniA722 uniA723 hookabovecomb uni0329 uni030D uni0348 uni030E uni208A uni031F uni02D6 uni207A uni031E uni02D5 uni031D uni02D4 uni0318 uni0319 uni02EB uni02EA uni0349 uni031A uni02CB.ChinantecTn uni02C8.ChinantecTn uni02CA.ChinantecTn uniA717 uniA718 uniA719 uniA71A uni02C9.ChinantecTn uniA720 uniA721 uni02FE uni02FD uni02AD uni0327 uni0328];
+@ss042 = [ogonek.RetroHookStyle caron a.2StorySlantItalic uni0430 uni2090 uni1D43 uni0363 uni0201 uni1EAD uni1EA5 uni1EA5.VN uni1EA5.2StorySlantItalic uni1EA5.2StorySlantItalic.VN uni1EA7 uni1EA7.VN uni1EA7.2StorySlantItalic uni1EA7.2StorySlantItalic.VN uni1EAB uni1EAB.VN uni1EAB.2StorySlantItalic.VN uni1EAB.2StorySlantItalic uni1EA9 uni1EA9.VN uni1EA9.2StorySlantItalic uni1EA9.2StorySlantItalic.VN uni0203 abreve uni1EB7 uni1EAF uni1EAF.VN uni1EAF.2StorySlantItalic.VN uni1EB1 uni1EB1.VN uni1EB1.2StorySlantItalic.VN uni1EB5 uni1EB5.VN uni1EB5.2StorySlantItalic.VN uni1EB3 uni1EB3.VN uni1EB3.2StorySlantItalic.VN uni04D1 uni01CE uni00E30301 uni00E30300 uni00E30302 amacron uni01010301 uni01010302 uni04D3 uni00E40301 uni00E40300 uni00E40302 uni00E4030C uni00E40303 uni01DF uni0227 uni01E1 aringacute uni1E9A uni1EA3 uni0061030D uni00610330 uni00610331 uni00E10331 uni00E00331 uni00E20331 uni01CE0331 uni00E40331 uni1EA1 uni1EA10301 uni1EA10300 uni1EA1030C uni1EA10303 uni1E01 uni0061031C uni00E1031C uni00610327 uni00E10327 uni00E00327 uni00E20327 uni01CE0327 aogonek.RetroHookStyle uni01050301 uni01050300 aogonek.RetroHookStyle uni1D8F uni2C65 atilde.2StorySlantItalic uni1EA1.2StorySlantItalic uniA733 uniA735 uni0250 uni0250.2StorySlantItalic uni1D44 uni0251 uni2C65.2StorySlantItalic a.SngStory a.SngStory.SlantItalic uni2C65.SngStory.SlantItalic aacute.SngStory aacute.SngStory.SlantItalic agrave.SngStory agrave.SngStory.SlantItalic uni0201.SngStory uni0201.SngStory.SlantItalic acircumflex.SngStory uni1EAD.SngStory acircumflex.SngStory.SlantItalic uni1EAD.SngStory.SlantItalic uni1EA5.SngStory uni1EA5.SngStory.VN uni1EA5.SngStory.SlantItalic uni1EA5.SngStory.SlantItalic.VN uni1EA7.SngStory uni1EA7.SngStory.VN uni1EA7.SngStory.SlantItalic uni1EA7.SngStory.SlantItalic.VN uni1EAB.SngStory uni1EAB.SngStory.VN uni1EAB.SngStory.SlantItalic uni1EAB.SngStory.SlantItalic.VN uni1EA9.SngStory uni1EA9.SngStory.VN uni1EA9.SngStory.SlantItalic uni1EA9.SngStory.SlantItalic.VN uni0203.SngStory uni0203.SngStory.SlantItalic abreve.SngStory uni1EB7.SngStory abreve.SngStory.SlantItalic uni1EB7.SngStory.SlantItalic uni1EAF.SngStory uni1EAF.SngStory.SlantItalic uni1EAF.SngStory.VN uni1EAF.SngStory.SlantItalic.VN uni1EB1.SngStory uni1EB1.SngStory.SlantItalic uni1EB1.SngStory.VN uni1EB1.SngStory.SlantItalic.VN uni1EB5.SngStory uni1EB5.SngStory.VN uni1EB5.SngStory.SlantItalic uni1EB5.SngStory.SlantItalic.VN uni1EB3.SngStory uni1EB3.SngStory.VN uni1EB3.SngStory.SlantItalic uni1EB3.SngStory.SlantItalic.VN uni01CE.SngStory uni01CE.SngStory.SlantItalic atilde.SngStory atilde.SngStory.SlantItalic uni00E30301.SngStory uni00E30300.SngStory uni00E30302.SngStory amacron.SngStory amacron.SngStory.SlantItalic uni01010301.SngStory uni01010302.SngStory adieresis.SngStory adieresis.SngStory.SlantItalic uni00E40301.SngStory uni00E40300.SngStory uni00E40302.SngStory uni00E4030C.SngStory uni00E40303.SngStory uni01DF.SngStory uni01DF.SngStory.SlantItalic uni0227.SngStory uni0227.SngStory.SlantItalic uni01E1.SngStory uni01E1.SngStory.SlantItalic aring.SngStory aring.SngStory.SlantItalic aringacute.SngStory aringacute.SngStory.SlantItalic uni1E9A.SngStory uni1E9A.SngStory.SlantItalic uni1EA3.SngStory uni1EA3.SngStory.SlantItalic uni00610330.SngStory uni00610331.SngStory uni00E10331.SngStory uni00E00331.SngStory uni00E20331.SngStory uni01CE0331.SngStory uni00E40331.SngStory uni1EA1.SngStory uni1EA10301.SngStory uni1EA10300.SngStory uni1EA1030C.SngStory uni1EA10303.SngStory uni1E01.SngStory uni1E01.SngStory.SlantItalic uni0061031C.SngStory uni00E1031C.SngStory uni00610327.SngStory uni00E10327.SngStory uni00E00327.SngStory uni00E20327.SngStory uni01CE0327.SngStory aogonek.SngStory.RetroHookStyle uni01050301.SngStory uni01050300.SngStory aogonek.SngStory.RetroHookStyle uni2C65.SngStory uni1D45 aacute.2StorySlantItalic agrave.2StorySlantItalic uni0201.2StorySlantItalic acircumflex.2StorySlantItalic uni1EAD.2StorySlantItalic uni0203.2StorySlantItalic abreve.2StorySlantItalic uni1EB7.2StorySlantItalic uni1EAF.2StorySlantItalic uni1EB1.2StorySlantItalic uni1EB5.2StorySlantItalic uni1EB3.2StorySlantItalic uni01CE.2StorySlantItalic amacron.2StorySlantItalic adieresis.2StorySlantItalic uni01DF.2StorySlantItalic uni0227.2StorySlantItalic uni01E1.2StorySlantItalic aring.2StorySlantItalic aringacute.2StorySlantItalic uni1E9A.2StorySlantItalic uni1EA3.2StorySlantItalic uni1EA1.SngStory.SlantItalic uni1E01.2StorySlantItalic uni1D90 uni0252 uni1D9B ae.2StorySlantItalic uni04D5 uniF1A1 aeacute aeacute.2StorySlantItalic uni01E3 uni01E3.2StorySlantItalic uni00E60330 uni1D02 uni1D46 alpha uniF247 uniF248 uni0410 uni1D2C uni1D00 uni0200 uni1EA4 uni1EA4.VN uni1EA6 uni1EA6.VN uni1EAA uni1EAA.VN uni1EA8 uni1EA8.VN uni1EAC uni0202 Abreve uni1EAE uni1EAE.VN uni1EB0 uni1EB0.VN uni1EB4 uni1EB4.VN uni1EB2 uni1EB2.VN uni1EB6 uni04D0 uni01CD uni00C30301 uni00C30300 uni00C30302 Amacron uni01000301 uni01000302 uni04D2 uni00C40301 uni00C40300 uni00C40302 uni00C4030C uni00C40303 uni01DE uni0226 uni01E0 Aringacute uni1EA2 uni0041030D uni00410330 uni00410331 uni00C10331 uni00C00331 uni00C20331 uni01CD0331 uni00C40331 uni1EA0 uni1EA00301 uni1EA00300 uni1EA0030C uni1EA00303 uni1E00 uni0041031C uni00C1031C uni00410327 uni00C10327 uni00C00327 uni00C20327 uni01CD0327 Aogonek.RetroHookStyle uni01040301 uni01040300 Aogonek.RetroHookStyle uni023A uni2C6F uniA734 uniA732 uni20B3 uni2C6D uni2C6D0301 uni2C6D0300 uni2C6D0302 uni2C6D030C uniF209 uni04D4 uni1D2D uni1D01 AEacute uni01E2 uni00C60330 uni1D47 uni00620303 uni1E03 uni1E07 uni1E05 uni1D80 uni0180.BarBowl uni0180 uni1D6C uni0253 uni0253.TopBar uni0185 uni0183 uni0431 uni044C uni048D uni044A uni0463 uni044B uni04F9 uni0432 uni0412 uni1D2E uni0299 uni00420303 uni1E02 uni1E06 uni1E04 uni0243 uni1D2F uni1D03 uni0181 uni0184 uni0182 uni0181.TopBar uni0411 uni042C uni048C uni042A uni0462 uni042B uni04F8 beta uni1D66 uni1D5D uni1E9E uni0441 uni217D uni1D9C uni0368 cacute ccircumflex ccaron uni00630304 cdotaccent uni00630331 uni010D0323 uni1E09 uni04AB uniF225 uni023C uni0297 uni0188 uni0255 uni1D9D uni0254 uni0254.TopSerif uni1D53 uni1D53.TopSerif uni02540301 uni02540300 uni02541DC7 uni02540302 uni0254030C uni02540303 uni025403030300 uni02540304 uni02541DC6 uni02540308 uni025403080301 uni025403080300 uni02540330 uni02540331 uni025403310308 uni1D97 uni1D97.TopSerif uni2C7A uni2184 uni1D12 uni0454 uni044D uni04ED uni044D.MongolStyle uni0421 uni216D uni1D04 Cacute Ccircumflex Ccaron uni00430304 Cdotaccent uni00430331 uni010C0323 uni1E08 uni04AA uni023B uni0187 Euro colonmonetary uni20A0 uni20A2 uni20B5 uni2185 uni0186 uni0186.TopSerif uni1D10 uni1D10.TopSerif uni01860301 uni01860300 uni01861DC7 uni01860302 uni0186030C uni01860303 uni018603030300 uni01860304 uni01861DC6 uni01860308 uni018603080301 uni018603080300 uni01860330 uni01860331 uni018603310308 uni2183 uni0404 uni042D uni04EC uni042D.MongolStyle uni0501 uni217E uni1D48 uni0369 dcaron.Caron uni1E0B uni1E13 uni1E0F uni1E0D uni1E11 dcaron uni1D81 dcroat.BarBowl dslash dong uni1D6D uni0257 uni0256 uni1D91 uni0221 uni018C uni0238 uni01F3 uni01C6 uni02A3 uni02A5 uni02A4 uni0503 uni1E9F delta uni1D5F eth uni1D9E uni00F00323 uni216E uni1D30 uni1D05 Dcaron uni1E0A uni1E12 uni1E0E uni1E0C uni1E10 Eth Dcroat uni0189 uni1D06 uni00D00323 uniF20D uni018A uni018B uni01F2 uni01C5 uni01F1 uni01C4 uni0500 uni0502 uni0394 uni2181 uni2180 uni2182 uni2187 uni2188 uni20AF uni0435 uni2091 uni1D49 uni0364 uni0450 uni0205 uni00651DC7 uni1EBF uni1EBF.VN uni1EC1 uni1EC1.VN uni1EC5 uni1EC5.VN uni1EC3 uni1EC3.VN uni1EC7 uni0207 ebreve uni04D7 ecaron uni1EBD uni1EBD0301 uni1EBD0300 uni1EBD0302 emacron uni00651DC6 uni1E17 uni1E15 uni01130302 uni0451 uni00EB0301 uni00EB0300 uni00EB0302 uni00EB0303 edotaccent uni0065030A uni1EBB uni0065030D uni1E19 uni1E1B uni00650331 uni00E90331 uni00E80331 uni00EA0331 uni011B0331 uni00EB0331 uni00EB03310301 uni1EB9 uni1EB90301 uni1EB90300 uni1EB9030C uni1EB90303 uni2C78 uni0229 uni02290301 uni02290300 uni02290302 uni1E1D uni0229030C eogonek.RetroHookStyle uni01190301 uni01190300 eogonek.RetroHookStyle uni1D92 uni0247 uni04BD uni04BF uni01DD uni0259 uni02590301 uni02590300 uni02590302 uni0259030C uni02590303 uni02590304 uni02590308 uni02590330 uni04D9 uni2094 uni1D4A uni01DD0301 uni01DD0300 uni01DD0302 uni01DD030C uni01DD0303 uni01DD0304 uni01DD0308 uni04DB uni01DD0330 uni1D95 uni025A uni0258 uniF1A3 uni025B uni1D4B uni025B0301 uni025B0300 uni025B1DC7 uni025B0302 uni025B030C uni025B0303 uni025B0304 uni025B1DC6 uni025B0308 uni025B03080301 uni025B03080300 uni025B0330 uni025B0331 uni025B03310308 uni1D93 uni025C uni1D9F uni1D94 uni025D uni1D08 uni1D4C uni029A uni025E uniF1A4 uni0511 uni0437 uni04DF uni0499 uni0507 uni0505 uni0415 uni1D31 uni1D07 uni0400 uni0204 uni00451DC7 uni1EBE uni1EBE.VN uni1EC0 uni1EC0.VN uni1EC4 uni1EC4.VN uni1EC2 uni1EC2.VN uni1EC6 uni0206 Ebreve uni04D6 Ecaron uni1EBC uni1EBC0301 uni1EBC0300 uni1EBC0302 Emacron uni00451DC6 uni1E16 uni1E14 uni01120302 uni0401 uni00CB0301 uni00CB0300 uni00CB0302 uni00CB0303 Edotaccent uni0045030A uni1EBA uni0045030D uni1E18 uni1E1A uni00450331 uni00C90331 uni00C80331 uni00CA0331 uni011A0331 uni00CB0331 uni00CB03310301 uni1EB8 uni1EB80301 uni1EB80300 uni1EB8030C uni1EB80303 uni0228 uni02280301 uni02280300 uni02280302 uni1E1C uni0228030C Eogonek.RetroHookStyle uni01180301 uni01180300 Eogonek.RetroHookStyle uni0246 uni2C7B uni04BC uni04BE uni018E uni2203 uni2204 uni1D32 uni018E0301 uni018E0300 uni018E0302 uni018E030C uni018E0303 uni018E0304 uni018E0308 uni018E0330 uniA7FC uni018F uni04D8 uni018F0301 uni018F0300 uni018F0302 uni018F030C uni018F0303 uni018F0304 uni018F0308 uni04DA uni018F0330 uni0190 uni01900301 uni01900300 uni01901DC7 uni01900302 uni0190030C uni01900303 uni01900304 uni01901DC6 uni01900308 uni019003080301 uni019003080300 uni01900330 uni01900331 uni019003310308 uni0510 uni0417 uni04DE uni0498 uni0506 uni0504 f.SlantItalic uni1DA0 uni00660303 uni1E1F uni1E1F.SlantItalic uni00660323 uni1D82 uni1D6E f_i f_i.SlantItalic f_l f_l.SlantItalic f_f_i f_f_i.SlantItalic ffi f_f_l f_f_l.SlantItalic ffl f_f f_f.SlantItalic ff uni02A9 longs uni1E9B uni1E9D uni1E9C uni0433 uni0453 uni0491 uni04F7 uni0493 uni0493.SlantItalic uniF327 uniF327.SlantItalic uni04FB uni04FB.SlantItalic uniA730 uni00460303 uni1E1E uni00460323 franc uni0191 uniA7FB uni0413 Gamma uni1D26 uni0403 uni0490 uni04F6 uni0492 uniF326 uni04FA uni1D4D uni01F5 gcircumflex gbreve gcaron uni1E21 uni00670308 gdotaccent uni00670331 uni00670323 gcommaaccent uni01E5.BarBowl uni01E5 g.SngBowl uni0261 uni1DA2 uni01F5.SngBowl gcircumflex.SngBowl gbreve.SngBowl gcaron.SngBowl uni1E21.SngBowl uni00670308.SngBowl gdotaccent.SngBowl uni00670331.SngBowl uni00670323.SngBowl gcommaaccent.SngBowl uni1D83 uni01E5.BarBowl.SngBowl uni0260 uni1D77 uni1D79 uni050D uni1D33 uni0262 uni01F4 Gcircumflex Gbreve Gcaron uni1E20 uni00470308 Gdotaccent uni00470331 uni00470323 Gcommaaccent uni01E4 uni0193 uni029B uni20B2 uni050C uni02B0 uni036A hcircumflex uni021F uni1E27 uni1E23 uni1E2B uni1E96 uni1E25 uni1E29 hbar hbar.VertStrk uni045B uniF1BC uni0452 uni0266 uni02B1 uniA727 uni0267 uni2C68 uni0195 uni2C76 uni0265 uni1DA3 uni02AE uni02AF uni04BB uni04BB.UCStyle uni0495 uniF32D uni043D uni04A5 uni04A3 uni04CA uni045A uni04C8 uni050B uni0523 uni043F uni0525 uni04A7 uni045F uni0446 uni0448 uni0449 uni1D28 uni041D uni0522 uni1D34 uni1D78 uni029C Hcircumflex uni021E uni1E26 uni1E22 uni1E2A uni00480331 uni1E24 uni1E28 Hbar Hbar.VertStrk uniA726 uni2C67 uni01F6 uni2C75 uniF26B uni04BA uni0494 uniF32C uni04A4 uni04A2 uni04C9 uni040A uni04C7 uni050A uni041F uni0524 uni04A6 uni040F uni0426 uni0428 uni0429 GrCapPi i.SlantItalic uni0456 uni2170 uni1D62 uni2071 uni0365 iacute.SlantItalic igrave.SlantItalic uni0209 uni0209.SlantItalic uni00691DC7 icircumflex.SlantItalic uni020B uni020B.SlantItalic ibreve ibreve.SlantItalic uni01D0 uni01D0.SlantItalic itilde itilde.SlantItalic uni01290301 uni01290300 uni01290302 imacron uni00691DC6 imacron.SlantItalic uni012B0301 uni012B0300 uni012B0302 idieresis.SlantItalic uni0457 uni1E2F uni1E2F.SlantItalic uni00EF0300 uni00EF0302 uni00EF0303 idotaccent idotaccent.SlantItalic uni0069030A uni1EC9 uni1EC9.SlantItalic uni0069030D uni1E2D uni1E2D.SlantItalic uni00690331 uni00ED0331 uni00EC0331 uni00EE0331 uni01D00331 uni00EF0331 uni1ECB uni1ECB.SlantItalic uni1ECB0301 uni1ECB0300 uni1ECB0302 uni1ECB030C uni1ECB0303 uni0069031C uni00ED031C uni0069031C0331 uni00690327 uni00ED0327 uni00EC0327 uni00EE0327 uni01D00327 iogonek.RetroHookStyle uni012F0301 uni012F0300 iogonek.RetroHookStyle uni1D96 uni0268 uni1DA4 uni02680330 uni02680331 i.Dotless dotlessi.SlantItalic i.Dotless.SlantItalic uni0456.Dotless uni1D62.Dotless uni2071.Dotless uni1E2D.Dotless uni1ECB.Dotless iogonek.Dotless uni1D96.Dotless uni0268.Dotless uni1DA4.Dotless uni02680301 uni02680300 uni02680302 uni0268030C uni02680303 uni02680304 uni02680308 uni1D09 uni1D4E ij uni2171 uni2172 uni2173 uni2178 uni0269 uni1DA5 uni02690301 uni02690300 uni02691DC7 uni02690302 uni0269030C uni02690303 uni02691DC6 uni02690330 uni1D7C uni044E uni0406 uni04C0 uni04CF uni2160 uni1D35 uni026A uni1DA6 uni0208 uni00491DC7 uni020A Ibreve uni01CF Itilde uni01280301 uni01280300 uni01280302 Imacron uni00491DC6 uni012A0301 uni012A0300 uni012A0302 uni0407 uni1E2E uni00CF0300 uni00CF0302 uni00CF0303 Idot uni0049030A uni1EC8 uni0049030D uni1E2C uni00490331 uni00CD0331 uni00CC0331 uni00CE0331 uni01CF0331 uni00CF0331 uni1ECA uni1ECA0301 uni1ECA0300 uni1ECA0302 uni1ECA030C uni1ECA0303 uni0049031C uni00CD031C uni0049031C0331 uni00490327 uni00CD0327 uni00CC0327 uni00CE0327 uni01CF0327 Iogonek.RetroHookStyle uni012E0301 uni012E0300 Iogonek.RetroHookStyle uni0197 uni1D7B uni1DA7 uni01970301 uni01970300 uni01970302 uni0197030C uni01970303 uni01970304 uni01970308 uni01970330 uni01970331 uniA7FE IJ uni2161 uni2162 uni2163 uni2168 uniF258 uni0196 uni01960301 uni01960300 uni01961DC7 uni01960302 uni0196030C uni01960303 uni01961DC6 uni01960330 uni042E uni0458 uni2C7C uni02B2 jcircumflex uni01F0 uni006A0323 uni0249 uni029D uni1DA8 j.Dotless uni0237 uni0458.Dotless uni02B2.Dotless uni006A0303 uni025F uni0249.Dotless uni1DA1 uni029D.Dotless uni1DA8.Dotless uni0284.DblSerif uni0284 uni043B uni04C6 uni0459 uni0513 uni0509 uni0434 uni0521 uni0515 uni0408 uni1D36 uni1D0A Jcircumflex uni004A0303 uni004A0323 uni0248 uni041B uni1D2B uni04C5 uni0409 uni0512 uni0508 uni0520 uni0514 uni0414 uni1D4F uni1E31 uni01E9 uni006B0304 uni006B0307 uni1E35 uni1E33 kcommaaccent uni1D84 uniA741 uni0199 uni2C6A uni029E kgreenlandic uni043A uni045C uni049B uni04A1 uni049F uni049D uni04C4 uni051F uni0436 uni04C2 uni04DD uni0497 uni1D37 uni1D0B uni1E30 uni01E8 uni004B0304 uni004B0307 uni1E34 uni1E32 Kcommaaccent uniA740 uni0198 uni2C69 uni20AD uni041A uni040C uni049A uni04A0 uni049E uni049C uni04C3 uni051E uni0416 uni04C1 uni04DC uni0496 l.SlantItalic uni217C uni02E1 lacute lacute.SlantItalic lcaron.Caron uni006C0325 uni1E3D uni1E3D.SlantItalic uni1E3B uni1E3B.SlantItalic uni1E37 uni1E37.SlantItalic uni1E39 uni1E39.SlantItalic lcommaaccent ldot lcaron uni1D85 uni1DAA uni019A uni2C61 uni026B lslash uni026D uni1DA9 uni0234 uni026C uniF266 uni01C9 uni1EFB uni02AA uni02AB uni026E uni20B0 lira uni216C uni1D38 uni029F uni1DAB uniF268 Lacute uni004C0325 uni1E3C uni1E3A uni1E36 uni1E38 Lcommaaccent Ldot Lcaron Lcaron.Caron uni023D uni2C60 uni2C62 Lslash uni1D0C uni01C8 uni01C7 uni1EFA uni217F uni1D50 uni036B uni1E3F uni006D0300 uni006D0302 uni006D030C uni006D0303 uni006D0304 uni1E41 uni006D030A uni006D030D uni006D0331 uni1E43 uni1D86 uni1D6F uni20A5 uni0271 uni1DAC uni026F uni1D5A uni0270 uni1DAD uni1D1F uni043C uni04CE uni041C uni216F uni1D39 uni1D0D uni1E3E uni004D0300 uni004D0302 uni004D030C uni004D0303 uni004D0304 uni1E40 uni004D030A uni004D030D uni004D0331 uni1E42 uni2C6E uni019C uniA7FD uniA7FF uni04CD u1D510 uni207F nacute uni01F9 uni006E0302 ncaron uni006E0304 uni1E45 uni006E030A uni006E030D uni1E4B uni1E49 uni1E47 ncommaaccent napostrophe uni1D87 uni1D70 uni0272 uni1DAE uni02720301 uni02720304 uni0272.LCStyle eng eng.BaselineHook eng.UCStyle uni1D51 eng.Kom uni014B0301 uni014B0300 uni014B0302 uni014B0303 uni014B0323 uni0273 uni1DAF uni0235 uni019E uni01CC uni0438 uni045D uni0439 uni048B uni04E3 uni04E5 uni1D3A uni0274 uni1DB0 Nacute uni01F8 uni004E0302 Ncaron uni004E0304 uni1E44 uni004E030A uni004E030D uni1E4A uni1E48 uni1E46 Ncommaaccent uni20A6 uni019D uni019D0301 uni019D0304 Eng.UCStyle uni014A0301.UCStyle uni014A0300.UCStyle uni014A0302.UCStyle uni014A0303.UCStyle uni014A0323.UCStyle uni1D0E uni1D3B uni019D.LCStyle Eng.BaselineHook uni014A0301.BaselineHook uni014A0300.BaselineHook uni014A0302.BaselineHook uni014A0303.BaselineHook uni014A0323.BaselineHook Eng uni014A0301 uni014A0300 uni014A0302 uni014A0303 uni014A0323 uni0220 Eng.Kom uni014A0301.Kom uni014A0300.Kom uni014A0302.Kom uni014A0303.Kom uni014A0323.Kom uni01CB uni01CA uni2116 uni0418 uni040D uni0419 uni048A uni04E4 uni04E2 uni043E uni2092 uni1D52 uni0366 ohungarumlaut uni020D uni006F1DC7 uni1ED1 uni1ED1.VN uni1ED3 uni1ED3.VN uni1ED7 uni1ED7.VN uni1ED5 uni1ED5.VN uni1ED9 uni020F obreve uni01D2 uni1E4D uni00F50300 uni00F50302 uni022D uni1E4F omacron uni006F1DC6 uni1E53 uni1E51 uni014D0302 uni04E7 uni00F60301 uni00F60300 uni00F60302 uni00F60303 uni022B uni022F uni0231 uni006F030A uni1ECF uni006F030D uni006F0330 uni006F0331 uni00F30331 uni00F20331 uni00F40331 uni01D20331 uni00F60331 uni1ECD uni1ECD0301 uni1ECD0300 uni1ECD030C uni1ECD0303 uni006F031C uni00F3031C uni006F031C0331 uni006F0327 uni00F30327 uni00F20327 uni00F40327 uni01D20327 uni01EB.RetroHookStyle uni01EB0301 uni01EB0300 uni01ED.RetroHookStyle uni01EB.RetroHookStyle uni01ED.RetroHookStyle uni018D uni0275 uni04E9 uni1DB1 uni02750301 uni04EB theta uni1DBF uni0473 uniF1AB oslashacute uni00F80331 emptyset.SlashZero emptyset ohorn uni1EDB uni1EDD uni1EE1 uni1EDF uni1EE3 sigma uni04A9 uni1D11 uni1D13 uniF1AD uni01530301 uni01530300 uni01530302 uni0153030C uni1D14 uni01A3 uniA74F uni0223 uni0223.OpenTop uni1D17 uni1D55 uni1D16 uni1D54 uni041E uni1D3C uni1D0F Ohungarumlaut uni020C uni004F1DC7 uni1ED0 uni1ED0.VN uni1ED2 uni1ED2.VN uni1ED6 uni1ED6.VN uni1ED4 uni1ED4.VN uni1ED8 uni020E Obreve uni01D1 uni1E4C uni00D50300 uni00D50302 uni022C uni1E4E Omacron uni004F1DC6 uni1E52 uni1E50 uni014C0302 uni04E6 uni00D60301 uni00D60300 uni00D60302 uni00D60303 uni022A uni022E uni0230 uni004F030A uni1ECE uni004F030D uni004F0330 uni004F0331 uni00D30331 uni00D20331 uni00D40331 uni01D10331 uni00D60331 uni1ECC uni1ECC0301 uni1ECC0300 uni1ECC030C uni1ECC0303 uni004F031C uni00D3031C uni004F031C0331 uni004F0327 uni00D30327 uni00D20327 uni00D40327 uni01D10327 uni01EA.RetroHookStyle uni01EA0301 uni01EA0300 uni01EC.RetroHookStyle uni01EA.RetroHookStyle uni01EC.RetroHookStyle uni019F uni04E8 uni019F0301 uni04EA Theta uni0472 Oslashacute uni00D80331 Ohorn uni1EDA uni1EDC uni1EE0 uni1EDE uni1EE2 uni04A8 uni0276 uniF1AE uni01520301 uni01520300 uni01520302 uni0152030C uni01A2 uniA74E uni0222 uni0222.OpenTop uni1D3D uni1D3D.OpenTop uni1D15 uni1D15.OpenTop uni03A9 uni0298 uni0440 uni1D56 uni1E55 uni00700303 uni00700304 uni1E57 uni00700331 uni1D88 uni1D7D uni048F uni1D71 thorn uni01A5 uni01A5.BowlHook uni0517 uni01BF GrSmRho uni1D68 uni0278 uni1DB2 uni0444 uni1D69 uni1D60 uni2C77 uni0420 uni1D3E uni1D18 uni1D29 uni1E54 uni00500303 uni00500304 uni1E56 uni00500331 uni048E uni2C63 uni01A4 uni0516 uni20B1 peseta Thorn uni01F7 u1D513 uni0424 uni1D2A uni051B uni02A0 uni024B uni01AA uni0239 uni051A uni024A uni1D63 uni1DCA uni02B3 uni036C racute uni0211 uni0213 rcaron uni00720303 uni1E59 uni00720325 uni1E5F uni1E5B uni1E5D rcommaaccent uni1D89 uni024D uni1D72 uni027D uni027D.LCStyle uni027C uni0279 uni02B4 uni027B uni02B5 uniF269 uni027A uni2C79 uni027E uni1D73 uni0285 uni027F uni1D3F uni0280 Racute uni0210 uni0212 Rcaron uni00520303 uni1E58 uni00520325 uni1E5E uni1E5A uni1E5C Rcommaaccent uni024C uni2C64 uni2C64.LCStyle uni01A6 uni20A8 uni211F uni1D1A uni0281 uni02B6 uni042F uni1D19 uni044F uni0519 uni0518 uni0455 uni02E2 sacute uni1E65 scircumflex scaron uni1E67 uni1E61 uni1E63 uni1E63030C uni1E69 scommaaccent scedilla.CommaStyle scedilla uni0282 uni1DB3 uni1D8A uni1D74 uni023F uni01A8 uni0283 uni1DB4 uni1D98 uni1D8B uni0286 uni0405 uniA731 Sacute uni1E64 Scircumflex Scaron uni1E66 uni1E60 uni1E62 uni1E62030C uni1E68 Scommaaccent Scedilla.CommaStyle Scedilla uni01A7 uni20B4 uni1D57 uni036D tcaron.Caron uni00740304 uni1E97 uni1E6B uni1E71 uni1E6F uni1E6D uni021B uni0163.CommaStyle tcaron uni0163 uni01AB uni1DB5 tbar uni1D75 uni2C66 uni01AD uni01AD.RtHook uni0288 uni0236 uni1D7A uni02A8 uni02A6 uni02A7 uniA729 uniA72C uniA72E uni0287 uni0442 uni04AD uni050F uni04B5 uni0422 uni1D40 uni1D1B Tcaron uni00540304 uni1E6A uni1E70 uni1E6E uni1E6C uni021A uni0162.CommaStyle uni0162 Tbar uni20AE uni023E uni01AC uni01AC.RtHook uni01AE uniA728 uni04AC uni050E uni04B4 uni040B uni0402 uni1D64 uni1D58 uni0367 uhungarumlaut uni00F90303 uni0215 uni0217 ubreve uni01D4 utilde uni1E79 uni01690300 uni01690302 umacron uni016B0301 uni016B0300 uni016B0302 uni1E7B uni01D8 uni01DC uni00FC0302 uni01DA uni00FC0303 uni00FC03030301 uni01D6 uring uni1EE7 uni0075030D uni1E77 uni1E75 uni00750331 uni00FA0331 uni00F90331 uni00FB0331 uni01D40331 uni00FC0331 uni01D80331 uni1E73 uni1EE5 uni1EE50301 uni1EE50300 uni1EE50302 uni1EE5030C uni1EE50303 uni0075031C uni00FA031C uni0075031C0331 uni00750327 uni00FA0327 uni00F90327 uni00FB0327 uni01D40327 uogonek.RetroHookStyle uogonek.RetroHookStyle uni1D99 uni0289 uni1DB6 uni02890301 uni02890300 uni02890302 uni0289030C uni02890308 uni02890331 uhorn uni1EE9 uni1EEB uni1EEF uni1EED uni1EF1 uni1D6B uni1D1D uni1D59 uni1D1E uni028B uni1DB9 uni028B0301 uni028B0300 uni028B0302 uni028B0303 uni028B0330 uni1EFD uni028A uni1DB7 uni028A0301 uni028A0300 uni028A0302 uni028A030C uni1D7F uniF259 uni1D41 uni1D1C uni1DB8 Uhungarumlaut uni00D90303 uni0214 uni0216 Ubreve uni01D3 Utilde uni1E78 uni01680300 uni01680302 Umacron uni016A0301 uni016A0300 uni016A0302 uni1E7A uni01D7 uni01DB uni00DC0302 uni01D9 uni00DC0303 uni00DC03030301 uni01D5 Uring uni1EE6 uni0055030D uni1E76 uni1E74 uni00550331 uni00DA0331 uni00D90331 uni00DB0331 uni01D30331 uni00DC0331 uni01D70331 uni1E72 uni1EE4 uni1EE40301 uni1EE40300 uni1EE40302 uni1EE4030C uni1EE40303 uni0055031C uni00DA031C uni0055031C0331 uni00550327 uni00DA0327 uni00D90327 uni00DB0327 uni01D30327 Uogonek.RetroHookStyle Uogonek.RetroHookStyle uni0244 uni1D7E uniF1CD uni02440301 uni02440300 uni02440302 uni0244030C uni02440308 uni02440331 Uhorn uni1EE8 uni1EEA uni1EEE uni1EEC uni1EF0 uni01B2 uni01B20301 uni01B20300 uni01B20302 uni01B20303 uni01B20330 uni1EFC uni01B1 uni01B10301 uni01B10300 uni01B10302 uni01B1030C v.SlantItalic uni2174 uni1D65 uni1D5B uni036E uni1E7D uni1E7D.SlantItalic uni1E7F uni1E7F.SlantItalic uni1D8C uni2C71 uni028B.StraightLft uni028B.StraightLftHighHook uni0474 uni2C74 uni2175 uni2176 uni2177 uni028C uni1DBA uni0264.LrgBowl uni0264 uniF1B5 uni0264.GammaStyle uni0263 uni02E0 gamma uni1D67 uni1D5E uni2164 uni1D20 uni1E7C uni1E7E uni2123 uni01B2.StraightLft uni01B2.StraightLftHighHook uni0475 uni2165 uni2166 uni2167 uni0245 uni1D27 uni0194 uni051D uni02B7 wacute wgrave wcircumflex wdieresis uni1E87 uni1E98 uni00770330 uni00770331 uni1E89 uni2C73 uni02AC uni028D uni0277 uni051C uni1D42 uni1D21 Wacute Wgrave Wcircumflex Wdieresis uni1E86 uni00570330 uni00570331 uni1E88 uni2C72 uni20A9 uni0445 uni2179 uni2093 uni02E3 uni036F uni1E8D uni1E8B uni00780331 uni1D8D uni04FF uni04FD uni04B3 uni217A uni217B chi uni1D6A uni1D61 uni0425 uni2169 uni1E8C uni1E8A uni00580331 uni04FE uni04FC uni04B2 uni216A uni216B uni0443 uni02B8 yacute uni04F3 ygrave ycircumflex uni045E uni1EF9 uni0233 uni04EF uni04F1 uni1E8F uni1E99 uni1EF7 uni1EF5 uni024F uni01B4.RtHook uni01B4 uni1EFF uni04AF uni04B1 uni028E uniF1CE uniF267 lambda uni019B uni0447 uni04F5 uni04B9 uni04B7 uni04CC uni04AE uni028F uniF1B4 Yacute Ygrave Ycircumflex uni1EF8 uni0232 uni1E8E uni1EF6 uni1EF4 uni024E uni04B0 uni01B3 uni01B3.RtHook uni1EFE uni0423 uni04F2 uni040E uni04EE uni04F0 uni0427 uni04F4 uni04B8 uni04B6 uni04CB z.SlantItalic uni1DBB zacute zacute.SlantItalic uni1E91 uni1E91.SlantItalic uni007A0306 zcaron zcaron.SlantItalic uni007A0303 zdotaccent zdotaccent.SlantItalic uni1E95 uni1E95.SlantItalic uni1E93 uni1E93.SlantItalic uni1E930306 uni1E93030C uni0290 uni1DBC uni1D8E uni01B6 uni1D76 uni0291 uni1DBD uni0225 uni2C6C uni0240 uni1D22 Zacute uni1E90 uni005A0306 Zcaron uni005A0303 Zdotaccent uni1E94 uni1E92 uni1E920306 uni1E92030C uniF234 uni01B5 uni0224 uni2C6B uni01A9 uni01B7.RevSigmaStyle uni04E0.RevSigmaStyle uni0292 uni0292.RevSigmaStyle uni04E1 uni04E1.RevSigmaStyle uni1DBE uni01EF uni1D9A uniF235 uni0293 uni0293.LrgBowl uni01BA uni01B9 uniA72B uniA72D uniA72F uni021D uni01B7 uni04E0 uni1D23 uni01EE uni01B8 uniA72A uni021C uni0294 uni02C0 uni0242 uni0241 uni02A1 uni0295 uni02C1 uni02E4 uni02A2 uni0296 uni01BE uni1D24 uni1D25 uni1D5C uni2C7D uni20AA uni2080 uni2070 uni2081 onesuperior uni2082 twosuperior uni01BB uni2083 threesuperior uni2084 uni2074 uni2085 uni2075 uni01BC uni01BD uni2086 uni2076 uni2087 uni2077 uni2088 uni2078 uni2089 uni2079 uni215F onehalf onethird onequarter uni2155 uni2159 oneeighth twothirds uni2156 threequarters uni2157 threeeighths uni2158 uni215A fiveeighths seveneighths uni01C3 uniA71D uniA71F uniA71E exclamdbl uniA78B uniA78B.Lrg uniA78C uniA78C.Lrg onedotenleader twodotenleader uni02F8 uniA789 uniA789.Wide uni02BB uni0312 quotereversed uni02BD uni0314 uni02BC uni02BC.Lrg uni201F uni02EE uni02D0 uni02D1 anoteleia uni2027 uni2219 uni208D uni207D uni208E uni207E uni27E6 uni27E7 uni2308 uni231C uni2309 uni231D uni230A uni231E uni230B uni231F uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23AA uni23A9 uni23AB uni23AC uni23AD uni01C0 uni01C1 uni01C2 uni2016 ParallelTo brokenbar uni02CC uni02C8 uni0337 uni0338 uni20E5 uni2010 uni2011 uni00AD figuredash uni2015 minus uni02D7 uni208B uni207B uni0320 uni0335 uni0336 uni02CF uni0317 uni02CA acutecomb minute uni02B9 second uni02BA uni02F6 uni030B uni2034 uni2057 uni02CE uni0316 uni02F4 uni02CB gravecomb uni2035 uni2036 uni02F5 uni030F uni2037 uni2038 uni032D uniA788 uni0302 uni0302_acutecomb.VN uni0302_gravecomb.VN uni0302_tildecomb.VN uni0302_hookabovecomb.VN uni032F uni0311 uni0311.UU uni0311.UL uni0311.LL uni0352 uni2040 uni0361 uni0361.UU uni0361.UL uni0361.LL uniFE20 uniFE21 uni032E uni0306 uni0306_acutecomb.VN uni0306_gravecomb.VN uni0306_tildecomb.VN uni0306_hookabovecomb.VN uni0310 uni0306.CyShortMrkAlt CombBreve.CyShortMrkAlt.UCHt uni1DCB uni203F uni035C uni035D uni1DCD uni02EC uni032C uni030C uni1DC7 uni1DC4 uni1DCC uni1DC5 uni1DC6 uni1DC9 uni1DC8 uni02F7 uni0330 uni0334 tildecomb uni034A CombTildeOverlay.Lrg similar uni2053 uni034C uniF17B uni034B uni0360 uniFE22 uniFE23 uni033E uni035B uni0359 uni0353 uni02DF uni033D multiply uni032B uni033C uni02CD uni0331 uni0331.Short uni02C9 uni0304 uni0304.Short uni035F uni035E uni0332 uni0305 underscoredbl uni0333 uni0347 uni033F uni02ED uniA78A uni208C uni207C uni225F equivalence uni0324 uni0308 uni0308.UU uni0308.LL uni0308.UL uni0308.Sup uniF17A dotbelowcomb uni0307 uni0358 uni0326 uni0313 uni0315 uni031B uni02F3 uni0325 uni030A uni035A uni031C uni02D3 uni02BF uni0351 uni0339 uni02D2 uni02BE uni0357 uniA724 uniA725 uniA722 uniA723 hookabovecomb uni0329 uni030D uni0348 uni030E uni208A uni031F uni02D6 uni207A uni031E uni02D5 uni031D uni02D4 uni0318 uni0319 uni02EB uni02EA uni0349 uni031A uni02CB.ChinantecTn uni02C8.ChinantecTn uni02CA.ChinantecTn uniA717 uniA718 uniA719 uniA71A uni02C9.ChinantecTn uniA720 uniA721 uni02FE uni02FD uni02AD uni0327 uni0328.RetroHookStyle];
+@ss051 = [hbar hbar.VertStrk uni045B uniF1BC uni0452 uni0266 uni02B1 uniA727 uni0267 uni2C68 uni0195 uni2C76 uni0265 uni1DA3 uni02AE uni02AF uni04BB uni04BB.UCStyle uni0495 uniF32D uni043D uni04A5 uni04A3 uni04CA uni045A uni04C8 uni050B uni0523 uni043F uni0525 uni04A7 uni045F uni0446 uni0448 uni0449 uni1D28 uni041D uni0522 uni1D34 uni1D78 uni029C Hcircumflex uni021E uni1E26 uni1E22 uni1E2A uni00480331 uni1E24 uni1E28 Hbar];
+@ss052 = [hbar.VertStrk hbar.VertStrk uni045B uniF1BC uni0452 uni0266 uni02B1 uniA727 uni0267 uni2C68 uni0195 uni2C76 uni0265 uni1DA3 uni02AE uni02AF uni04BB uni04BB.UCStyle uni0495 uniF32D uni043D uni04A5 uni04A3 uni04CA uni045A uni04C8 uni050B uni0523 uni043F uni0525 uni04A7 uni045F uni0446 uni0448 uni0449 uni1D28 uni041D uni0522 uni1D34 uni1D78 uni029C Hcircumflex uni021E uni1E26 uni1E22 uni1E2A uni00480331 uni1E24 uni1E28 Hbar.VertStrk];
+@ss091 = [uni028B uni1DB9 uni028B0301 uni028B0300 uni028B0302 uni028B0303 uni028B0330 uni1EFD uni028A uni1DB7 uni028A0301 uni028A0300 uni028A0302 uni028A030C uni1D7F uniF259 uni1D41 uni1D1C uni1DB8 Uhungarumlaut uni00D90303 uni0214 uni0216 Ubreve uni01D3 Utilde uni1E78 uni01680300 uni01680302 Umacron uni016A0301 uni016A0300 uni016A0302 uni1E7A uni01D7 uni01DB uni00DC0302 uni01D9 uni00DC0303 uni00DC03030301 uni01D5 Uring uni1EE6 uni0055030D uni1E76 uni1E74 uni00550331 uni00DA0331 uni00D90331 uni00DB0331 uni01D30331 uni00DC0331 uni01D70331 uni1E72 uni1EE4 uni1EE40301 uni1EE40300 uni1EE40302 uni1EE4030C uni1EE40303 uni0055031C uni00DA031C uni0055031C0331 uni00550327 uni00DA0327 uni00D90327 uni00DB0327 uni01D30327 Uogonek Uogonek.RetroHookStyle uni0244 uni1D7E uniF1CD uni02440301 uni02440300 uni02440302 uni0244030C uni02440308 uni02440331 Uhorn uni1EE8 uni1EEA uni1EEE uni1EEC uni1EF0 uni01B2];
+@ss092 = [uni028B.StraightLft uni1DB9 uni028B0301 uni028B0300 uni028B0302 uni028B0303 uni028B0330 uni1EFD uni028A uni1DB7 uni028A0301 uni028A0300 uni028A0302 uni028A030C uni1D7F uniF259 uni1D41 uni1D1C uni1DB8 Uhungarumlaut uni00D90303 uni0214 uni0216 Ubreve uni01D3 Utilde uni1E78 uni01680300 uni01680302 Umacron uni016A0301 uni016A0300 uni016A0302 uni1E7A uni01D7 uni01DB uni00DC0302 uni01D9 uni00DC0303 uni00DC03030301 uni01D5 Uring uni1EE6 uni0055030D uni1E76 uni1E74 uni00550331 uni00DA0331 uni00D90331 uni00DB0331 uni01D30331 uni00DC0331 uni01D70331 uni1E72 uni1EE4 uni1EE40301 uni1EE40300 uni1EE40302 uni1EE4030C uni1EE40303 uni0055031C uni00DA031C uni0055031C0331 uni00550327 uni00DA0327 uni00D90327 uni00DB0327 uni01D30327 Uogonek Uogonek.RetroHookStyle uni0244 uni1D7E uniF1CD uni02440301 uni02440300 uni02440302 uni0244030C uni02440308 uni02440331 Uhorn uni1EE8 uni1EEA uni1EEE uni1EEC uni1EF0 uni01B2.StraightLft];
+#/< otclasses
+#< classes
+
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+#< languagesystem
+feature aalt{
+  feature smcp;
+  feature c2sc;
+  feature ss01;
+  feature ss02;
+  feature ss03;
+  feature ss04;
+  feature ss05;
+  feature ss06;
+  feature ss07;
+  feature ss08;
+  feature ss09;
+  feature ss10;
+} aalt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature mark { # Mark Positioning
+ # Latin
+lookup mark0 {
+lookupflag IgnoreBaseGlyphs;
+    pos uni0358 <0 0 224 0>;
+    pos uni0315 <0 0 692 0>;
+    pos uni031B <0 0 374 0>;
+    pos uni02DE <0 0 237 0>;
+    pos uni02DE02DE <0 0 255 0>;
+} mark0;
+lookup mark1 {
+lookupflag IgnoreLigatures;
+} mark1;
+ language ROM ; # Romanian
+ language VIT ; # Vietnamese
+ language IPPH;
+ script cyrl; # Cyrillic
+lookup mark0;
+lookup mark1;
+} mark;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature mkmk { # Mark to Mark Positioning
+ # Latin
+lookup mkmk2 {
+lookupflag;
+} mkmk2;
+lookup mkmk3 {
+lookupflag;
+} mkmk3;
+ language ROM ; # Romanian
+ language VIT ; # Vietnamese
+ language IPPH;
+ script cyrl; # Cyrillic
+lookup mkmk2;
+lookup mkmk3;
+} mkmk;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature kern { # Kerning
+ # Latin
+lookup kern4 {
+} kern4;
+ language ROM ; # Romanian
+ language VIT ; # Vietnamese
+ language IPPH;
+ script cyrl; # Cyrillic
+lookup kern4;
+} kern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ccmp { # Glyph Composition/Decomposition
+ # Latin
+lookup ccmp5 {
+    sub [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50]' @ccmp13 @ccmp10 by [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+    sub [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50]' @ccmp13 @ccmp13 @ccmp10 by [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+    sub [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50]' @ccmp13 @ccmp13 @ccmp13 @ccmp10 by [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+    sub [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50]' @ccmp13 @ccmp13 @ccmp13 @ccmp13 @ccmp10 by [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+    sub [i j i.SlantItalic uni0456 uni1D62 uni2071 uni1E2D uni1ECB iogonek uni1D96 uni0268 uni1DA4 uni0458 uni02B2 uni0249 uni029D uni1DA8 i.SC i.SlantItalic.SC uni0249.Dep51 uni0249.Dep50]' @ccmp10 by [uni029D.Dotless uni0249.Dotless.Dep51 uni02B2.Dotless uni0458.Dotless uni2071.Dotless i.Dotless uni0249.Dotless.Dep50 uni1D62.Dotless i.Dotless.SC uni0268.Dotless uni1DA4.Dotless uni1D96.Dotless iogonek.Dotless uni0249.Dotless uni1ECB.Dotless i.Dotless.SlantItalic j.Dotless uni1E2D.Dotless uni0456.Dotless uni1DA8.Dotless i.Dotless.SlantItalic.SC];
+    sub [uni1E2D uni1ECB]' @ccmp13 @ccmp10 by [i.Dotless uni0330 i.Dotless dotbelowcomb];
+    sub [uni1E2D uni1ECB]' @ccmp13 @ccmp13 @ccmp10 by [i.Dotless uni0330 i.Dotless dotbelowcomb];
+    sub [uni1E2D uni1ECB]' @ccmp13 @ccmp13 @ccmp13 @ccmp10 by [i.Dotless uni0330 i.Dotless dotbelowcomb];
+    sub [uni1E2D uni1ECB]' @ccmp13 @ccmp13 @ccmp13 @ccmp13 @ccmp10 by [i.Dotless uni0330 i.Dotless dotbelowcomb];
+    sub [uni1E2D uni1ECB]' @ccmp10 by [i.Dotless uni0330 i.Dotless dotbelowcomb];
+} ccmp5;
+lookup ccmp8 {
+    sub equal uni0327 acutecomb by uni1E08;
+    sub equal acutecomb uni0327 by uni1E08;
+    sub equal uni0327 by Ccedilla;
+    sub C acutecomb uni0327 by uni1E09;
+    sub C uni0327 acutecomb by uni1E09;
+    sub C uni0327 by ccedilla;
+    sub G uni0338 by notequal;
+    sub K uni0328 by aogonek;
+    sub L uni0327 by uni1E09;
+    sub N acutecomb by uni1E09;
+    sub O uni0327 by uni1E08;
+    sub R acutecomb by uni1E08;
+    sub S uni030C by dcaron;
+    sub U uni0306 uni0327 by uni1E1D;
+    sub U uni0327 uni0306 by uni1E1D;
+    sub U uni0327 by uni0229;
+    sub a uni0327 by uni1E1D;
+    sub c uni0306 by uni1E1D;
+    sub d uni0338 by uni2204;
+    sub e uni0327 by gcommaaccent;
+    sub g uni0327 by Gcommaaccent;
+    sub k uni0327 by kcommaaccent;
+    sub l uni0327 by Kcommaaccent;
+    sub n uni030C by lcaron;
+    sub n uni0327 by lcommaaccent;
+    sub o uni030C by Lcaron;
+    sub o uni0327 by Lcommaaccent;
+    sub r uni0327 by ncommaaccent;
+    sub s uni0327 by Ncommaaccent;
+    sub t uni031B by ohorn;
+    sub t uni0304 uni0328 by uni01ED;
+    sub t uni0328 uni0304 by uni01ED;
+    sub t uni0328 by uni01EB;
+    sub u uni0304 by uni01ED;
+    sub Ccedilla uni0328 by uni01ED;
+    sub ccedilla uni031B by Ohorn;
+    sub ccedilla uni0304 uni0328 by uni01EC;
+    sub ccedilla uni0328 uni0304 by uni01EC;
+    sub ccedilla uni0328 by uni01EA;
+    sub cacute uni0328 by uni01EC;
+    sub Cacute uni0304 by uni01EC;
+    sub ebreve uni0327 by rcommaaccent;
+    sub uni0229 uni0327 by Rcommaaccent;
+    sub uni2203 uni0327 by scedilla;
+    sub omacron uni0327 by Scedilla;
+    sub uni01EB uni0327 by uni0163;
+    sub uni01EB uni030C by tcaron;
+    sub Omacron uni031B by uhorn;
+    sub Omacron uni0328 by uogonek;
+    sub uni01EA uni031B by Uhorn;
+    sub uni01EA uni0328 by Uogonek;
+    sub arrowleft uni0338 by uni219A;
+    sub arrowright uni0338 by uni219B;
+} ccmp8;
+lookup ccmp15 {
+    sub  @ccmp13' by [uni1DCA uni0320 uni0317 uni0316 uni032D uni032F uni032E uni032C uni0330 uniF17B uni0359 uni0353 uni032B uni033C uni0331 uni0331.Short uni0332 uni0333 uni0347 uni0324 dotbelowcomb uni0358 uni0326 uni0315 uni031B uni0325 uni035A uni031C uni0339 uni0329 uni0348 uni031F uni031E uni031D uni0318 uni0319 uni0349 uni0327 uni0328 CombOgonek.Lrg uni0328.RetroHookStyle uni1DC2 uni032A uni033A uni033B uni02DE uni02DE02DE uni02E9.rstaff uni02E8.rstaff uni02E7.rstaff uni02E6.rstaff uni02E5.rstaff uni02E9.1 uni02E9.2 uni02E9.3 uni02E9.4 uni02E9.5 uni02E8.1 uni02E8.2 uni02E8.3 uni02E8.4 uni02E8.5 uni02E7.1 uni02E7.2 uni02E7.3 uni02E7.4 uni02E7.5 uni02E6.1 uni02E6.2 uni02E6.3 uni02E6.4 uni02E6.5 uni02E5.1 uni02E5.2 uni02E5.3 uni02E5.4 uni02E5.5 uniA716.1 uniA715.1 uniA714.1 uniA713.1 uniA712.1 uniA716.2 uniA715.2 uniA714.2 uniA713.2 uniA712.2 uniA716.3 uniA715.3 uniA714.3 uniA713.3 uniA712.3 uniA716.4 uniA715.4 uniA714.4 uniA713.4 uniA712.4 uniA716.5 uniA715.5 uniA714.5 uniA713.5 uniA712.5 uni02E9.rstaffno uni02E8.rstaffno uni02E7.rstaffno uni02E6.rstaffno uni02E5.rstaffno uni02E9.no uni02E8.no uni02E7.no uni02E6.no uni02E5.no uni034E uni20EE uni20ED uni20EF uni20EC uni034D uni0354 uni0355 uni0356 uni1DFF uni034F uni1DCA.Dep51 uni1DCA.Dep50 uni1DC2.Dep51 uni1DC2.Dep50 uni1DC2.Dep41 uniA716.1.Dep51 uniA716.1.Dep50 uniA716.1.Dep41 uniA715.1.Dep51 uniA715.1.Dep50 uniA715.1.Dep41 uniA714.1.Dep51 uniA714.1.Dep50 uniA714.1.Dep41 uniA713.1.Dep51 uniA713.1.Dep50 uniA713.1.Dep41 uniA712.1.Dep51 uniA712.1.Dep50 uniA712.1.Dep41 uniA716.2.Dep51 uniA716.2.Dep50 uniA716.2.Dep41 uniA715.2.Dep51 uniA715.2.Dep50 uniA715.2.Dep41 uniA714.2.Dep51 uniA714.2.Dep50 uniA714.2.Dep41 uniA713.2.Dep51 uniA713.2.Dep50 uniA713.2.Dep41 uniA712.2.Dep51 uniA712.2.Dep50 uniA712.2.Dep41 uniA716.3.Dep51 uniA716.3.Dep50 uniA716.3.Dep41 uniA715.3.Dep51 uniA715.3.Dep50 uniA715.3.Dep41 uniA714.3.Dep51 uniA714.3.Dep50 uniA714.3.Dep41 uniA713.3.Dep51 uniA713.3.Dep50 uniA713.3.Dep41 uniA712.3.Dep51 uniA712.3.Dep50 uniA712.3.Dep41 uniA716.4.Dep51 uniA716.4.Dep50 uniA716.4.Dep41 uniA715.4.Dep51 uniA715.4.Dep50 uniA715.4.Dep41 uniA714.4.Dep51 uniA714.4.Dep50 uniA714.4.Dep41 uniA713.4.Dep51 uniA713.4.Dep50 uniA713.4.Dep41 uniA712.4.Dep51 uniA712.4.Dep50 uniA712.4.Dep41 uniA716.5.Dep51 uniA716.5.Dep50 uniA716.5.Dep41 uniA715.5.Dep51 uniA715.5.Dep50 uniA715.5.Dep41 uniA714.5.Dep51 uniA714.5.Dep50 uniA714.5.Dep41 uniA713.5.Dep51 uniA713.5.Dep50 uniA713.5.Dep41 uniA712.5.Dep51 uniA712.5.Dep50 uniA712.5.Dep41];
+    sub  @ccmp10' by [uni0363 uni0368 uni0369 uni0364 uni036A uni0365 uni036B uni0366 uni036C uni036D uni0367 uni036E uni036F uni0312 uni0314 acutecomb uni030B gravecomb uni030F uni0302 uni0302_acutecomb.VN uni0302_gravecomb.VN uni0302_tildecomb.VN uni0302_hookabovecomb.VN uni0311 uni0311.UU uni0311.UL uni0311.LL uni0352 uni0361.UU uni0361.UL uni0361.LL uni0306 uni0306_acutecomb.VN uni0306_gravecomb.VN uni0306_tildecomb.VN uni0306_hookabovecomb.VN uni0310 uni0306.CyShortMrkAlt CombBreve.CyShortMrkAlt.UCHt uni1DCB uni030C uni1DC7 uni1DC4 uni1DCC uni1DC5 uni1DC6 uni1DC9 uni1DC8 tildecomb uni034A uni034C uni034B uni033E uni035B uni033D uni0304 uni0304.Short uni0305 uni033F uni0308.Sup uni0308.UU uni0308.LL uni0308.UL uni0308.Sup uni0307 uni0313 uni030A uni0351 uni0357 hookabovecomb uni030D uni030E uni0346 uni1DFE uni0350 uni1DC7.Dep51 uni1DC7.Dep50 uni1DC4.Dep51 uni1DC4.Dep50 uni1DC5.Dep51 uni1DC5.Dep50 uni1DC6.Dep51 uni1DC6.Dep50 uni1DC9.Dep51 uni1DC9.Dep50 uni1DC8.Dep51 uni1DC8.Dep50];
+} ccmp15;
+lookup ccmp17 {
+    sub [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' uni02E9 by [uni02E5.1 uni02E6.1 uni02E7.1 uni02E8.1 uni02E9.1];
+    sub [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' uni02E8 by [uni02E5.2 uni02E6.2 uni02E7.2 uni02E8.2 uni02E9.2];
+    sub [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' uni02E7 by [uni02E5.3 uni02E6.3 uni02E7.3 uni02E8.3 uni02E9.3];
+    sub [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' uni02E6 by [uni02E5.4 uni02E6.4 uni02E7.4 uni02E8.4 uni02E9.4];
+    sub [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' uni02E5 by [uni02E5.5 uni02E6.5 uni02E7.5 uni02E8.5 uni02E9.5];
+    sub @ccmp1 [uniA712 uniA713 uniA714 uniA715 uniA716]' by [uniA712.1 uniA713.1 uniA714.1 uniA715.1 uniA716.1];
+    sub @ccmp2 [uniA712 uniA713 uniA714 uniA715 uniA716]' by [uniA712.2 uniA713.2 uniA714.2 uniA715.2 uniA716.2];
+    sub @ccmp3 [uniA712 uniA713 uniA714 uniA715 uniA716]' by [uniA712.3 uniA713.3 uniA714.3 uniA715.3 uniA716.3];
+    sub @ccmp4 [uniA712 uniA713 uniA714 uniA715 uniA716]' by [uniA712.4 uniA713.4 uniA714.4 uniA715.4 uniA716.4];
+    sub @ccmp5 [uniA712 uniA713 uniA714 uniA715 uniA716]' by [uniA712.5 uniA713.5 uniA714.5 uniA715.5 uniA716.5];
+} ccmp17;
+lookup ccmp28 {
+    sub [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.5 uni02E5.rstaff uni02E6.4 uni02E6.rstaff uni02E7.3 uni02E7.rstaff uni02E8.2 uni02E8.rstaff uni02E9.1 uni02E9.rstaff];
+    sub @ccmp8 [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub @ccmp8 [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub @ccmp8 [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub @ccmp8 [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub @ccmp8 [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub @ccmp8 [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E9.1 uni02E8.2 uni02E7.3 uni02E6.4 uni02E5.5] [uni02E5 uni02E6 uni02E7 uni02E8 uni02E9]' by [uni02E5.rstaff uni02E6.rstaff uni02E7.rstaff uni02E8.rstaff uni02E9.rstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' [uniA716.1 uniA715.2 uniA714.3 uniA713.4 uniA712.5] by [uniA712.lstaff uniA712.5 uniA713.lstaff uniA713.4 uniA714.lstaff uniA714.3 uniA715.lstaff uniA715.2 uniA716.lstaff uniA716.1];
+    sub [uniA712 uniA713 uniA714 uniA715 uniA716]' @ccmp9 by [uniA712.lstaff uniA713.lstaff uniA714.lstaff uniA715.lstaff uniA716.lstaff];
+} ccmp28;
+ language ROM  exclude_dflt; # Romanian
+lookup ccmp5;
+lookup ccmp8;
+lookup ccmp11 {
+    sub c uni0327 by uni0163.CommaStyle.SC;
+    sub c uni0327 by uni0162.CommaStyle;
+    sub c uni0327 by uni0163.CommaStyle;
+    sub n uni0327 by scedilla.CommaStyle;
+    sub n uni0327 by scedilla.CommaStyle.SC;
+    sub n uni0327 by Scedilla.CommaStyle;
+} ccmp11;
+lookup ccmp12 {
+    sub @ccmp6 by @ccmp7;
+} ccmp12;
+lookup ccmp15;
+lookup ccmp17;
+lookup ccmp28;
+ language VIT  exclude_dflt; # Vietnamese
+lookup ccmp5;
+lookup ccmp8;
+lookup ccmp9 {
+lookupflag;
+    sub uni0302 acutecomb by uni0302_acutecomb.VN;
+    sub uni0302 hookabovecomb by uni0302_hookabovecomb.VN;
+    sub uni0302 gravecomb by uni0302_gravecomb.VN;
+    sub uni0302 tildecomb by uni0302_tildecomb.VN;
+    sub uni0306 acutecomb by uni0306_acutecomb.VN;
+    sub uni0306 gravecomb by uni0306_gravecomb.VN;
+    sub uni0306 tildecomb by uni0306_tildecomb.VN;
+    sub uni0306 hookabovecomb by uni0306_hookabovecomb.VN;
+} ccmp9;
+lookup ccmp10 {
+lookupflag 0;
+    sub @ccmp11 by @ccmp12;
+} ccmp10;
+lookup ccmp15;
+lookup ccmp17;
+lookup ccmp28;
+ language IPPH;
+ script cyrl; # Cyrillic
+lookup ccmp5;
+lookup ccmp8;
+lookup ccmp15;
+lookup ccmp17;
+lookup ccmp28;
+} ccmp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature smcp { # Small Capitals
+ # Latin
+    sub @smcp1 by @smcp2;
+ language ROM ; # Romanian
+ language VIT ; # Vietnamese
+ language IPPH;
+ script cyrl; # Cyrillic
+    sub @smcp1 by @smcp2;
+} smcp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature c2sc { # Small Capitals From Capitals
+ # Latin
+    sub @c2sc1 by @c2sc2;
+ language ROM ; # Romanian
+ language VIT ; # Vietnamese
+ language IPPH;
+ script cyrl; # Cyrillic
+    sub @c2sc1 by @c2sc2;
+} c2sc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature rlig { # Required Ligatures
+ # from AAT 'morx'; type 1, sel: 0, cvrg: 20000002
+ # Latin
+    sub equal uni0338 by notequal;
+    sub A acutecomb by Aacute;
+    sub A gravecomb by Agrave;
+    sub A uni030F by uni0200;
+    sub A uni0302 by Acircumflex;
+    sub A uni0311 by uni0202;
+    sub A uni0306 by Abreve;
+    sub A uni030C by uni01CD;
+    sub A tildecomb by Atilde;
+    sub A uni0304 by Amacron;
+    sub A uni0308 by Adieresis;
+    sub A dotbelowcomb by uni1EA0;
+    sub A uni0307 by uni0226;
+    sub A uni0325 by uni1E00;
+    sub A uni030A by Aring;
+    sub A hookabovecomb by uni1EA2;
+    sub A uni0328 by Aogonek;
+    sub B uni0331 by uni1E06;
+    sub B dotbelowcomb by uni1E04;
+    sub B uni0307 by uni1E02;
+    sub C acutecomb by Cacute;
+    sub C uni0302 by Ccircumflex;
+    sub C uni030C by Ccaron;
+    sub C uni0307 by Cdotaccent;
+    sub C uni0327 by Ccedilla;
+    sub D uni032D by uni1E12;
+    sub D uni030C by Dcaron;
+    sub D uni0331 by uni1E0E;
+    sub D dotbelowcomb by uni1E0C;
+    sub D uni0307 by uni1E0A;
+    sub D uni0327 by uni1E10;
+    sub E acutecomb by Eacute;
+    sub E gravecomb by Egrave;
+    sub E uni030F by uni0204;
+    sub E uni032D by uni1E18;
+    sub E uni0302 by Ecircumflex;
+    sub E uni0311 by uni0206;
+    sub E uni0306 by Ebreve;
+    sub E uni030C by Ecaron;
+    sub E uni0330 by uni1E1A;
+    sub E tildecomb by uni1EBC;
+    sub E uni0304 by Emacron;
+    sub E uni0308 by Edieresis;
+    sub E dotbelowcomb by uni1EB8;
+    sub E uni0307 by Edotaccent;
+    sub E hookabovecomb by uni1EBA;
+    sub E uni0327 by uni0228;
+    sub E uni0328 by Eogonek;
+    sub F uni0307 by uni1E1E;
+    sub G acutecomb by uni01F4;
+    sub G uni0302 by Gcircumflex;
+    sub G uni0306 by Gbreve;
+    sub G uni030C by Gcaron;
+    sub G uni0304 by uni1E20;
+    sub G uni0307 by Gdotaccent;
+    sub G uni0327 by Gcommaaccent;
+    sub H uni0302 by Hcircumflex;
+    sub H uni032E by uni1E2A;
+    sub H uni030C by uni021E;
+    sub H uni0308 by uni1E26;
+    sub H dotbelowcomb by uni1E24;
+    sub H uni0307 by uni1E22;
+    sub H uni0327 by uni1E28;
+    sub I acutecomb by Iacute;
+    sub I gravecomb by Igrave;
+    sub I uni030F by uni0208;
+    sub I uni0302 by Icircumflex;
+    sub I uni0311 by uni020A;
+    sub I uni0306 by Ibreve;
+    sub I uni030C by uni01CF;
+    sub I uni0330 by uni1E2C;
+    sub I tildecomb by Itilde;
+    sub I uni0304 by Imacron;
+    sub I uni0308 by Idieresis;
+    sub I dotbelowcomb by uni1ECA;
+    sub I uni0307 by Idot;
+    sub I hookabovecomb by uni1EC8;
+    sub I uni0328 by Iogonek;
+    sub J uni0302 by Jcircumflex;
+    sub K acutecomb by uni1E30;
+    sub K uni030C by uni01E8;
+    sub K uni0331 by uni1E34;
+    sub K dotbelowcomb by uni1E32;
+    sub K uni0327 by Kcommaaccent;
+    sub L acutecomb by Lacute;
+    sub L uni032D by uni1E3C;
+    sub L uni030C by Lcaron;
+    sub L uni0331 by uni1E3A;
+    sub L uni0304 dotbelowcomb by uni1E38;
+    sub L dotbelowcomb by uni1E36;
+    sub L uni0327 by Lcommaaccent;
+    sub M acutecomb by uni1E3E;
+    sub M dotbelowcomb by uni1E42;
+    sub M uni0307 by uni1E40;
+    sub N acutecomb by Nacute;
+    sub N gravecomb by uni01F8;
+    sub N uni032D by uni1E4A;
+    sub N uni030C by Ncaron;
+    sub N tildecomb by Ntilde;
+    sub N uni0331 by uni1E48;
+    sub N dotbelowcomb by uni1E46;
+    sub N uni0307 by uni1E44;
+    sub N uni0327 by Ncommaaccent;
+    sub O acutecomb by Oacute;
+    sub O uni030B by Ohungarumlaut;
+    sub O gravecomb by Ograve;
+    sub O uni030F by uni020C;
+    sub O uni0302 by Ocircumflex;
+    sub O uni0311 by uni020E;
+    sub O uni0306 by Obreve;
+    sub O uni030C by uni01D1;
+    sub O tildecomb by Otilde;
+    sub O uni0304 by Omacron;
+    sub O uni0308 by Odieresis;
+    sub O dotbelowcomb by uni1ECC;
+    sub O uni0307 by uni022E;
+    sub O uni031B by Ohorn;
+    sub O hookabovecomb by uni1ECE;
+    sub O uni0328 by uni01EA;
+    sub P acutecomb by uni1E54;
+    sub P uni0307 by uni1E56;
+    sub R acutecomb by Racute;
+    sub R uni030F by uni0210;
+    sub R uni0311 by uni0212;
+    sub R uni030C by Rcaron;
+    sub R uni0331 by uni1E5E;
+    sub R uni0304 dotbelowcomb by uni1E5C;
+    sub R dotbelowcomb by uni1E5A;
+    sub R uni0307 by uni1E58;
+    sub R uni0327 by Rcommaaccent;
+    sub S acutecomb by Sacute;
+    sub S uni0302 by Scircumflex;
+    sub S uni030C by Scaron;
+    sub S dotbelowcomb by uni1E62;
+    sub S uni0307 by uni1E60;
+    sub S uni0326 by Scommaaccent;
+    sub S uni0327 by Scedilla;
+    sub T uni032D by uni1E70;
+    sub T uni030C by Tcaron;
+    sub T uni0331 by uni1E6E;
+    sub T dotbelowcomb by uni1E6C;
+    sub T uni0307 by uni1E6A;
+    sub T uni0326 by uni021A;
+    sub T uni0327 by uni0162;
+    sub U acutecomb by Uacute;
+    sub U uni030B by Uhungarumlaut;
+    sub U gravecomb by Ugrave;
+    sub U uni030F by uni0214;
+    sub U uni032D by uni1E76;
+    sub U uni0302 by Ucircumflex;
+    sub U uni0311 by uni0216;
+    sub U uni0306 by Ubreve;
+    sub U uni030C by uni01D3;
+    sub U uni0330 by uni1E74;
+    sub U tildecomb by Utilde;
+    sub U uni0304 by Umacron;
+    sub U uni0324 by uni1E72;
+    sub U uni0308 by Udieresis;
+    sub U dotbelowcomb by uni1EE4;
+    sub U uni031B by Uhorn;
+    sub U uni030A by Uring;
+    sub U hookabovecomb by uni1EE6;
+    sub U uni0328 by Uogonek;
+    sub V tildecomb by uni1E7C;
+    sub V dotbelowcomb by uni1E7E;
+    sub W acutecomb by Wacute;
+    sub W gravecomb by Wgrave;
+    sub W uni0302 by Wcircumflex;
+    sub W uni0308 by Wdieresis;
+    sub W dotbelowcomb by uni1E88;
+    sub W uni0307 by uni1E86;
+    sub X uni0308 by uni1E8C;
+    sub X uni0307 by uni1E8A;
+    sub Y acutecomb by Yacute;
+    sub Y gravecomb by Ygrave;
+    sub Y uni0302 by Ycircumflex;
+    sub Y tildecomb by uni1EF8;
+    sub Y uni0304 by uni0232;
+    sub Y uni0308 by Ydieresis;
+    sub Y dotbelowcomb by uni1EF4;
+    sub Y uni0307 by uni1E8E;
+    sub Y hookabovecomb by uni1EF6;
+    sub Z acutecomb by Zacute;
+    sub Z uni0302 by uni1E90;
+    sub Z uni030C by Zcaron;
+    sub Z uni0331 by uni1E94;
+    sub Z dotbelowcomb by uni1E92;
+    sub Z uni0307 by Zdotaccent;
+    sub a acutecomb by aacute;
+    sub a gravecomb by agrave;
+    sub a uni030F by uni0201;
+    sub a uni0302 by acircumflex;
+    sub a uni0311 by uni0203;
+    sub a uni0306 by abreve;
+    sub a uni030C by uni01CE;
+    sub a tildecomb by atilde;
+    sub a uni0304 by amacron;
+    sub a uni0308 by adieresis;
+    sub a dotbelowcomb by uni1EA1;
+    sub a uni0307 by uni0227;
+    sub a uni0325 by uni1E01;
+    sub a uni030A by aring;
+    sub a hookabovecomb by uni1EA3;
+    sub a uni0328 by aogonek;
+    sub b uni0331 by uni1E07;
+    sub b dotbelowcomb by uni1E05;
+    sub b uni0307 by uni1E03;
+    sub c acutecomb by cacute;
+    sub c uni0302 by ccircumflex;
+    sub c uni030C by ccaron;
+    sub c uni0307 by cdotaccent;
+    sub c uni0327 by ccedilla;
+    sub d uni032D by uni1E13;
+    sub d uni030C by dcaron;
+    sub d uni0331 by uni1E0F;
+    sub d dotbelowcomb by uni1E0D;
+    sub d uni0307 by uni1E0B;
+    sub d uni0327 by uni1E11;
+    sub e acutecomb by eacute;
+    sub e gravecomb by egrave;
+    sub e uni030F by uni0205;
+    sub e uni032D by uni1E19;
+    sub e uni0302 by ecircumflex;
+    sub e uni0311 by uni0207;
+    sub e uni0306 by ebreve;
+    sub e uni030C by ecaron;
+    sub e uni0330 by uni1E1B;
+    sub e tildecomb by uni1EBD;
+    sub e uni0304 by emacron;
+    sub e uni0308 by edieresis;
+    sub e dotbelowcomb by uni1EB9;
+    sub e uni0307 by edotaccent;
+    sub e hookabovecomb by uni1EBB;
+    sub e uni0327 by uni0229;
+    sub e uni0328 by eogonek;
+    sub f uni0307 by uni1E1F;
+    sub g acutecomb by uni01F5;
+    sub g uni0302 by gcircumflex;
+    sub g uni0306 by gbreve;
+    sub g uni030C by gcaron;
+    sub g uni0304 by uni1E21;
+    sub g uni0307 by gdotaccent;
+    sub g uni0327 by gcommaaccent;
+    sub h uni0302 by hcircumflex;
+    sub h uni032E by uni1E2B;
+    sub h uni030C by uni021F;
+    sub h uni0331 by uni1E96;
+    sub h uni0308 by uni1E27;
+    sub h dotbelowcomb by uni1E25;
+    sub h uni0307 by uni1E23;
+    sub h uni0327 by uni1E29;
+    sub i acutecomb by iacute;
+    sub i gravecomb by igrave;
+    sub i uni030F by uni0209;
+    sub i uni0302 by icircumflex;
+    sub i uni0311 by uni020B;
+    sub i uni0306 by ibreve;
+    sub i uni030C by uni01D0;
+    sub i uni0330 by uni1E2D;
+    sub i tildecomb by itilde;
+    sub i uni0304 by imacron;
+    sub i uni0308 by idieresis;
+    sub i dotbelowcomb by uni1ECB;
+    sub i hookabovecomb by uni1EC9;
+    sub i uni0328 by iogonek;
+    sub j uni0302 by jcircumflex;
+    sub j uni030C by uni01F0;
+    sub k acutecomb by uni1E31;
+    sub k uni030C by uni01E9;
+    sub k uni0331 by uni1E35;
+    sub k dotbelowcomb by uni1E33;
+    sub k uni0327 by kcommaaccent;
+    sub l acutecomb by lacute;
+    sub l uni032D by uni1E3D;
+    sub l uni030C by lcaron;
+    sub l uni0331 by uni1E3B;
+    sub l uni0304 dotbelowcomb by uni1E39;
+    sub l dotbelowcomb by uni1E37;
+    sub l uni0327 by lcommaaccent;
+    sub m acutecomb by uni1E3F;
+    sub m dotbelowcomb by uni1E43;
+    sub m uni0307 by uni1E41;
+    sub n acutecomb by nacute;
+    sub n gravecomb by uni01F9;
+    sub n uni032D by uni1E4B;
+    sub n uni030C by ncaron;
+    sub n tildecomb by ntilde;
+    sub n uni0331 by uni1E49;
+    sub n dotbelowcomb by uni1E47;
+    sub n uni0307 by uni1E45;
+    sub n uni0327 by ncommaaccent;
+    sub o acutecomb by oacute;
+    sub o uni030B by ohungarumlaut;
+    sub o gravecomb by ograve;
+    sub o uni030F by uni020D;
+    sub o uni0302 by ocircumflex;
+    sub o uni0311 by uni020F;
+    sub o uni0306 by obreve;
+    sub o uni030C by uni01D2;
+    sub o tildecomb by otilde;
+    sub o uni0304 by omacron;
+    sub o uni0308 by odieresis;
+    sub o dotbelowcomb by uni1ECD;
+    sub o uni0307 by uni022F;
+    sub o uni031B by ohorn;
+    sub o hookabovecomb by uni1ECF;
+    sub o uni0328 by uni01EB;
+    sub p acutecomb by uni1E55;
+    sub p uni0307 by uni1E57;
+    sub r acutecomb by racute;
+    sub r uni030F by uni0211;
+    sub r uni0311 by uni0213;
+    sub r uni030C by rcaron;
+    sub r uni0331 by uni1E5F;
+    sub r uni0304 dotbelowcomb by uni1E5D;
+    sub r dotbelowcomb by uni1E5B;
+    sub r uni0307 by uni1E59;
+    sub r uni0327 by rcommaaccent;
+    sub s acutecomb by sacute;
+    sub s uni0302 by scircumflex;
+    sub s uni030C by scaron;
+    sub s dotbelowcomb by uni1E63;
+    sub s uni0307 by uni1E61;
+    sub s uni0326 by scommaaccent;
+    sub s uni0327 by scedilla;
+    sub t uni032D by uni1E71;
+    sub t uni030C by tcaron;
+    sub t uni0331 by uni1E6F;
+    sub t uni0308 by uni1E97;
+    sub t dotbelowcomb by uni1E6D;
+    sub t uni0307 by uni1E6B;
+    sub t uni0326 by uni021B;
+    sub t uni0327 by uni0163;
+    sub u acutecomb by uacute;
+    sub u uni030B by uhungarumlaut;
+    sub u gravecomb by ugrave;
+    sub u uni030F by uni0215;
+    sub u uni032D by uni1E77;
+    sub u uni0302 by ucircumflex;
+    sub u uni0311 by uni0217;
+    sub u uni0306 by ubreve;
+    sub u uni030C by uni01D4;
+    sub u uni0330 by uni1E75;
+    sub u tildecomb by utilde;
+    sub u uni0304 by umacron;
+    sub u uni0324 by uni1E73;
+    sub u uni0308 by udieresis;
+    sub u dotbelowcomb by uni1EE5;
+    sub u uni031B by uhorn;
+    sub u uni030A by uring;
+    sub u hookabovecomb by uni1EE7;
+    sub u uni0328 by uogonek;
+    sub v tildecomb by uni1E7D;
+    sub v dotbelowcomb by uni1E7F;
+    sub w acutecomb by wacute;
+    sub w gravecomb by wgrave;
+    sub w uni0302 by wcircumflex;
+    sub w uni0308 by wdieresis;
+    sub w dotbelowcomb by uni1E89;
+    sub w uni0307 by uni1E87;
+    sub w uni030A by uni1E98;
+    sub x uni0308 by uni1E8D;
+    sub x uni0307 by uni1E8B;
+    sub y acutecomb by yacute;
+    sub y gravecomb by ygrave;
+    sub y uni0302 by ycircumflex;
+    sub y tildecomb by uni1EF9;
+    sub y uni0304 by uni0233;
+    sub y uni0308 by ydieresis;
+    sub y dotbelowcomb by uni1EF5;
+    sub y uni0307 by uni1E8F;
+    sub y uni030A by uni1E99;
+    sub y hookabovecomb by uni1EF7;
+    sub z acutecomb by zacute;
+    sub z uni0302 by uni1E91;
+    sub z uni030C by zcaron;
+    sub z uni0331 by uni1E95;
+    sub z dotbelowcomb by uni1E93;
+    sub z uni0307 by zdotaccent;
+    sub AE acutecomb by AEacute;
+    sub AE uni0304 by uni01E2;
+    sub Oslash acutecomb by Oslashacute;
+    sub ae acutecomb by aeacute;
+    sub ae uni0304 by uni01E3;
+    sub oslash acutecomb by oslashacute;
+    sub uni0430 uni0306 by uni04D1;
+    sub uni0430 uni0308 by uni04D3;
+    sub uni0410 uni0306 by uni04D0;
+    sub uni0410 uni0308 by uni04D2;
+    sub uni044B uni0308 by uni04F9;
+    sub uni042B uni0308 by uni04F8;
+    sub uni044D uni0308 by uni04ED;
+    sub uni042D uni0308 by uni04EC;
+    sub uni0435 gravecomb by uni0450;
+    sub uni0435 uni0306 by uni04D7;
+    sub uni0435 uni0308 by uni0451;
+    sub uni04D9 uni0308 by uni04DB;
+    sub uni0437 uni0308 by uni04DF;
+    sub uni0415 gravecomb by uni0400;
+    sub uni0415 uni0306 by uni04D6;
+    sub uni0415 uni0308 by uni0401;
+    sub uni2203 uni0338 by uni2204;
+    sub uni04D8 uni0308 by uni04DA;
+    sub uni0417 uni0308 by uni04DE;
+    sub longs uni0307 by uni1E9B;
+    sub uni0433 acutecomb by uni0453;
+    sub uni0413 acutecomb by uni0403;
+    sub uni0456 uni0308 by uni0457;
+    sub uni0406 uni0308 by uni0407;
+    sub uni043A acutecomb by uni045C;
+    sub uni0436 uni0306 by uni04C2;
+    sub uni0436 uni0308 by uni04DD;
+    sub uni041A acutecomb by uni040C;
+    sub uni0416 uni0306 by uni04C1;
+    sub uni0416 uni0308 by uni04DC;
+    sub uni0438 gravecomb by uni045D;
+    sub uni0438 uni0306 by uni0439;
+    sub uni0438 uni0304 by uni04E3;
+    sub uni0438 uni0308 by uni04E5;
+    sub uni0418 gravecomb by uni040D;
+    sub uni0418 uni0306 by uni0419;
+    sub uni0418 uni0304 by uni04E2;
+    sub uni0418 uni0308 by uni04E4;
+    sub uni043E uni0308 by uni04E7;
+    sub uni04E9 uni0308 by uni04EB;
+    sub uni041E uni0308 by uni04E6;
+    sub uni04E8 uni0308 by uni04EA;
+    sub uni0443 uni030B by uni04F3;
+    sub uni0443 uni0306 by uni045E;
+    sub uni0443 uni0304 by uni04EF;
+    sub uni0443 uni0308 by uni04F1;
+    sub uni0447 uni0308 by uni04F5;
+    sub uni0423 uni030B by uni04F2;
+    sub uni0423 uni0306 by uni040E;
+    sub uni0423 uni0304 by uni04EE;
+    sub uni0423 uni0308 by uni04F0;
+    sub uni0427 uni0308 by uni04F4;
+    sub uni0292 uni030C by uni01EF;
+    sub uni01B7 uni030C by uni01EE;
+    sub arrowleft uni0338 by uni219A;
+    sub arrowright uni0338 by uni219B;
+} rlig;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature liga { # Standard Ligatures
+ # Latin
+lookup liga35 {
+    sub f f i by f_f_i;
+    sub f f l by f_f_l;
+    sub f f by f_f;
+    sub f i by f_i;
+    sub f l by f_l;
+} liga35;
+lookup liga37 {
+    sub f f by f_f;
+    sub f i by f_i;
+    sub f l by f_l;
+} liga37;
+ language ROM ; # Romanian
+ language IPPH;
+} liga;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss01 { # Sylistic Set 1
+ # from AAT 'morx'; type 17, sel: 0, cvrg: 20000004
+ # Latin
+    sub @ss011 by @ss012;
+} ss01;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss02 { # Sylistic Set 2
+ # from AAT 'morx'; type 17, sel: 2, cvrg: 20000004
+ # Latin
+    sub @ss021 by @ss022;
+} ss02;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss03 { # Sylistic Set 3
+ # from AAT 'morx'; type 17, sel: 4, cvrg: 20000004
+ # Latin
+    sub @ss031 by @ss032;
+} ss03;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss04 { # Sylistic Set 4
+ # from AAT 'morx'; type 17, sel: 6, cvrg: 20000004
+ # Latin
+    sub @ss041 by @ss042;
+} ss04;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss05 { # Sylistic Set 5
+ # from AAT 'morx'; type 17, sel: 8, cvrg: 20000004
+ # Latin
+    sub @ss051 by @ss052;
+} ss05;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss06 { # Sylistic Set 6
+ # from AAT 'morx'; type 17, sel: 10, cvrg: 20000004
+ # Latin
+    sub uni019D by uni019D.LCStyle;
+} ss06;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss07 { # Sylistic Set 7
+ # from AAT 'morx'; type 17, sel: 12, cvrg: 20000004
+ # Latin
+    sub uni01A5 by uni01A5.BowlHook;
+} ss07;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss08 { # Sylistic Set 8
+ # from AAT 'morx'; type 17, sel: 16, cvrg: 20000004
+ # Latin
+    sub uni01AC by uni01AC.RtHook;
+} ss08;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss09 { # Sylistic Set 9
+ # from AAT 'morx'; type 17, sel: 18, cvrg: 20000004
+ # Latin
+    sub @ss091 by @ss092;
+} ss09;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature ss10 { # Sylistic Set 10
+ # from AAT 'morx'; type 17, sel: 20, cvrg: 20000004
+ # Latin
+    sub uni01B3.RtHook by uni01B3;
+} ss10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

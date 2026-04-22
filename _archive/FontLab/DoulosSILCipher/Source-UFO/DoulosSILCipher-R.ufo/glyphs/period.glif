@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+  <advance width="612"/>
+  <unicode hex="002E"/>
+  <anchor x="305" y="1870" name="A"/>
+  <anchor x="305" y="715" name="C"/>
+  <anchor x="292" y="-100" name="L"/>
+  <anchor x="305" y="1455" name="U"/>
+  <outline>
+    <contour>
+      <point x="418" y="101" type="curve" smooth="yes"/>
+      <point x="418" y="32"/>
+      <point x="366" y="-29"/>
+      <point x="292" y="-29" type="curve" smooth="yes"/>
+      <point x="216" y="-29"/>
+      <point x="168" y="32"/>
+      <point x="168" y="101" type="curve" smooth="yes"/>
+      <point x="168" y="173"/>
+      <point x="219" y="225"/>
+      <point x="292" y="225" type="curve" smooth="yes"/>
+      <point x="360" y="225"/>
+      <point x="418" y="174"/>
+    </contour>
+  </outline>
+</glyph>

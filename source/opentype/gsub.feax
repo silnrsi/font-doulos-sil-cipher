@@ -1,0 +1,223 @@
+#**********************************
+#
+# Copyright (c) 2026 SIL Global (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem DFLT dflt; # Default default
+languagesystem latn dflt; # Latin default
+
+# Notes:
+#   The lookups and then the features should be arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
+#       # HB PAUSE
+#   in the code.
+
+
+#**********************************
+# GSUB (Substitution) lookups
+#**********************************
+
+# HB PAUSE
+
+#---  ccmp lookups  ---
+
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup _FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} _FontCheck_Unknow ;
+
+lookup _FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} _FontCheck_n ;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g
+      U' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_Unknow
+      k' lookup _FontCheck_Unknow
+      n'
+      o' lookup _FontCheck_Unknow
+      w' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_n;
+} FontCheck ;
+
+# HB PAUSE
+
+lookup half_lkp { # 
+# GSUB lookup 33, type 11 (Single)
+    sub @NoHalf by @Half;
+} half_lkp;
+
+lookup half{
+# GSUB feature: Glyph Composition / Decomposition
+# Lookups: 1
+
+  sub @ccmp @NoHalf' lookup half_lkp;
+  sub @ccmp [uni0323 uni0332 uni0333 uni0332.half uni0333.half] [uni0305 uni0332 uni0333 uni033F]' lookup half_lkp;
+  sub @ccmp [uni0323 uni0332 uni0333 uni0332.half uni0333.half] [uni0307 uni0352] [uni0305 uni0332 uni0333 uni033F]' lookup half_lkp;
+  sub @ccmp [uni0323 uni0332 uni0333 uni0332.half uni0333.half] [uni0307 uni0352] [uni0305 uni0332 uni0333 uni033F]' lookup half_lkp;
+  sub @ccmp [uni0307 uni0352] [uni0305 uni0332 uni0333 uni033F]' lookup half_lkp;
+
+} half;
+
+lookup slur1_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur01Below;
+} slur1_lkp;
+
+lookup slur2_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur02Below;
+} slur2_lkp;
+
+lookup slur3_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur03Below;
+} slur3_lkp;
+
+lookup slur4_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur04Below;
+} slur4_lkp;
+
+lookup slur5_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur05Below;
+} slur5_lkp;
+
+lookup slur6_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur06Below;
+} slur6_lkp;
+
+lookup slur7_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur07Below;
+} slur7_lkp;
+
+lookup slur8_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur08Below;
+} slur8_lkp;
+
+lookup slur9_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur09Below;
+} slur9_lkp;
+
+lookup slur10_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur10Below;
+} slur10_lkp;
+
+lookup slur11_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur11Below;
+} slur11_lkp;
+
+lookup slur12_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur12Below;
+} slur12_lkp;
+
+lookup slur13_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur13Below;
+} slur13_lkp;
+
+lookup slur14_lkp { #
+  lookupflag 0 ;
+        sub u1D178 by u1D1771D178.Slur14Below;
+} slur14_lkp;
+
+
+lookup slur { #
+  lookupflag IgnoreMarks ;
+        sub u1D177 @base u1D178' lookup slur1_lkp;                                                                                # 1 Base, no HalfBase
+        sub u1D177 @base @base u1D178' lookup slur2_lkp;                                                                          # 2 Bases, no HalfBase
+        sub u1D177 @base @base @base u1D178' lookup slur4_lkp;                                                                    # 3 Bases, no HalfBase
+        sub u1D177 @base @base @base @base u1D178' lookup slur6_lkp;                                                              # 4 Bases, no HalfBase
+        sub u1D177 @base @base @base @base @base u1D178' lookup slur8_lkp;                                                        # 5 Bases, no HalfBase
+        sub u1D177 @base @base @base @base @base @base u1D178' lookup slur10_lkp;                                                 # 6 Bases, no HalfBase
+        sub u1D177 @base @base @base @base @base @base @base u1D178' lookup slur12_lkp;                                           # 7 Bases, no HalfBase
+        sub u1D177 @base @base @base @base @base @base @base @base u1D178' lookup slur14_lkp;                                     # 8 Bases, no HalfBase
+# need to evaluate how to include all possibilities
+        sub u1D177 @HalfBase @base @base u1D178' lookup slur3_lkp;                                                                   # 2 Bases, 1 HalfBase
+        sub u1D177 @base @HalfBase @base u1D178' lookup slur3_lkp;                                                                   # 2 Bases, 1 HalfBase
+        sub u1D177 @base @HalfBase @base @base u1D178' lookup slur4_lkp;
+        sub u1D177 @base @HalfBase @HalfBase @base u1D178' lookup slur4_lkp;
+        sub u1D177 @base @HalfBase @HalfBase @HalfBase @base u1D178' lookup slur5_lkp;
+        sub u1D177 @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base u1D178' lookup slur7_lkp;
+        sub u1D177 @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base u1D178' lookup slur8_lkp;
+        sub u1D177 @base @base @HalfBase @base @base @HalfBase @base u1D178' lookup slur10_lkp;
+} slur;
+
+# HB PAUSE
+
+#---  end ccmp lookups  ---
+
+#---  ssxx lookups  ---
+
+lookup slur_ss01 { # needed for ss01
+  lookupflag IgnoreMarks;
+    sub @SlurBelow by @SlurAbove;
+} slur_ss01 ;
+
+
+#**********************************
+#  GSUB FEATURES
+#**********************************
+
+# These are intended to be arranged in the order MS & HB engines execute.
+
+# HB PAUSE
+
+#---  ccmp feature (pass 3) ---
+
+feature ccmp {  # Glyph Composition/Decomposition
+        lookup FontCheck;             # 
+        lookup half;      # 
+        lookup slur;      # 
+} ccmp ;
+
+
+# HB PAUSE
+
+#********************
+# all remaining substitution features (dlig,salt, ssxx, cvxx, liga, aalt):
+#********************
+
+
+#---  Stylistic Sets feature (pass 10) ---
+
+# HB PAUSE
+
+feature ss01 { # choose between Indonesian Kepatihan and Chinese Jianpu (slurs below vs slurs above)
+   featureNames {
+      name 3 1 0x409 "Slurs";
+   };
+    script DFLT;  
+      language dflt;  
+          lookup slur_ss01;
+    script latn;  
+      language dflt;  
+          lookup slur_ss01;
+} ss01;
+
+# HB PAUSE
+
+

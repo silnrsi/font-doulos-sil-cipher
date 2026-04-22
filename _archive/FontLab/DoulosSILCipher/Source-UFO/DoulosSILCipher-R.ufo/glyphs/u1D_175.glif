@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D175" format="2">
+  <unicode hex="1D175"/>
+  <outline>
+    <contour>
+      <point x="988" y="-664" type="qcurve"/>
+      <point x="988" y="-542" type="line"/>
+      <point x="862" y="-542"/>
+      <point x="694" y="-469"/>
+      <point x="666" y="-378" type="qcurve"/>
+      <point x="633" y="-408" type="line"/>
+      <point x="672" y="-565"/>
+      <point x="874" y="-664"/>
+    </contour>
+  </outline>
+</glyph>

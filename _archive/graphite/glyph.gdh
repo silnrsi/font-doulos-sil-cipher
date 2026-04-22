@@ -1,0 +1,585 @@
+/*
+    Glyph information for font Doulos SIL Cipher at Tue Oct 21 11:42:08 2014
+*/
+
+table(glyph) {MUnits = 2048};
+g__notdef = glyphid(0);
+g__null = glyphid(1);
+g__a = glyphid(2);
+g__a_e = glyphid(3);
+g__aacute = glyphid(4);
+g__acircumflex = glyphid(5);
+g__adieresis = glyphid(6);
+g__agrave = glyphid(7);
+g__aring = glyphid(8);
+g__atilde = glyphid(9);
+g__b = glyphid(10);
+g__c = glyphid(11);
+g__ccedilla = glyphid(12);
+g__d = glyphid(13);
+g__delta = glyphid(14);
+g__e = glyphid(15);
+g__eacute = glyphid(16);
+g__ecircumflex = glyphid(17);
+g__edieresis = glyphid(18);
+g__egrave = glyphid(19);
+g__eth = glyphid(20);
+g__euro = glyphid(21);
+g__f = glyphid(22);
+g__g = glyphid(23);
+g__h = glyphid(24);
+g__i = glyphid(25);
+g__iacute = glyphid(26);
+g__icircumflex = glyphid(27);
+g__idieresis = glyphid(28);
+g__igrave = glyphid(29);
+g__j = glyphid(30);
+g__k = glyphid(31);
+g__l = glyphid(32);
+g__lslash = glyphid(33);
+g__m = glyphid(34);
+g__n = glyphid(35);
+g__ntilde = glyphid(36);
+g__o = glyphid(37);
+g__o_e = glyphid(38);
+g__oacute = glyphid(39);
+g__ocircumflex = glyphid(40);
+g__odieresis = glyphid(41);
+g__ograve = glyphid(42);
+g__omega = glyphid(43);
+g__oslash = glyphid(44);
+g__otilde = glyphid(45);
+g__p = glyphid(46);
+g__q = glyphid(47);
+g__r = glyphid(48);
+g__s = glyphid(49);
+g__scaron = glyphid(50);
+g__t = glyphid(51);
+g__thorn = glyphid(52);
+g__u = glyphid(53);
+g__uacute = glyphid(54);
+g__ucircumflex = glyphid(55);
+g__udieresis = glyphid(56);
+g__ugrave = glyphid(57);
+g__v = glyphid(58);
+g__w = glyphid(59);
+g__x = glyphid(60) {AS = point(740m, 1870m); LS = point(740m, -100m); US = point(740m, 1435m)};
+g__y = glyphid(61);
+g__yacute = glyphid(62);
+g__ydieresis = glyphid(63);
+g__z = glyphid(64);
+g__zcaron = glyphid(65);
+g_a = glyphid(66);
+g_aacute = glyphid(67);
+g_acircumflex = glyphid(68);
+g_acute = glyphid(69);
+g_adieresis = glyphid(70);
+g_ae = glyphid(71);
+g_agrave = glyphid(72);
+g_ampersand = glyphid(73);
+g_approxequal = glyphid(74);
+g_aring = glyphid(75);
+g_asciicircum = glyphid(76);
+g_asciitilde = glyphid(77);
+g_asterisk = glyphid(78);
+g_at = glyphid(79);
+g_atilde = glyphid(80);
+g_b = glyphid(81);
+g_backslash = glyphid(82);
+g_bar = glyphid(83);
+g_braceleft = glyphid(84);
+g_braceright = glyphid(85);
+g_bracketleft = glyphid(86);
+g_bracketright = glyphid(87);
+g_breve = glyphid(88);
+g_brokenbar = glyphid(89);
+g_bullet = glyphid(90);
+g_c = glyphid(91);
+g_caron = glyphid(92);
+g_ccedilla = glyphid(93);
+g_cedilla = glyphid(94);
+g_cent = glyphid(95);
+g_circumflex = glyphid(96);
+g_colon = glyphid(97);
+g_comma = glyphid(98);
+g_copyright = glyphid(99);
+g_currency = glyphid(100);
+g_d = glyphid(101);
+g_dagger = glyphid(102);
+g_daggerdbl = glyphid(103);
+g_degree = glyphid(104);
+g_dieresis = glyphid(105);
+g_divide = glyphid(106);
+g_dollar = glyphid(107);
+g_dotaccent = glyphid(108);
+g_dotlessi = glyphid(109);
+g_e = glyphid(110);
+g_eacute = glyphid(111);
+g_ecircumflex = glyphid(112);
+g_edieresis = glyphid(113);
+g_egrave = glyphid(114);
+g_eight = glyphid(115) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_ellipsis = glyphid(116);
+g_emdash = glyphid(117) {AS = point(985m, 1870m); LS = point(985m, -100m); US = point(985m, 1435m)};
+g_endash = glyphid(118) {AS = point(492m, 1870m); LS = point(492m, -100m); US = point(536m, 767m)};
+g_equal = glyphid(119);
+g_eth = glyphid(120);
+g_exclam = glyphid(121);
+g_exclamdown = glyphid(122);
+g_f = glyphid(123);
+g_fi = glyphid(124);
+g_figuredash = glyphid(125) {AS = point(512m, 1870m); LS = point(512m, -100m); US = point(512m, 1435m)};
+g_five = glyphid(126) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_fl = glyphid(127);
+g_florin = glyphid(128);
+g_four = glyphid(129) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_fraction = glyphid(130);
+g_g = glyphid(131);
+g_germandbls = glyphid(132);
+g_grave = glyphid(133);
+g_greater = glyphid(134);
+g_greaterequal = glyphid(135);
+g_guillemotleft = glyphid(136);
+g_guillemotright = glyphid(137);
+g_guilsinglleft = glyphid(138);
+g_guilsinglright = glyphid(139);
+g_h = glyphid(140);
+g_hungarumlaut = glyphid(141);
+g_hyphen = glyphid(142) {AS = point(305m, 1870m); CS = point(305m, 695m); LS = point(305m, -100m); US = point(305m, 1435m)};
+g_i = glyphid(143);
+g_iacute = glyphid(144);
+g_icircumflex = glyphid(145);
+g_idieresis = glyphid(146);
+g_igrave = glyphid(147);
+g_infinity = glyphid(148);
+g_integral = glyphid(149);
+g_j = glyphid(150);
+g_k = glyphid(151);
+g_l = glyphid(152);
+g_less = glyphid(153);
+g_lessequal = glyphid(154);
+g_logicalnot = glyphid(155);
+g_lozenge = glyphid(156);
+g_lslash = glyphid(157);
+g_m = glyphid(158);
+g_minus = glyphid(159);
+g_mu = glyphid(160);
+g_multiply = glyphid(161);
+g_n = glyphid(162);
+g_nine = glyphid(163) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_nonmarkingreturn = glyphid(164);
+g_notequal = glyphid(165);
+g_ntilde = glyphid(166);
+g_numbersign = glyphid(167);
+g_o = glyphid(168);
+g_oacute = glyphid(169);
+g_ocircumflex = glyphid(170);
+g_odieresis = glyphid(171);
+g_oe = glyphid(172);
+g_ogonek = glyphid(173);
+g_ograve = glyphid(174);
+g_one = glyphid(175) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_onehalf = glyphid(176);
+g_onequarter = glyphid(177);
+g_onesuperior = glyphid(178);
+g_ordfeminine = glyphid(179);
+g_ordmasculine = glyphid(180);
+g_oslash = glyphid(181);
+g_otilde = glyphid(182);
+g_macron = glyphid(183);
+g_p = glyphid(184);
+g_paragraph = glyphid(185);
+g_parenleft = glyphid(186);
+g_parenright = glyphid(187);
+g_partialdiff = glyphid(188);
+g_percent = glyphid(189);
+g_period = glyphid(190) {AS = point(305m, 1870m); CS = point(305m, 715m); LS = point(292m, -100m); US = point(305m, 1455m)};
+g_periodcentered = glyphid(191) {AS = point(306m, 1870m); CS = point(306m, 695m); LS = point(306m, -100m); US = point(306m, 1435m)};
+g_perthousand = glyphid(192);
+g_pi = glyphid(193);
+g_plus = glyphid(194);
+g_plusminus = glyphid(195);
+g_product = glyphid(196);
+g_q = glyphid(197);
+g_question = glyphid(198);
+g_questiondown = glyphid(199);
+g_quotedbl = glyphid(200);
+g_quotedblbase = glyphid(201);
+g_quotedblleft = glyphid(202);
+g_quotedblright = glyphid(203);
+g_quoteleft = glyphid(204);
+g_quoteright = glyphid(205);
+g_quotesinglbase = glyphid(206);
+g_quotesingle = glyphid(207);
+g_r = glyphid(208);
+g_radical = glyphid(209);
+g_registered = glyphid(210);
+g_ring = glyphid(211);
+g_s = glyphid(212);
+g_scaron = glyphid(213);
+g_section = glyphid(214);
+g_semicolon = glyphid(215);
+g_seven = glyphid(216) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_six = glyphid(217) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_slash = glyphid(218);
+g_space = glyphid(219) {AS = point(305m, 1870m); CS = point(295m, 695m); LS = point(305m, -100m); US = point(305m, 1435m)};
+g_sterling = glyphid(220);
+g_summation = glyphid(221);
+g_t = glyphid(222);
+g_thorn = glyphid(223);
+g_three = glyphid(224) {AS = point(612m, 1870m); CS = point(612m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_threequarters = glyphid(225);
+g_threesuperior = glyphid(226);
+g_tilde = glyphid(227);
+g_trademark = glyphid(228);
+g_two = glyphid(229) {AS = point(612m, 1870m); CS = point(562m, 695m); LS = point(612m, -100m); US = point(612m, 1435m)};
+g_twosuperior = glyphid(230);
+g_u = glyphid(231);
+g1d100 = glyphid(232);
+g1d101 = glyphid(233);
+g1d102 = glyphid(234);
+g1d103 = glyphid(235);
+g1d106 = glyphid(236);
+g1d107 = glyphid(237);
+g1d108 = glyphid(238);
+g1d112 = glyphid(239) {AS = point(313m, 1870m); LS = point(313m, -100m); US = point(313m, 1435m)};
+g1d177 = glyphid(240);
+g1d1771d178_slur01below = glyphid(241);
+g1d1771d178_slur02below = glyphid(242);
+g1d1771d178_slur03below = glyphid(243);
+g1d1771d178_slur04below = glyphid(244);
+g1d1771d178_slur05below = glyphid(245);
+g1d1771d178_slur06below = glyphid(246);
+g1d1771d178_slur07below = glyphid(247);
+g1d1771d178_slur08below = glyphid(248);
+g1d1771d178_slur09below = glyphid(249);
+g1d1771d178_slur10below = glyphid(250);
+g1d1771d178_slur11below = glyphid(251);
+g1d1771d178_slur12below = glyphid(252);
+g1d178 = glyphid(253);
+g_uacute = glyphid(254);
+g_ucircumflex = glyphid(255);
+g_udieresis = glyphid(256);
+g_ugrave = glyphid(257);
+g_underscore = glyphid(258);
+g00a0 = glyphid(259);
+g00ad = glyphid(260);
+g0305 = glyphid(261) {AM = point(-512m, 1000m); US = point(-512m, 1590m)};
+g0305_half = glyphid(262) {AM = point(-256m, 1000m)};
+g0307 = glyphid(263) {US = point(-512m, 1435m); UM = point(-512m, 1000m)};
+g0323 = glyphid(264) {LM = point(-512m, -100m); LS = point(-512m, -500m)};
+g0332 = glyphid(265) {LM = point(-512m, -100m); LS = point(-512m, -500m)};
+g0333 = glyphid(266) {LM = point(-512m, -100m); LS = point(-512m, -500m)};
+g0338 = glyphid(267) {CM = point(-528m, 517m)};
+g033f = glyphid(268) {AM = point(-512m, 1000m); US = point(-512m, 1590m)};
+g033f_half = glyphid(269) {AM = point(-256m, 1000m)};
+g034f = glyphid(270);
+g0352 = glyphid(271) {UM = point(-455m, 991m)};
+g2000 = glyphid(272);
+g2001 = glyphid(273);
+g2002 = glyphid(274);
+g2003 = glyphid(275);
+g2004 = glyphid(276);
+g2005 = glyphid(277);
+g2006 = glyphid(278);
+g2007 = glyphid(279);
+g2008 = glyphid(280);
+g2009 = glyphid(281);
+g200a = glyphid(282);
+g200b = glyphid(283);
+g200c = glyphid(284);
+g200d = glyphid(285);
+g200e = glyphid(286);
+g200f = glyphid(287);
+g2010 = glyphid(288) {AS = point(404m, 1870m); LS = point(404m, -100m); US = point(404m, 1435m)};
+g2011 = glyphid(289);
+g2015 = glyphid(290) {AS = point(995m, 1870m); LS = point(995m, -100m); US = point(995m, 1435m)};
+g2028 = glyphid(291);
+g2029 = glyphid(292);
+g202a = glyphid(293);
+g202b = glyphid(294);
+g202c = glyphid(295);
+g202d = glyphid(296);
+g202e = glyphid(297);
+g202f = glyphid(298);
+g2060 = glyphid(299);
+g2061 = glyphid(300);
+g2062 = glyphid(301);
+g2063 = glyphid(302);
+g206a = glyphid(303);
+g206b = glyphid(304);
+g206c = glyphid(305);
+g206d = glyphid(306);
+g206e = glyphid(307);
+g206f = glyphid(308);
+g20e5 = glyphid(309) {CM = point(-530m, 517m)};
+g1d1b1 = glyphid(310) {AS = point(579m, 1870m); CS = point(579m, 695m); LS = point(579m, -100m); US = point(579m, 1435m)};
+g1d1b2 = glyphid(311) {AS = point(589m, 1870m); CS = point(589m, 695m); LS = point(589m, -100m); US = point(589m, 1435m)};
+g25cc = glyphid(312) {AS = point(533m, 1870m); CS = point(533m, 695m); LS = point(533m, -100m); US = point(533m, 1435m)};
+g266d = glyphid(313);
+g266e = glyphid(314);
+g266f = glyphid(315);
+ga78b = glyphid(316);
+ga78c = glyphid(317);
+gfe00 = glyphid(318);
+gfe01 = glyphid(319);
+gfe02 = glyphid(320);
+gfe03 = glyphid(321);
+gfe04 = glyphid(322);
+gfe05 = glyphid(323);
+gfe06 = glyphid(324);
+gfe07 = glyphid(325);
+gfe08 = glyphid(326);
+gfe09 = glyphid(327);
+gfe0a = glyphid(328);
+gfe0b = glyphid(329);
+gfe0c = glyphid(330);
+gfe0d = glyphid(331);
+gfe0e = glyphid(332);
+gfe0f = glyphid(333);
+gfeff = glyphid(334);
+gfff9 = glyphid(335);
+gfffa = glyphid(336);
+gfffb = glyphid(337);
+gfffc = glyphid(338);
+gfffd = glyphid(339);
+g_v = glyphid(340);
+g_w = glyphid(341);
+g_x = glyphid(342) {AS = point(512m, 1870m); LS = point(512m, -100m); US = point(512m, 1435m)};
+g_y = glyphid(343);
+g_yacute = glyphid(344);
+g_ydieresis = glyphid(345);
+g_yen = glyphid(346);
+g_z = glyphid(347);
+g_zcaron = glyphid(348);
+g_zero = glyphid(349) {AS = point(612m, 1870m); LS = point(612m, -100m)};
+g2070 = glyphid(350) {LS = point(369m, 750m); US = point(369m, 1625m)};
+g2074 = glyphid(351) {LS = point(354m, 750m); US = point(354m, 1625m)};
+g2075 = glyphid(352) {LS = point(356m, 750m); US = point(356m, 1625m)};
+g2076 = glyphid(353) {LS = point(372m, 750m); US = point(372m, 1625m)};
+g2077 = glyphid(354) {LS = point(362m, 750m); US = point(362m, 1625m)};
+g2078 = glyphid(355) {LS = point(370m, 750m); US = point(370m, 1625m)};
+g2079 = glyphid(356) {LS = point(367m, 750m); US = point(367m, 1625m)};
+g2080 = glyphid(357);
+g2081 = glyphid(358);
+g2082 = glyphid(359);
+g2083 = glyphid(360);
+g2084 = glyphid(361);
+g2085 = glyphid(362);
+g2086 = glyphid(363);
+g2087 = glyphid(364);
+g2088 = glyphid(365);
+g2089 = glyphid(366);
+g0332_half = glyphid(367) {LM = point(-256m, -100m); LS = point(-256m, -500m)};
+g0333_half = glyphid(368) {LM = point(-256m, -100m); LS = point(-256m, -500m)};
+g1d1771d178_slur01abv = glyphid(369);
+g1d1771d178_slur02abv = glyphid(370);
+g1d1771d178_slur03abv = glyphid(371);
+g1d1771d178_slur04abv = glyphid(372);
+g1d1771d178_slur05abv = glyphid(373);
+g1d1771d178_slur06abv = glyphid(374);
+g1d1771d178_slur07abv = glyphid(375);
+g1d1771d178_slur08abv = glyphid(376);
+g1d1771d178_slur09abv = glyphid(377);
+g1d1771d178_slur10abv = glyphid(378);
+g1d1771d178_slur11abv = glyphid(379);
+g1d1771d178_slur12abv = glyphid(380);
+g1d177_tipblw = glyphid(381);
+g1d178_tipblw = glyphid(382);
+g1d177_tipabv = glyphid(383);
+g1d178_tipabv = glyphid(384);
+g1d110 = glyphid(385);
+g02b9 = glyphid(386) {AS = point(313m, 1870m); LS = point(313m, -100m); US = point(313m, 1435m)};
+g1d175 = glyphid(387);
+g1d176 = glyphid(388);
+g02bc = glyphid(389);
+g266d_lrg = glyphid(390);
+g266e_lrg = glyphid(391);
+g266f_lrg = glyphid(392);
+g1d1771d178_slur13below = glyphid(393);
+g1d1771d178_slur13abv = glyphid(394);
+g1d1771d178_slur14below = glyphid(395);
+g1d1771d178_slur14abv = glyphid(396);
+
+/* Classes */
+cTakesADia = (g__x, g_eight, g_emdash, g_endash, g_figuredash, g_five, g_four, g_hyphen,
+    g_nine, g_one, g_period, g_periodcentered, g_seven, g_six, g_space, g_three,
+    g_two, g1d112, g2010, g2015, g1d1b1, g1d1b2, g25cc, g_x,
+    g_zero, g02b9);
+
+cnTakesADia = (g0307, g0323, g0332, g0333, g0338, g0352, g20e5, g0332_half,
+    g0333_half);
+
+cTakesCDia = (g_eight, g_five, g_four, g_hyphen, g_nine, g_one, g_period, g_periodcentered,
+    g_seven, g_six, g_space, g_three, g_two, g1d1b1, g1d1b2, g25cc);
+
+cnTakesCDia = (g0305, g0305_half, g0307, g0323, g0332, g0333, g033f, g033f_half,
+    g0352, g0332_half, g0333_half);
+
+cTakesLDia = (g__x, g_eight, g_emdash, g_endash, g_figuredash, g_five, g_four, g_hyphen,
+    g_nine, g_one, g_period, g_periodcentered, g_seven, g_six, g_space, g_three,
+    g_two, g1d112, g0323, g0332, g0333, g2010, g2015, g1d1b1,
+    g1d1b2, g25cc, g_x, g_zero, g2070, g2074, g2075, g2076,
+    g2077, g2078, g2079, g0332_half, g0333_half, g02b9);
+
+cnTakesLDia = (g0305, g0305_half, g0307, g0338, g033f, g033f_half, g0352, g20e5);
+
+cTakesUDia = (g__x, g_eight, g_emdash, g_endash, g_figuredash, g_five, g_four, g_hyphen,
+    g_nine, g_one, g_period, g_periodcentered, g_seven, g_six, g_space, g_three,
+    g_two, g1d112, g0305, g0307, g033f, g2010, g2015, g1d1b1,
+    g1d1b2, g25cc, g_x, g2070, g2074, g2075, g2076, g2077,
+    g2078, g2079, g02b9);
+
+cnTakesUDia = (g0305_half, g0323, g0332, g0333, g0338, g033f_half, g20e5, g0332_half,
+    g0333_half);
+
+cADia = (g0305, g0305_half, g033f, g033f_half);
+
+cnADia = (g0307, g0323, g0332, g0333, g0338, g0352, g20e5, g0332_half,
+    g0333_half);
+
+cCDia = (g0338, g20e5);
+
+cnCDia = (g0305, g0305_half, g0307, g0323, g0332, g0333, g033f, g033f_half,
+    g0352, g0332_half, g0333_half);
+
+cLDia = (g0323, g0332, g0333, g0332_half, g0333_half);
+
+cnLDia = (g0305, g0305_half, g0307, g0338, g033f, g033f_half, g0352, g20e5);
+
+cUDia = (g0307, g0352);
+
+cnUDia = (g0305, g0305_half, g0323, g0332, g0333, g0338, g033f, g033f_half,
+    g20e5, g0332_half, g0333_half);
+
+cLrg = (g266d_lrg, g266e_lrg, g266f_lrg);
+
+cno_Lrg = (g266d, g266e, g266f);
+
+cSlur01Abv = (g1d1771d178_slur01abv);
+
+cno_Slur01Abv = (g__notdef);
+
+cSlur01Below = (g1d1771d178_slur01below);
+
+cno_Slur01Below = (g__notdef);
+
+cSlur02Abv = (g1d1771d178_slur02abv);
+
+cno_Slur02Abv = (g__notdef);
+
+cSlur02Below = (g1d1771d178_slur02below);
+
+cno_Slur02Below = (g__notdef);
+
+cSlur03Abv = (g1d1771d178_slur03abv);
+
+cno_Slur03Abv = (g__notdef);
+
+cSlur03Below = (g1d1771d178_slur03below);
+
+cno_Slur03Below = (g__notdef);
+
+cSlur04Abv = (g1d1771d178_slur04abv);
+
+cno_Slur04Abv = (g__notdef);
+
+cSlur04Below = (g1d1771d178_slur04below);
+
+cno_Slur04Below = (g__notdef);
+
+cSlur05Abv = (g1d1771d178_slur05abv);
+
+cno_Slur05Abv = (g__notdef);
+
+cSlur05Below = (g1d1771d178_slur05below);
+
+cno_Slur05Below = (g__notdef);
+
+cSlur06Abv = (g1d1771d178_slur06abv);
+
+cno_Slur06Abv = (g__notdef);
+
+cSlur06Below = (g1d1771d178_slur06below);
+
+cno_Slur06Below = (g__notdef);
+
+cSlur07Abv = (g1d1771d178_slur07abv);
+
+cno_Slur07Abv = (g__notdef);
+
+cSlur07Below = (g1d1771d178_slur07below);
+
+cno_Slur07Below = (g__notdef);
+
+cSlur08Abv = (g1d1771d178_slur08abv);
+
+cno_Slur08Abv = (g__notdef);
+
+cSlur08Below = (g1d1771d178_slur08below);
+
+cno_Slur08Below = (g__notdef);
+
+cSlur09Abv = (g1d1771d178_slur09abv);
+
+cno_Slur09Abv = (g__notdef);
+
+cSlur09Below = (g1d1771d178_slur09below);
+
+cno_Slur09Below = (g__notdef);
+
+cSlur10Abv = (g1d1771d178_slur10abv);
+
+cno_Slur10Abv = (g__notdef);
+
+cSlur10Below = (g1d1771d178_slur10below);
+
+cno_Slur10Below = (g__notdef);
+
+cSlur11Abv = (g1d1771d178_slur11abv);
+
+cno_Slur11Abv = (g__notdef);
+
+cSlur11Below = (g1d1771d178_slur11below);
+
+cno_Slur11Below = (g__notdef);
+
+cSlur12Abv = (g1d1771d178_slur12abv);
+
+cno_Slur12Abv = (g__notdef);
+
+cSlur12Below = (g1d1771d178_slur12below);
+
+cno_Slur12Below = (g__notdef);
+
+cSlur13Abv = (g1d1771d178_slur13abv);
+
+cno_Slur13Abv = (g__notdef);
+
+cSlur13Below = (g1d1771d178_slur13below);
+
+cno_Slur13Below = (g__notdef);
+
+cSlur14Abv = (g1d1771d178_slur14abv);
+
+cno_Slur14Abv = (g__notdef);
+
+cSlur14Below = (g1d1771d178_slur14below);
+
+cno_Slur14Below = (g__notdef);
+
+cTipAbv = (g1d177_tipabv, g1d178_tipabv);
+
+cno_TipAbv = (g1d177, g1d178);
+
+cTipBlw = (g1d177_tipblw, g1d178_tipblw);
+
+cno_TipBlw = (g1d177, g1d178);
+
+chalf = (g0305_half, g033f_half, g0332_half, g0333_half);
+
+cno_half = (g0305, g033f, g0332, g0333);
+
+endtable;
+
+#define MAXGLYPH 396

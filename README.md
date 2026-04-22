@@ -1,7 +1,5 @@
 # font-doulos-sil-cipher
 
-## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_DoulosSILCipher/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_DoulosSILCipher&guest=1)  
-
 Doulos SIL Cipher is a font family for producing Cipher music notation which is used throughout Indonesia and China for all kinds of music.
 
 For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).

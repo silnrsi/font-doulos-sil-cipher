@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20E5" format="2">
+  <unicode hex="20E5"/>
+  <anchor x="-530" y="517" name="_C"/>
+  <outline>
+    <contour>
+      <point x="-918" y="1209" type="line"/>
+      <point x="-861" y="1242" type="line"/>
+      <point x="-77" y="-230" type="line"/>
+      <point x="-135" y="-262" type="line"/>
+    </contour>
+  </outline>
+</glyph>

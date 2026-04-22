@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0305.half" format="2">
+  <anchor x="-256" y="1000" name="_A"/>
+  <outline>
+    <contour>
+      <point x="-655" y="1345" type="line"/>
+      <point x="-655" y="1454" type="line"/>
+      <point x="131" y="1454" type="line"/>
+      <point x="131" y="1345" type="line"/>
+    </contour>
+  </outline>
+</glyph>

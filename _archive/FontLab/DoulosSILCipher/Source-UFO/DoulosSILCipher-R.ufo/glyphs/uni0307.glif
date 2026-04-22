@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0307" format="2">
+  <unicode hex="0307"/>
+  <anchor x="-512" y="1435" name="U"/>
+  <anchor x="-512" y="1000" name="_U"/>
+  <outline>
+    <component base="dotaccent" xOffset="-613"/>
+  </outline>
+</glyph>

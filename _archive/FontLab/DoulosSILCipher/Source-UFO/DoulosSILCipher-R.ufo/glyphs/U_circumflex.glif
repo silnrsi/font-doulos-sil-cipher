@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucircumflex" format="2">
+  <advance width="1480"/>
+  <unicode hex="00DB"/>
+  <outline>
+    <component base="U"/>
+    <contour>
+      <point x="995" y="1477" type="line"/>
+      <point x="744" y="1691" type="line"/>
+      <point x="494" y="1477" type="line"/>
+      <point x="423" y="1477" type="line"/>
+      <point x="681" y="1821" type="line"/>
+      <point x="809" y="1821" type="line"/>
+      <point x="1066" y="1477" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D1771D178.Slur06Below" format="2">
+  <outline>
+    <contour>
+      <point x="-2516" y="-408" type="line"/>
+      <point x="-2545" y="-465"/>
+      <point x="-2684" y="-559"/>
+      <point x="-2802" y="-627"/>
+      <point x="-2997" y="-664"/>
+      <point x="-3081" y="-664" type="qcurve"/>
+      <point x="-3237" y="-664"/>
+      <point x="-3569" y="-542"/>
+      <point x="-3654" y="-408" type="qcurve"/>
+      <point x="-3620" y="-378" type="line"/>
+      <point x="-3597" y="-414"/>
+      <point x="-3485" y="-474"/>
+      <point x="-3386" y="-518"/>
+      <point x="-3190" y="-542"/>
+      <point x="-3083" y="-542" type="qcurve"/>
+      <point x="-2975" y="-542"/>
+      <point x="-2776" y="-514"/>
+      <point x="-2676" y="-468"/>
+      <point x="-2567" y="-409"/>
+      <point x="-2549" y="-378" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

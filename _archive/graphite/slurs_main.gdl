@@ -1,0 +1,356 @@
+/*
+    Main Graphite file includes glyph information and classes for font Doulos SIL Cipher at Tue Oct  5 16:43:22 2010
+    Author: Lorna Priest
+   	This file is part of the Doulos SIL Cipher font family 
+	(http://scripts.sil.org) and is 
+	Copyright (c) 2011-2013, SIL International (http://scripts.sil.org/)
+	with Reserved Font Names "Doulos" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License,
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software.
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including a FAQ.
+
+
+*/
+
+#include "stddef.gdh"
+#include "slurs_features.gdh"
+
+environment {MUnits = 2048};
+
+#define attached user1
+#define needSlurWidth user2
+#define idealWidth user3
+#define needs_slur user4
+
+
+// Define width of slurs. This is the width of the text sequence that the slur exactly
+// or ideally matches. The units are 1000ths of an em.
+// It's assumed that the slur goes from the middle of the first base to the middle of
+// the last (offset by 612 on each end).
+
+#define SLURWIDTH1 1836	// 2 em-squares?
+#define SLURWIDTH2 2448
+#define SLURWIDTH3 3060
+#define SLURWIDTH4 3672
+#define SLURWIDTH5 4284
+#define SLURWIDTH6 4896
+#define SLURWIDTH7 5508
+#define SLURWIDTH8 6120
+#define SLURWIDTH9 6732
+#define SLURWIDTH10 7344
+#define SLURWIDTH11 7956
+#define SLURWIDTH12 8568
+#define SLURWIDTH13 9180
+#define SLURWIDTH14 9792
+
+// For a proportional font, the slur may need to be either slightly too big
+// or slightly too small. Here we define an arbitrary amount by which the slur 
+// can be too big, ie, the threshold at which we want the next bigger size.
+#define MAX_TOO_BIG 286	// ??
+
+// The optional non-base characters that are permitted:
+#define DIACSEQ cCDia? cLDia? cLDia? cUDia? cADia? cUDia?
+
+#define DIACSEQ2 [cDia [cDia [ cDia [ cDia cDia? ]? ]? ]? ]?
+    
+Bidi = false;
+
+ScriptTag = ("DFLT", "latn");
+
+#include "glyph.gdh"
+
+// More glyph stuff
+
+table(glyph) {MUnits = 2048};
+
+slurBegin = (g1d177);
+slurEnd = (g1d178);
+
+other = (g_periodcentered, g_quotesingle, g_a, g_b, g_c, g_d, g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t, g_u, g_v, g_w, g_x,
+         g_y, g_z, g__a, g__b, g__c, g__d, g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t, g__u, g__v, g__w, g__x,
+         g__y, g__z,
+         g_ae, g_aacute, g_acircumflex, g_adieresis, g_agrave, g_aring, g_atilde,
+         g_ccedilla, g_ntilde, g_scaron, g_thorn, 
+         g_eacute, g_ecircumflex, g_edieresis, g_egrave, 
+         g_iacute, g_icircumflex, g_idieresis, g_igrave, 
+         g_oe, g_oacute, g_ocircumflex, g_odieresis, g_ograve, g_oslash, g_otilde, 
+         g_uacute, g_ucircumflex, g_udieresis, g_ugrave, g_yacute, g_ydieresis, g_zcaron, 
+         g__a_e, g__aacute, g__acircumflex, g__adieresis, g__agrave, g__aring, g__atilde, 
+         g__ccedilla, g__ntilde, g__scaron, g__thorn, 
+         g__eacute, g__ecircumflex, g__edieresis, g__egrave, 
+         g__iacute, g__icircumflex, g__idieresis, g__igrave, 
+         g__o_e, g__oacute, g__ocircumflex, g__odieresis, g__ograve, g__oslash, g__otilde, 
+         g__uacute, g__ucircumflex, g__udieresis, g__ugrave, g__yacute, g__ydieresis, g__zcaron, 
+         g2002, g2003, g2007, g2009, g200a, g266d, g266e, g266f, ga78b, ga78c, g1d100, g1d101, g1d102, g1d103, g1d106, g1d107, g1d108, g1d110, g1d112);
+
+chalfBase = (g_hyphen, g_period, g_space, g1d112, g02b9, g_periodcentered);
+
+chalfAbv = (g0305_half, g033f_half);
+cno_halfAbv = (g0305, g033f);
+chalfBlw = (g0332_half, g0333_half);
+cno_halfBlw = (g0332, g0333);
+
+base = (cTakesADia, other)   { SLUR_S=point(aw/2,0m) };
+
+
+// Slurs of various widths:
+slurB1 = (g1d1771d178_slur01below);
+slurB2 = (g1d1771d178_slur02below);
+slurB3 = (g1d1771d178_slur03below);
+slurB4 = (g1d1771d178_slur04below);
+slurB5 = (g1d1771d178_slur05below);
+slurB6 = (g1d1771d178_slur06below);
+slurB7 = (g1d1771d178_slur07below);
+slurB8 = (g1d1771d178_slur08below);
+slurB9 = (g1d1771d178_slur09below);
+slurB10 = (g1d1771d178_slur10below);
+slurB11 = (g1d1771d178_slur11below);
+slurB12 = (g1d1771d178_slur12below);
+slurB13 = (g1d1771d178_slur13below);
+slurB14 = (g1d1771d178_slur14below);
+slurA1 = (g1d1771d178_slur01abv);
+slurA2 = (g1d1771d178_slur02abv);
+slurA3 = (g1d1771d178_slur03abv);
+slurA4 = (g1d1771d178_slur04abv);
+slurA5 = (g1d1771d178_slur05abv);
+slurA6 = (g1d1771d178_slur06abv);
+slurA7 = (g1d1771d178_slur07abv);
+slurA8 = (g1d1771d178_slur08abv);
+slurA9 = (g1d1771d178_slur09abv);
+slurA10 = (g1d1771d178_slur10abv);
+slurA11 = (g1d1771d178_slur11abv);
+slurA12 = (g1d1771d178_slur12abv);
+slurA13 = (g1d1771d178_slur13abv);
+slurA14 = (g1d1771d178_slur14abv);
+
+anySlurB = (slurB1, slurB2, slurB3, slurB4, slurB5, slurB6, slurB7, slurB8,
+           slurB9, slurB10, slurB11, slurB12, slurB13, slurB14)
+		{ SLUR_M=point(bb.right,0m) };
+
+anySlurA = (slurA1, slurA2, slurA3, slurA4, slurA5, slurA6, slurA7, slurA8,
+           slurA9, slurA10, slurA11, slurA12, slurA13, slurA14)
+		{ SLUR_M=point(bb.right,0m) };
+
+
+cDia = (cCDia, cLDia, cUDia, cADia);
+
+baseOrDia = (base, cDia);
+
+endtable;
+
+/*******************************************************************
+
+	RULES
+*******************************************************************/
+table(substitution)
+
+pass(1)
+
+/* halfwidth Combining diacritics */
+// cno_halfBlw cno_halfAbv > chalfBlw chalfAbv / ^ chalfBase cCDia? cLDia? _ cUDia? _;
+cno_halfBlw > chalfBlw / ^ chalfBase cCDia? cLDia? _ ;
+cno_halfAbv > chalfAbv / ^ chalfBase cCDia? cLDia? cLDia? cUDia? _ ;
+
+endpass;
+
+pass(2)
+// Sequence looks like:  slurBegin  base diac diac diac diac base ... base diac diac diac diac  slurEnd
+
+// Recognize the beginning of a sequence:
+slurBegin  base  >  @1  @2 {needSlurWidth = aw; needs_slur = true}  /  _ ^  _;
+
+// Middle of a sequence: continue adding the width of the sequence:
+base=B1  base=B2  >  @B1  @B2 {needSlurWidth = @B1.needSlurWidth + aw; needs_slur = true}
+	/  _ {needs_slur == true} DIACSEQ  ^  _;
+
+base=B  slurEnd=S > @B @S / _ {needs_slur == false} DIACSEQ _ ;
+
+if (Slur == below)
+// End of the sequence: replace the slurEnd with a full slur of the appropriate length.
+// Also record the "ideal" width so we can center it later.
+base=B  slurEnd  >  @B  slurB1 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH1}
+	/  _ {needSlurWidth < SLURWIDTH1 + MAX_TOO_BIG} DIACSEQ _;
+base=B  slurEnd  >  @B  slurB2 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH2}
+	/  _ {needSlurWidth < SLURWIDTH2 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB3 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH3}
+	/  _ {needSlurWidth < SLURWIDTH3 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB4 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH4}
+	/  _ {needSlurWidth < SLURWIDTH4 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB5 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH5}
+	/  _ {needSlurWidth < SLURWIDTH5 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB6 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH6}
+	/  _ {needSlurWidth < SLURWIDTH6 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB7 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH7}
+	/  _ {needSlurWidth < SLURWIDTH7 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB8 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH8}
+	/  _ {needSlurWidth < SLURWIDTH8 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB9 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH9}
+	/  _ {needSlurWidth < SLURWIDTH9 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB10 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH10}
+	/  _ {needSlurWidth < SLURWIDTH10 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB11 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH11}
+	/  _ {needSlurWidth < SLURWIDTH11 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB12 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH12}
+	/  _ {needSlurWidth < SLURWIDTH12 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB13 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH13}
+	/  _ {needSlurWidth < SLURWIDTH13 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurB14 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH14}
+	/  _ {needSlurWidth < SLURWIDTH14 + MAX_TOO_BIG}  DIACSEQ  _;
+endif;
+
+if (Slur == above)
+// End of the sequence: replace the slurEnd with a full slur of the appropriate length.
+// Also record the "ideal" width so we can center it later.
+base=B  slurEnd  >  @B  slurA1 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH1}
+	/  _ {needSlurWidth < SLURWIDTH1 + MAX_TOO_BIG} DIACSEQ _;
+base=B  slurEnd  >  @B  slurA2 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH2}
+	/  _ {needSlurWidth < SLURWIDTH2 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA3 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH3}
+	/  _ {needSlurWidth < SLURWIDTH3 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA4 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH4}
+	/  _ {needSlurWidth < SLURWIDTH4 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA5 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH5}
+	/  _ {needSlurWidth < SLURWIDTH5 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA6 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH6}
+	/  _ {needSlurWidth < SLURWIDTH6 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA7 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH7}
+	/  _ {needSlurWidth < SLURWIDTH7 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA8 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH8}
+	/  _ {needSlurWidth < SLURWIDTH8 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA9 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH9}
+	/  _ {needSlurWidth < SLURWIDTH9 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA10 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH10}
+	/  _ {needSlurWidth < SLURWIDTH10 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA11 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH11}
+	/  _ {needSlurWidth < SLURWIDTH11 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA12 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH12}
+	/  _ {needSlurWidth < SLURWIDTH12 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA13 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH13}
+	/  _ {needSlurWidth < SLURWIDTH13 + MAX_TOO_BIG}  DIACSEQ  _;
+base=B  slurEnd  >  @B  slurA14 {needSlurWidth = @B.needSlurWidth; idealWidth=SLURWIDTH14}
+	/  _ {needSlurWidth < SLURWIDTH14 + MAX_TOO_BIG}  DIACSEQ  _;
+endif;
+
+// else leave two little slur ends
+
+endpass;
+
+pass(3)
+// next pass:
+// Ideally the "slurBegin" character should be associated with the rendered (final) slur,
+// so that if you delete one you delete the other.
+
+// (If this approach becomes unfeasible, the rule above that recognizes slurBegin should just delete it.)
+
+/**
+slurBegin=S1  anySlurB=S2  >  _ @S2:(S1 S2)
+	// 2-7 intervening bases:
+	/ _  base  DIACSEQ2  
+		[base  DIACSEQ2  
+			 [base  DIACSEQ2  [base  DIACSEQ2 [base  DIACSEQ2]? ]? ]? 
+		]? 
+		base  DIACSEQ2
+     _ ;
+**/
+if (Slur == below)
+slurBegin=S1  anySlurB=S2 > _ @S2:(S1 S2)
+		/ _ [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]?
+		  ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? _;
+endif;
+if (Slur == above)
+slurBegin=S1  anySlurA=S2 > _ @S2:(S1 S2)
+		/ _ [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia [baseOrDia
+		  ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]?
+		  ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? ]? _;
+
+endif;
+
+  
+///slurBegin  base  >  _  @2:(1 2);
+
+endpass;
+
+endtable;  // substitution
+
+
+
+table(positioning)  {MUnits = 2048};
+
+pass(1)
+
+/**
+ US means Upper Stationary and UM means Upper Mobile. these are defined
+ in the glyph.gdh file
+**/
+
+
+cTakesCDia cCDia {attach {to=@1; at=CS; with=CM}; attached = true; insert=true;}
+		/ ^ _ cLDia? cUDia? cADia? _ {!attached};
+cTakesLDia cLDia {attach {to=@1; at=LS; with=LM}; attached = true; insert=true;}
+		/ ^ _  cCDia? cUDia? _ {!attached};
+cTakesUDia cUDia {attach {to=@1; at=US; with=UM}; attached = true; insert=true;}
+		/ ^ _ cCDia? cLDia? cLDia? _ {!attached};
+cTakesADia cADia {attach {to=@1; at=AS; with=AM}; attached = true; insert=true;}
+		/ ^ _ cCDia? cLDia? cLDia? cUDia? _ {!attached};
+
+slurBegin {shift.y = -100m};
+slurEnd {shift.y = -100m};
+
+endpass;
+
+pass(2)
+// If attaching is needed: attach at the "ideal" position.
+if (Slur == below)
+base=B  
+		// this is the amount by which the attachment below causes the cluster to
+		// shift to the right; put it back:
+// delete next line, buggy
+//		{kern.x = (SLUR_S.x - @S.SLUR_M.x)} 
+	anySlurB=S {attach {to=@B; at=SLUR_S; with=SLUR_M}; insert=true;}
+	/  _ DIACSEQ ^ _;
+
+// Center nicely:
+anySlurB  {shift.x = (idealWidth - needSlurWidth)/2; shift.y = -100m};
+endif;
+
+if (Slur == above)
+base=B  
+		// this is the amount by which the attachment below causes the cluster to
+		// shift to the right; put it back:
+//		{kern.x = (SLUR_S.x - @S.SLUR_M.x)} 
+	anySlurA=S {attach {to=@B; at=SLUR_S; with=SLUR_M}; insert=true;}
+	/  _ DIACSEQ ^ _;
+
+// Center nicely:
+anySlurA  {shift.x = (idealWidth - needSlurWidth)/2; shift.y = 200m};
+endif;
+
+
+
+endpass;
+
+endtable;  // positioning
+
+
+
+#define MAXGLYPH 986
+endenvironment;

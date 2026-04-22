@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D1771D178.Slur06Below" format="2">
+  <outline>
+    <contour>
+      <point x="-655" y="-391" type="qcurve"/>
+      <point x="-715" y="-391" type="line"/>
+      <point x="-758" y="-416"/>
+      <point x="-904" y="-457"/>
+      <point x="-1094" y="-491"/>
+      <point x="-1322" y="-516"/>
+      <point x="-1572" y="-535"/>
+      <point x="-1839" y="-548"/>
+      <point x="-2107" y="-556"/>
+      <point x="-2370" y="-560"/>
+      <point x="-2491" y="-560" type="qcurve"/>
+      <point x="-2612" y="-560"/>
+      <point x="-2878" y="-556"/>
+      <point x="-3151" y="-548"/>
+      <point x="-3422" y="-535"/>
+      <point x="-3677" y="-516"/>
+      <point x="-3906" y="-490"/>
+      <point x="-4094" y="-457"/>
+      <point x="-4231" y="-416"/>
+      <point x="-4267" y="-391" type="qcurve"/>
+      <point x="-4327" y="-391" type="line"/>
+      <point x="-4310" y="-435"/>
+      <point x="-4159" y="-510"/>
+      <point x="-3914" y="-571"/>
+      <point x="-3582" y="-617"/>
+      <point x="-3186" y="-648"/>
+      <point x="-2734" y="-664"/>
+      <point x="-2491" y="-664" type="qcurve"/>
+      <point x="-2248" y="-664"/>
+      <point x="-1801" y="-648"/>
+      <point x="-1410" y="-617"/>
+      <point x="-1084" y="-571"/>
+      <point x="-838" y="-510"/>
+      <point x="-681" y="-435"/>
+    </contour>
+  </outline>
+</glyph>

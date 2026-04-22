@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='TestStyleSheet.xsl'?>
+<strings label='LornasData'>
+
+  <string label='Check'><text>RenderingUnknown</text><comment>Doulos SIL Cipher Sample Texts</comment></string>
+  <string label='Song Title'><text>Indonesian Kepatihan 265. Bila Tugasku Kelak Selesai, lines 1, 5, 6</text></string>
+  <string label='kepatihan 1'><text>5  1̇ 7   6   5  4 𝄀 3  5  1̇  3̇ .. 𝄒𝄀 3̇  2̇    1̸̇   3̇ 2̇  7 𝄀</text></string>
+  <string label='Lyric 1'><text>Bi-la tu-gas-ku ke-lak se-le-sai,   s’la-mat ’ku ti-ba di</text></string>
+  <string><text></text></string>
+  <string label='kepatihan 2'><text>4̇    5̇    2̇    3̇ . . 𝄒𝄀 5̇    3̇    2̇    1̇    2̇     3̇   𝄀  4̇</text></string>
+  <string label='Lyric 2'><text>ba - ha - gi - a;        bi - la   ku - pan-dang Tu - han-</text></string>
+  <string><text></text></string>
+  <string label='kepatihan 3'><text>6   1̇   3̇͒ . . 𝄒𝄀 2̇   1̇   6    5    5̇͒    4̇  𝄀 3̇    5͒   2̇   1̇ . . 𝄂</text></string>
+  <string label='Lyric 3'><text>ku ke - lak,     a - ku ba - ha - g𝅷ia𝅸, ba - ha - g𝅷ia𝅸 te – tap.</text></string>
+  <string><text></text></string>
+  <string label='Song Title'><text>Indonesian Kepatihan 119. Hai Dunia, Gembiralah, line 2</text></string>
+  <string label='kepatihan 1'><text>1̇̅  𝄀  𝅷1̇̅ ̅7̅𝅸 𝅷6̅ ̅5̅𝅸  𝄀  𝅷5̅ ̅.̿ ̿4̿ 3̅𝅸 ̅1̇̅  𝄀  𝅷1̇̅ ̅7̅𝅸 𝅷6̅ ̅5̅𝅸 𝄀 𝅷5̅ ̅.̿ ̿4̿ 3̅𝅸 ̅𝄒̅ ̅3̅ 𝄀</text></string>
+  <string label='Lyric 1'><text>Di    ha  -  ti  -  mu       te  -  ri  -  ma - lah!     Ber-</text></string>
+  <string><text></text></string>
+  <string label='Type'><text>Chinese Jianpu</text></string>
+  <string label='jianpu 1' feats="'slur' 2"><text>1 𝅷5̲̣ ̲·̲ ̲6̳̣𝅸 1 · 2̲ 𝄀 3 - 3 𝅷5̲ ̲·̲ ̲3̳𝅸 𝄀 2 · 1̲ 2 -</text></string>
+  <string><text></text></string>
+  <string label='jianpu 2' feats="'slur' 2"><text>5 5 𝄀 𝅷5 4𝅸  3 - 1 2 𝄀 𝅷3 2𝅸 7̣͒ - 𝅷5 ♯4𝅸 𝄀 3 - - 2 1 - 𝄀 𝅷1 - 7̣𝅸 - </text></string>
+</strings>

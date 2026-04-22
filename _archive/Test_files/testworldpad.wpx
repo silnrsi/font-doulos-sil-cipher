@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WpDoc SYSTEM "WorldPad.dtd">
+<WpDoc wpxVersion="2.0">
+
+<Languages>
+  <LgWritingSystem id="en" language="en" type="ISO-639-1">
+    <Name24>
+      <AUni ws="en">English</AUni>
+    </Name24>
+    <Abbr24>
+      <AUni ws="en">Eng</AUni>
+    </Abbr24>
+    <Locale24><Integer val="1033"/></Locale24>
+    <RightToLeft24><Boolean val="false"/></RightToLeft24>
+    <BodyFontFeatures24><Uni>1051=0</Uni></BodyFontFeatures24>
+    <DefaultSerif24><Uni>Annapurna SIL</Uni></DefaultSerif24>
+    <DefaultSansSerif24><Uni>Arial</Uni></DefaultSansSerif24>
+    <DefaultBodyFont24><Uni>Charis SIL</Uni></DefaultBodyFont24>
+    <DefaultMonospace24><Uni>Courier New</Uni></DefaultMonospace24>
+    <ValidChars24><Uni>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;  &lt;ValidCharacters&gt;  &lt;WordForming&gt;a￼A￼b￼B￼c￼C￼d￼D￼e￼E￼f￼F￼g￼G￼h￼H￼i￼I￼j￼J￼k￼K￼l￼L￼m￼M￼n￼N￼o￼O￼p￼P￼q￼Q￼r￼R￼s￼S￼t￼T￼u￼U￼v￼V￼w￼W￼x￼X￼y￼Y￼z￼Z￼-￼'&lt;/WordForming&gt;  &lt;Numeric&gt;0￼1￼2￼3￼4￼5￼6￼7￼8￼9&lt;/Numeric&gt;  &lt;Other&gt;U+0020￼–￼,￼;￼:￼!￼?￼.￼‘￼’￼&quot;￼“￼”￼(￼)￼[￼]￼{￼}￼/￼&amp;amp;&lt;/Other&gt;  &lt;/ValidCharacters&gt;</Uni></ValidChars24>
+    <MatchedPairs24><Uni>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;  &lt;MatchedPairs&gt;  &lt;pair open=&quot;(&quot; close=&quot;)&quot; permitParaSpanning=&quot;false&quot; /&gt;  &lt;pair open=&quot;[&quot; close=&quot;]&quot; permitParaSpanning=&quot;true&quot; /&gt;  &lt;pair open=&quot;{&quot; close=&quot;}&quot; permitParaSpanning=&quot;false&quot; /&gt;  &lt;/MatchedPairs&gt;  </Uni></MatchedPairs24>
+    <PunctuationPatterns24><Uni>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;  &lt;PunctuationPatterns&gt;  &lt;pattern value=&quot;, &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;. &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; “&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;; &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;&amp;#x27;&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;: &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;? &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ‘&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;–&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;! &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;-&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;?” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;,” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; (&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.’ &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;– &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; “ &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;) &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ” &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;,&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;,’ &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; / &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;.”&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?’ &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;&amp;#x27; &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.) &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;); &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;!’ &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ); &quot; context=&quot;Isolated&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.’&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;), &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;/&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; . &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;). &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;;&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ; &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ) &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; , &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;’? &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;’ &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ’ &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ”&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; // &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;,”&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;’?” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;’&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;”; &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ? &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;): &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;”–&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;’–&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;:&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;”? &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;’; &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;?”&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;”– &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;,’&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; –&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ’&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;”&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!”&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ). &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?’&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;)– &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;–“&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; //&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ! &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; – &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;., &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;’– &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; : &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ?” &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ‘ &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; .” &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?”– &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;....” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.)&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;,, &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;.”) &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;!’&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; ), &quot; context=&quot;Isolated&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ,&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; [&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.] &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; ( &quot; context=&quot;Isolated&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;!’: &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!– &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; )/ &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; “(&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;)–&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;)&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;’!” &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;),&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?”) &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; .&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;–‘&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?”–&quot; context=&quot;WordMedial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;?’– &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;’. &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!”–&quot; context=&quot;WordMedial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; (“&quot; context=&quot;WordInitial&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;?– &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;- &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; “. &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot; !’ &quot; context=&quot;Isolated&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;?) &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;.)” &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot; &amp;#x27;&quot; context=&quot;WordInitial&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;!”? &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;.)– &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;pattern value=&quot;”), &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;”: &quot; context=&quot;WordFinal&quot; valid=&quot;true&quot; /&gt;  &lt;pattern value=&quot;;) &quot; context=&quot;WordFinal&quot; valid=&quot;false&quot; /&gt;  &lt;/PunctuationPatterns&gt;  </Uni></PunctuationPatterns24>
+    <QuotationMarks24><Uni>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;  &lt;QuotationMarks LangUsedFrom=&quot;en&quot; ContinuationType=&quot;RequireAll&quot; ContinuationMark=&quot;Opening&quot;&gt;  &lt;Levels&gt;  &lt;Pair Opening=&quot;“&quot; Closing=&quot;”&quot; /&gt;  &lt;Pair Opening=&quot;‘&quot; Closing=&quot;’&quot; /&gt;  &lt;/Levels&gt;  &lt;/QuotationMarks&gt;  </Uni></QuotationMarks24>
+    <ICULocale24><Uni>en</Uni></ICULocale24>
+    <SpellCheckDictionary24><Uni>en</Uni></SpellCheckDictionary24>
+    <KeyboardType24><Uni>standard</Uni></KeyboardType24>
+    <Collations24>
+      <LgCollation>
+        <Name30>
+          <AUni ws="en">Default Collation</AUni>
+        </Name30>
+        <WinLCID30><Integer val="1033"/></WinLCID30>
+        <WinCollation30><Uni>Latin1_General_CI_AI</Uni></WinCollation30>
+      </LgCollation>
+    </Collations24>
+  </LgWritingSystem>
+</Languages>
+
+<Styles>
+  <StStyle>
+    <Name17><Uni>Normal</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni></Uni></BasedOn17>
+    <Next17><Uni>Normal</Uni></Next17>
+    <Rules17>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>Bulleted List</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>Bulleted List</Uni></Next17>
+    <Rules17>
+      <Prop firstIndent="-18000" bulNumScheme="101" bulNumStartAt="1"/>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>Heading 1</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>Heading 1</Uni></Next17>
+    <Rules17>
+      <Prop bold="invert" fontsize="14000" fontsizeUnit="mpt" spaceBefore="12000" spaceAfter="3000"/>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>Heading 2</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>Heading 2</Uni></Next17>
+    <Rules17>
+      <Prop italic="invert" fontsize="12000" fontsizeUnit="mpt" spaceBefore="12000" spaceAfter="3000"/>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>Heading 3</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>Heading 3</Uni></Next17>
+    <Rules17>
+      <Prop fontsize="12000" fontsizeUnit="mpt" spaceBefore="12000" spaceAfter="3000"/>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>Numbered List</Uni></Name17>
+    <Type17><Integer val="0"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>Numbered List</Uni></Next17>
+    <Rules17>
+      <Prop firstIndent="-18000" bulNumScheme="10"/>
+    </Rules17>
+  </StStyle>
+  <StStyle>
+    <Name17><Uni>External Link</Uni></Name17>
+    <Type17><Integer val="1"/></Type17>
+    <BasedOn17><Uni>Normal</Uni></BasedOn17>
+    <Next17><Uni>External Link</Uni></Next17>
+    <Rules17>
+      <Prop underline="single" forecolor="7f007f" undercolor="7f007f"/>
+    </Rules17>
+  </StStyle>
+</Styles>
+
+<Body docRightToLeft="false">
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Arial">Indonesian Kepatihan 265. Bila Tugasku Kelak Selesai, lines 1, 5 &amp; 6</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">5  1̇ 7   6   5  4 𝄀 3  5  1̇  3̇ .. 𝄒𝄀 3̇  2̇    1̸̇   3̇ 2̇  7 𝄀</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">Bi-la tu-gas-ku ke-lak se-le-sai,   s’la-mat ’ku ti-ba di</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">4̇    5̇    2̇    3̇ . . 𝄒𝄀 5̇    3̇    2̇    1̇    2̇     3̇   𝄀  4̇</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">ba - ha - gi - a;        bi - la   ku - pan-dang Tu - han-</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">6   1̇   3̇͒ . . 𝄒𝄀 2̇   1̇   6    5    5̇͒    4̇  𝄀 3̇    5͒   2̇   1̇ . . 𝄂</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">ku ke - lak,     a - ku ba - ha - g𝅷ia𝅸, ba - ha - g𝅷ia𝅸 te - tap.</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Arial">Indonesian Kepatihan 119. Hai Dunia, Gembiralah, line 2</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">1̇̅  𝄀  𝅷1̇̅ ̅7̅𝅸 𝅷6̅ ̅5̅𝅸  𝄀  𝅷5̅ ̅.̿ ̿4̿ 3̅𝅸 ̅1̇̅  𝄀  𝅷1̇̅ ̅7̅𝅸 𝅷6̅ ̅5̅𝅸 𝄀 𝅷5̅ ̅.̿ ̿4̿ 3̅𝅸 ̅𝄒̅ ̅3̅ 𝄀</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">Di    ha  -  ti  -  mu       te  -  ri  -  ma - lah!     Ber-</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Arial"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Arial">Chinese Jianpu</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">1 𝅷5̲̣ ̲·̲ ̲6̳̣𝅸 1 · 2̲ 𝄀 3 - 3 𝅷5̲ ̲·̲ ̲3̳𝅸 𝄀 2 · 1̲ 2 -</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Arial"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">5 5 𝄀 𝅷5 4𝅸  3 - 1 2 𝄀 𝅷3 2𝅸 7̣͒ - 𝅷5 ♯4𝅸 𝄀 3 - - 2 1 - 𝄀 𝅷1 - 7̣𝅸 - </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="72000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">5͒ 5̇͒ 5̅͒ ̅5̣̇̿͒ 5̿͒ </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="72000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝄆1̅𝄀2̿𝄁3̲𝄂4𝄃5𝄆6𝄇7𝄈1</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="72000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">1.1 1·1</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="72000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">1</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"≯</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">̇</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̅</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">.</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̿</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">6</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̣</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̿</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">͒</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅸</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL" fontVariations="1936487794=2">→</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=1">𝅷1̸̇̅.̿6̣̿͒𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="12000" fontsizeUnit="mpt" fontFamily="Arial Narrow">1D177                    0031             0338             0307             0305           002E          033F             0036              0323              033F            0352           1D178   </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">♯ </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">1</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̲</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">̇</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">-</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+ </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̳</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">6</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+ </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̳</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+ </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">̣</Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="22000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">+</Run>
+        <Run ws="en" fontsize="28000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2">◌</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅸</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> </Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL" fontVariations="1936487794=2">→</Run>
+        <Run ws="en" fontsize="48000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher" fontVariations="1936487794=2"> 𝅷♯1̲̇-̳6̳̣𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="12000" fontsizeUnit="mpt" fontFamily="Arial Narrow">1D177                   266F                     0031                0332                0307              002D             0333                 0036                0333                0323            1D178   </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="12000" fontsizeUnit="mpt" fontFamily="Arial Narrow"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"></Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">sharp: 7 7⃥</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">012345678𝅷5͒5̇͒5̅͒5̣̲̇̿͒𝅸  𝅷6͒312 .̲̿ 3̇̿͒𝅸  .̣̲̇̿</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">2̣̿    𝅷1̸̇̿2̸̣̅ 2̿𝅸   𝅷1̸̇̿2̸̲̇̅ 2̿𝅸 0𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">03̸1𝅸 </Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷0̸̣̇̅1𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷012347𝅸 𝅷01237𝅸 𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">0127𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">017𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷0222227𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷0𝄒234𝄒7𝅸 𝅷0𝄒23𝄒7𝅸 𝅷0𝄒2𝄒</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">7</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅸 𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">0𝄒𝄒7𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">0𝄒7</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷𝄒133</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">23𝄒𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷𝄒1323𝄒𝅸 𝅷𝄒13</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">3𝄒𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷𝄒13𝄒𝅸 </Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher">𝅷𝄒1𝄒𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷012</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">5𝄒𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher">01𝄒𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷07𝅸 𝅷𝄒7𝅸 𝅷7</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">𝄒</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷ae𝅸 𝅷ai𝅸 𝅷au𝅸 m𝅷ahu</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher">𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷Ai</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher">𝅸e</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher"> 𝅷ai</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher">𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher"> </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="black" fontFamily="Doulos SIL Cipher">ahu𝅸</Run>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher"> </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" forecolor="red" fontFamily="Doulos SIL Cipher"> </Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷0̸̣̇̅𝄒163̿𝄒2𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷3𝄒𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷𝄒3𝄒𝅸 𝅷𝄒3𝅸</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">0123</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">2̣</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+  <StTxtPara>
+    <StyleRules15>
+      <Prop namedStyle="Normal"/>
+    </StyleRules15>
+    <Contents16>
+      <Str>
+        <Run ws="en" fontsize="36000" fontsizeUnit="mpt" fontFamily="Doulos SIL Cipher">𝅷013𝅸 0.̅10 .̇1𝄒̅𝄆</Run>
+      </Str>
+    </Contents16>
+  </StTxtPara>
+</Body>
+
+<PageSetup>
+  <PageInfo>
+    <TopMargin9999><Integer val="72000"/></TopMargin9999>
+    <BottomMargin9999><Integer val="72000"/></BottomMargin9999>
+    <LeftMargin9999><Integer val="90000"/></LeftMargin9999>
+    <RightMargin9999><Integer val="90000"/></RightMargin9999>
+    <HeaderMargin9999><Integer val="36000"/></HeaderMargin9999>
+    <FooterMargin9999><Integer val="36000"/></FooterMargin9999>
+    <PageSize9999><Integer val="0"/></PageSize9999>
+    <PageHeight9999><Integer val="612000"/></PageHeight9999>
+    <PageWidth9999><Integer val="792000"/></PageWidth9999>
+    <PageOrientation9999><Integer val="1"/></PageOrientation9999>
+    <Header9999>
+      <Str>
+        <Run ws="en">testworldpad.wpx</Run>
+      </Str>
+    </Header9999>
+    <Footer9999>
+      <Str>
+        <Run ws="en">&amp;[page],&amp;[date]</Run>
+      </Str>
+    </Footer9999>
+  </PageInfo>
+</PageSetup>
+
+</WpDoc>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="1.020">url(../references/v1.020/DoulosSILCipher-R.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/DoulosSILCipher-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'slur' 2" name="slur_2"/>
+    </styles>
+    <title>Cipher Notation</title>
+    <widths string="38%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Encoded characters">
+    <test label="Indonesian Kepatihan">
+      <comment>U+0305</comment>
+      <string>\u00030\u0305 \u00031\u0305 \u00032\u0305 \u00033\u0305 \u00034\u0305 \u00035\u0305 \u00036\u0305 \u00037\u0305 \u0002D\u0305 \u0002E\u0305</string>
+    </test>
+    <test label="Indonesian Kepatihan">
+      <comment>U+033F</comment>
+      <string>\u00030\u033F \u00031\u033F \u00032\u033F \u00033\u033F \u00034\u033F \u00035\u033F \u00036\u033F \u00037\u033F \u0002D\u033F \u0002E\u033F</string>
+    </test>
+    <test label="Chinese Jianpu">
+      <comment>U+0332</comment>
+      <string>\u00030\u0332 \u00031\u0332 \u00032\u0332 \u00033\u0332 \u00034\u0332 \u00035\u0332 \u00036\u0332 \u00037\u0332 \u0002D\u0332 \u0002E\u0332</string>
+    </test>
+    <test label="Chinese Jianpu">
+      <comment>U+0333</comment>
+      <string>\u00030\u0333 \u00031\u0333 \u00032\u0333 \u00033\u0333 \u00034\u0333 \u00035\u0333 \u00036\u0333 \u00037\u0333 \u0002D\u0333 \u0002E\u0333</string>
+    </test>
+    <test label="Indonesian Kepatihan">
+      <comment>U+0307</comment>
+      <string>\u00031\u0307 \u00032\u0307 \u00033\u0307 \u00034\u0307 \u00035\u0307 \u00036\u0307 \u00037\u0307</string>
+    </test>
+    <test label="Chinese Jianpu">
+      <comment>U+0323</comment>
+      <string>\u00031\u0323 \u00032\u0323 \u00033\u0323 \u00034\u0323 \u00035\u0323 \u00036\u0323 \u00037\u0323</string>
+    </test>
+    <test label="Indonesian Kepatihan and Chinese Jianpu sharp">
+      <comment>U+0338</comment>
+      <string>\u00031\u0338 \u00032\u0338 \u00033\u0338 \u00034\u0338 \u00035\u0338 \u00036\u0338 \u00031\u0338\u0307 \u00032\u0338\u0307 \u00033\u0338\u0307 \u00034\u0338\u0307 \u00035\u0338\u0307 \u00036\u0338\u0307 \u00031\u0338\u0323 \u00032\u0338\u0323 \u00033\u0338\u0323 \u00034\u0338\u0323 \u00035\u0338\u0323 \u00036\u0338\u0323</string>
+    </test>
+    <test label="Indonesian Kepatihan and Chinese Jianpu sharp">
+      <comment>U+20E5</comment>
+      <string>\u00037\u20E5 \u00037\u20E5\u0307 \u00037\u20E5\u0323</string>
+    </test>
+    <test label="Indonesian Kepatihan and Chinese Jianpu hold or grand pause">
+      <comment>U+0352</comment>
+      <string>\u00031\u0352 \u00032\u0352 \u00033\u0352 \u00034\u0352 \u00035\u0352 \u00036\u0352 \u00037\u0352</string>
+    </test>
+    <test label="Indonesian Kepatihan eighth note">
+      <comment>U+0305</comment>
+      <string>\u00030\u0305 \u00031\u0305 \u00032\u0305 \u00033\u0305 \u00034\u0305 \u00035\u0305 \u00036\u0305 \u00037\u0305 \u00030\u0307\u0305 \u00031\u0307\u0305 \u00032\u0307\u0305 \u00033\u0307\u0305 \u00034\u0307\u0305 \u00035\u0307\u0305 \u00036\u0307\u0305 \u00037\u0307\u0305</string>
+    </test>
+    <test label="Indonesian Kepatihan sixteenth note">
+      <comment>U+033F</comment>
+      <string>\u00030\u033F \u00031\u033F \u00032\u033F \u00033\u033F \u00034\u033F \u00035\u033F \u00036\u033F \u00037\u033F \u00030\u0307\u033F \u00031\u0307\u033F \u00032\u0307\u033F \u00033\u0307\u033F \u00034\u0307\u033F \u00035\u0307\u033F \u00036\u0307\u033F \u00037\u0307\u033F</string>
+    </test>
+   <test label="Chinese Jianpu eighth note">
+      <comment>U+0332 U+0323</comment>
+      <string>\u00030\u0332 \u00031\u0332 \u00032\u0332 \u00033\u0332 \u00034\u0332 \u00035\u0332 \u00036\u0332 \u00037\u0332 \u00030\u0332\u0323 \u00031\u0332\u0323 \u00032\u0332\u0323 \u00033\u0332\u0323 \u00034\u0332\u0323 \u00035\u0332\u0323 \u00036\u0332\u0323 \u00037\u0332\u0323</string>
+    </test>
+    <test label="Chinese Jianpu sixteenth note">
+      <comment>U+0333</comment>
+      <string>\u00030\u0333 \u00031\u0333 \u00032\u0333 \u00033\u0333 \u00034\u0333 \u00035\u0333 \u00036\u0333 \u00037\u0333 \u00030\u0333\u0323 \u00031\u0333\u0323 \u00032\u0333\u0323 \u00033\u0333\u0323 \u00034\u0333\u0323 \u00035\u0333\u0323 \u00036\u0333\u0323 \u00037\u0333\u0323</string>
+    </test>
+
+    <test label="U+0035">
+      <comment>five period</comment>
+      <string>\u00035\u033F\u002E\u0305 \u0035\u0305\u002E\u033F</string>
+    </test>
+    <test label="U+0035">
+      <comment>five hyphen</comment>
+      <string>\u00035\u033F\u002D\u0305 \u0035\u0305\u002D\u033F</string>
+    </test>
+    <test label="U+0035">
+      <comment>three five</comment>
+      <string>\u00033\u0305\u0035\u0305 \u00033\u0305\u0020\u0305\u0035\u0305 \u00033\u0307\u0305\u0035\u0305 \u00033\u0307\u0305\u0020\u0305\u0035\u0305</string>
+    </test>
+   <test label="U+0031 U+002E U+0305 U+1D112">
+      <comment></comment>
+      <string>\u00031\u002E\u0305\u1d112</string>
+    </test>
+  </testgroup>
+  <testgroup label="Slurs">
+    <test label="U+1D177 U+1D178">
+      <comment>slur 1-8</comment>
+      <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u1D178</string>
+    </test>
+    <test label="U+1D177 U+1D178"  stylename="ss01_1">
+      <comment>slur 1-8</comment>
+      <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u1D178</string>
+    </test>
+    <test label="U+1D177 U+1D178">
+      <comment>slur</comment>
+      <string>\u1D177\u00033\u1D178 \u1D177\u00033\u0035\u1D178 \u1D177\u00033\u0020\u0035\u1D178 \u1D177\u00033\u0034\u0035\u1D178</string>
+    </test>
+    <test label="U+1D177 U+00036 U+0305 U+0035 U+0305 U+1D178 U+0034 U+0305">
+      <comment>slur</comment>
+      <string>\u1D177\u00036\u0305\u0035\u0305\u1D178\u0034\u0305</string>
+    </test>
+   <test label="U+0031 U+0307 U+0305 U+0020 U+0305 U+1D177 U+0031 U+0307 U+0305 U+0037 U+0305 U+1D178">
+      <comment>slur</comment>
+      <string>\u00031\u0307\u0305\u0020\u0305\u1D177\u0031\u0307\u0305\u0037\u0305\u1D178</string>
+    </test>
+   <test label="U+1D177 U+00032 U+033F U+0033 U+033F U+0020 U+0305 U+00034 U+033F U+0035 U+033F U+0020 U+0034 U+0305 U+1D178 U+0020 U+0305 U+0033 U+0305">
+      <comment>slur</comment>
+      <string>\u1D177\u00032\u033F\u0033\u033F\u0020\u0305\u00034\u033F\u0035\u033F\u0020\u0034\u0305\u1D178\u0020\u0305\u0033\u0305</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D177\u00034\u0305\u0020\u033F\u002E\u033F\u0020\u033F\u0035\u0020\u00034\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above / combining mark codepoints also change but not with stylistic set</comment>
+      <string>\u1D177\u00034\u0332\u0020\u0333\u002E\u0333\u0020\u0333\u0035\u0020\u00034\u1D178</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D177\u00035\u0305\u0020\u0305\u002E\u0305\u0020\u0305\u002E\u0305\u0020\u0035\u0305\u1D178\u0020\u0305\u002E\u0305\u1D112</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above / combining mark codepoints also change but not with stylistic set </comment>
+      <string>\u1D177\u00035\u0332\u0020\u0332\u002E\u0332\u0020\u0332\u002E\u0332\u0020\u0035\u0332\u1D178\u0020\u0332\u002E\u0332\u1D112</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D177\u00035\u0305\u0020\u0305\u002E\u033F\u0020\u033F\u0034\u033F\u0020\u0033\u0305\u1D178\u0020\u0305\u0031\u0307\u0305</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above / combining mark codepoints also change but not with stylistic set</comment>
+      <string>\u1D177\u00035\u0332\u0020\u0332\u002E\u0333\u0020\u0333\u0034\u0333\u0020\u0033\u0332\u1D178\u0020\u0332\u0031\u0332\u0323</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D177\u00035\u0307\u0305\u0020\u0305\u002E\u0305\u0020\u0305\u0036\u0307\u033F\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above / combining mark codepoints also change but not with stylistic set </comment>
+      <string>\u1D177\u00035\u0332\u0323\u0020\u0332\u002E\u0332\u0020\u0332\u0036\u0333\u0323\u1D178</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D177\u00035\u0020\u266F\u0034\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above</comment>
+      <string>\u1D177\u00035\u0020\u266F\u0034\u1D178</string>
+    </test>
+   <test label="ketapihan">
+      <comment>slur below</comment>
+      <string>\u1D100\u1D177\u00036\u0305\u0031\u0307\u0305\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="ss01_1">
+      <comment>slur above</comment>
+      <string>\u1D100\u1D177\u00036\u0332\u0031\u0332\u0323\u1D178</string>
+    </test>
+
+  </testgroup>
+</ftml>

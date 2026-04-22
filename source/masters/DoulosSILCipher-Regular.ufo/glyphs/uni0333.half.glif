@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0333.half" format="2">
+  <anchor x="-256" y="-500" name="L"/>
+  <anchor x="-256" y="-100" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-655" y="-515" type="line"/>
+      <point x="-655" y="-406" type="line"/>
+      <point x="131" y="-406" type="line"/>
+      <point x="131" y="-515" type="line"/>
+    </contour>
+    <contour>
+      <point x="-655" y="-295" type="line"/>
+      <point x="-655" y="-186" type="line"/>
+      <point x="131" y="-186" type="line"/>
+      <point x="131" y="-295" type="line"/>
+    </contour>
+  </outline>
+</glyph>

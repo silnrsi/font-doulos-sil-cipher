@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D177.TipAbv" format="2">
+  <outline>
+    <contour>
+      <point x="729" y="1552" type="line"/>
+      <point x="670" y="1540"/>
+      <point x="630" y="1526" type="qcurve"/>
+      <point x="570" y="1526" type="line"/>
+      <point x="596" y="1559"/>
+      <point x="706" y="1595"/>
+      <point x="729" y="1601" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>
