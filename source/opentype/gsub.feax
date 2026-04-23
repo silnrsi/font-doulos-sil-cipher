@@ -74,97 +74,14 @@ lookup half{
 
 } half;
 
-lookup slur1_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur01Below;
-} slur1_lkp;
-
-lookup slur2_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur02Below;
-} slur2_lkp;
-
-lookup slur3_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur03Below;
-} slur3_lkp;
-
-lookup slur4_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur04Below;
-} slur4_lkp;
-
-lookup slur5_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur05Below;
-} slur5_lkp;
-
-lookup slur6_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur06Below;
-} slur6_lkp;
-
-lookup slur7_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur07Below;
-} slur7_lkp;
-
-lookup slur8_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur08Below;
-} slur8_lkp;
-
-lookup slur9_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur09Below;
-} slur9_lkp;
-
-lookup slur10_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur10Below;
-} slur10_lkp;
-
-lookup slur11_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur11Below;
-} slur11_lkp;
-
-lookup slur12_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur12Below;
-} slur12_lkp;
-
-lookup slur13_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur13Below;
-} slur13_lkp;
-
-lookup slur14_lkp { #
-  lookupflag 0 ;
-        sub u1D178 by u1D1771D178.Slur14Below;
-} slur14_lkp;
 
 
-lookup slur { #
-  lookupflag IgnoreMarks ;
-        sub u1D177 @base u1D178' lookup slur1_lkp;                                                                                # 1 Base, no HalfBase
-        sub u1D177 @base @base u1D178' lookup slur2_lkp;                                                                          # 2 Bases, no HalfBase
-        sub u1D177 @base @base @base u1D178' lookup slur4_lkp;                                                                    # 3 Bases, no HalfBase
-        sub u1D177 @base @base @base @base u1D178' lookup slur6_lkp;                                                              # 4 Bases, no HalfBase
-        sub u1D177 @base @base @base @base @base u1D178' lookup slur8_lkp;                                                        # 5 Bases, no HalfBase
-        sub u1D177 @base @base @base @base @base @base u1D178' lookup slur10_lkp;                                                 # 6 Bases, no HalfBase
-        sub u1D177 @base @base @base @base @base @base @base u1D178' lookup slur12_lkp;                                           # 7 Bases, no HalfBase
-        sub u1D177 @base @base @base @base @base @base @base @base u1D178' lookup slur14_lkp;                                     # 8 Bases, no HalfBase
-# need to evaluate how to include all possibilities
-        sub u1D177 @HalfBase @base @base u1D178' lookup slur3_lkp;                                                                   # 2 Bases, 1 HalfBase
-        sub u1D177 @base @HalfBase @base u1D178' lookup slur3_lkp;                                                                   # 2 Bases, 1 HalfBase
-        sub u1D177 @base @HalfBase @base @base u1D178' lookup slur4_lkp;
-        sub u1D177 @base @HalfBase @HalfBase @base u1D178' lookup slur4_lkp;
-        sub u1D177 @base @HalfBase @HalfBase @HalfBase @base u1D178' lookup slur5_lkp;
-        sub u1D177 @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base u1D178' lookup slur7_lkp;
-        sub u1D177 @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base u1D178' lookup slur8_lkp;
-        sub u1D177 @base @base @HalfBase @base @base @HalfBase @base u1D178' lookup slur10_lkp;
-} slur;
+lookup slur_ccmp {
+ lookupflag IgnoreMarks ;
+        sub u1D177 by u1D175;                                                                                # 1 Base, no HalfBase
+        sub u1D178 by u1D176;                                                                                # 1 Base, no HalfBase
+} slur_ccmp;
+
 
 # HB PAUSE
 
@@ -172,10 +89,188 @@ lookup slur { #
 
 #---  ssxx lookups  ---
 
-lookup slur_ss01 { # needed for ss01
-  lookupflag IgnoreMarks;
-    sub @SlurBelow by @SlurAbove;
-} slur_ss01 ;
+lookup slur1_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur01Below;
+} slur1_ss01;
+
+lookup slur2_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur02Below;
+} slur2_ss01;
+
+lookup slur3_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur03Below;
+} slur3_ss01;
+
+lookup slur4_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur04Below;
+} slur4_ss01;
+
+lookup slur5_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur05Below;
+} slur5_ss01;
+
+lookup slur6_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur06Below;
+} slur6_ss01;
+
+lookup slur7_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur07Below;
+} slur7_ss01;
+
+lookup slur8_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur08Below;
+} slur8_ss01;
+
+lookup slur9_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur09Below;
+} slur9_ss01;
+
+lookup slur10_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur10Below;
+} slur10_ss01;
+
+lookup slur11_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur11Below;
+} slur11_ss01;
+
+lookup slur12_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur12Below;
+} slur12_ss01;
+
+lookup slur13_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur13Below;
+} slur13_ss01;
+
+lookup slur14_ss01 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur14Below;
+} slur14_ss01;
+
+# ss02
+lookup slur1_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur01Abv;
+} slur1_ss02;
+
+lookup slur2_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur02Abv;
+} slur2_ss02;
+
+lookup slur3_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur03Abv;
+} slur3_ss02;
+
+lookup slur4_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur04Abv;
+} slur4_ss02;
+
+lookup slur5_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur05Abv;
+} slur5_ss02;
+
+lookup slur6_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur06Abv;
+} slur6_ss02;
+
+lookup slur7_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur07Abv;
+} slur7_ss02;
+
+lookup slur8_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur08Abv;
+} slur8_ss02;
+
+lookup slur9_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur09Abv;
+} slur9_ss02;
+
+lookup slur10_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur10Abv;
+} slur10_ss02;
+
+lookup slur11_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur11Abv;
+} slur11_ss02;
+
+lookup slur12_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur12Abv;
+} slur12_ss02;
+
+lookup slur13_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur13Abv;
+} slur13_ss02;
+
+lookup slur14_ss02 { #
+  lookupflag 0 ;
+        sub @close by u1D1771D178.Slur14Abv;
+} slur14_ss02;
+
+lookup slur_below { #
+  lookupflag IgnoreMarks ;
+        sub @open @base @close' lookup slur1_ss01;                                                                                # 1 Base, no HalfBase
+        sub @open @base @base @close' lookup slur2_ss01;                                                                          # 2 Bases, no HalfBase
+        sub @open @base @base @base @close' lookup slur4_ss01;                                                                    # 3 Bases, no HalfBase
+        sub @open @base @base @base @base @close' lookup slur6_ss01;                                                              # 4 Bases, no HalfBase
+        sub @open @base @base @base @base @base @close' lookup slur8_ss01;                                                        # 5 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @close' lookup slur10_ss01;                                                 # 6 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @base @close' lookup slur12_ss01;                                           # 7 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @base @base @close' lookup slur14_ss01;                                     # 8 Bases, no HalfBase
+# need to evaluate how to include all possibilities
+        sub @open @HalfBase @base @base @close' lookup slur3_ss01;                                                                   # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @close' lookup slur3_ss01;                                                                   # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @base @close' lookup slur4_ss01;
+        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss01;
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss01;
+        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss01;
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss01;
+        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss01;
+} slur_below;
+
+lookup slur_above { #
+  lookupflag IgnoreMarks ;
+        sub @open @base @close' lookup slur1_ss02;                                                                                # 1 Base, no HalfBase
+        sub @open @base @base @close' lookup slur2_ss02;                                                                          # 2 Bases, no HalfBase
+        sub @open @base @base @base @close' lookup slur4_ss02;                                                                    # 3 Bases, no HalfBase
+        sub @open @base @base @base @base @close' lookup slur6_ss02;                                                              # 4 Bases, no HalfBase
+        sub @open @base @base @base @base @base @close' lookup slur8_ss02;                                                        # 5 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @close' lookup slur10_ss02;                                                 # 6 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @base @close' lookup slur12_ss02;                                           # 7 Bases, no HalfBase
+        sub @open @base @base @base @base @base @base @base @base @close' lookup slur14_ss02;                                     # 8 Bases, no HalfBase
+# need to evaluate how to include all possibilities
+        sub @open @HalfBase @base @base @close' lookup slur3_ss02;                                                                   # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @close' lookup slur3_ss02;                                                                   # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @base @close' lookup slur4_ss02;
+        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss02;
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss02;
+        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss02;
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss02;
+        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss02;
+} slur_above;
 
 
 #**********************************
@@ -191,7 +286,7 @@ lookup slur_ss01 { # needed for ss01
 feature ccmp {  # Glyph Composition/Decomposition
         lookup FontCheck;             # 
         lookup half;      # 
-        lookup slur;      # 
+        lookup slur_ccmp;      # 
 } ccmp ;
 
 
@@ -206,17 +301,19 @@ feature ccmp {  # Glyph Composition/Decomposition
 
 # HB PAUSE
 
-feature ss01 { # choose between Indonesian Kepatihan and Chinese Jianpu (slurs below vs slurs above)
+feature ss01 { # Slurs below
    featureNames {
-      name 3 1 0x409 "Slurs";
+      name 3 1 0x409 "Slurs below";
    };
-    script DFLT;  
-      language dflt;  
-          lookup slur_ss01;
-    script latn;  
-      language dflt;  
-          lookup slur_ss01;
+         lookup slur_below;
 } ss01;
+
+feature ss02 { # Slurs above
+   featureNames {
+      name 3 1 0x409 "Slurs above";
+   };
+         lookup slur_above;
+} ss02;
 
 # HB PAUSE
 

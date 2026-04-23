@@ -8,7 +8,8 @@
     <fontsrc label="Reg">url(../results/DoulosSILCipher-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
-      <style feats="'slur' 2" name="slur_2"/>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'slur' 2, 'ss02' 1" name="slur_2_ss02_1"/>
     </styles>
     <title>Cipher Notation</title>
     <widths string="38%"/>
@@ -90,76 +91,84 @@
     </test>
   </testgroup>
   <testgroup label="Slurs">
-    <test label="U+1D177 U+1D178">
+   <test label="U+1D177 U+1D178">
+      <comment>Edit Mode</comment>
+      <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u1D178</string>
+    </test>
+    <test label="U+1D177 U+1D178" stylename="ss01_1">
+      <comment>slur 1-8</comment>
+      <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u0039\u1D178</string>
+    </test>
+    <test label="U+1D177 U+1D178"  stylename="slur_2_ss02_1">
       <comment>slur 1-8</comment>
       <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u1D178</string>
     </test>
-    <test label="U+1D177 U+1D178"  stylename="ss01_1">
-      <comment>slur 1-8</comment>
-      <string>\u1D177\u00031\u1D178 \u1D177\u00031\u0032\u1D178 \u1D177\u00031\u0032\u0033\u1D178 \u1D177\u00031\u0032\u0033\u0034\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u1D178 \u1D177\u00031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u1D178</string>
-    </test>
-    <test label="U+1D177 U+1D178">
+     <test label="U+1D177 U+1D178" stylename="ss01_1">
       <comment>slur</comment>
       <string>\u1D177\u00033\u1D178 \u1D177\u00033\u0035\u1D178 \u1D177\u00033\u0020\u0035\u1D178 \u1D177\u00033\u0034\u0035\u1D178</string>
     </test>
-    <test label="U+1D177 U+00036 U+0305 U+0035 U+0305 U+1D178 U+0034 U+0305">
+    <test label="U+1D177 U+00036 U+0305 U+0035 U+0305 U+1D178 U+0034 U+0305" stylename="ss01_1">
       <comment>slur</comment>
       <string>\u1D177\u00036\u0305\u0035\u0305\u1D178\u0034\u0305</string>
     </test>
-   <test label="U+0031 U+0307 U+0305 U+0020 U+0305 U+1D177 U+0031 U+0307 U+0305 U+0037 U+0305 U+1D178">
+   <test label="U+0031 U+0307 U+0305 U+0020 U+0305 U+1D177 U+0031 U+0307 U+0305 U+0037 U+0305 U+1D178" stylename="ss01_1">
       <comment>slur</comment>
       <string>\u00031\u0307\u0305\u0020\u0305\u1D177\u0031\u0307\u0305\u0037\u0305\u1D178</string>
     </test>
-   <test label="U+1D177 U+00032 U+033F U+0033 U+033F U+0020 U+0305 U+00034 U+033F U+0035 U+033F U+0020 U+0034 U+0305 U+1D178 U+0020 U+0305 U+0033 U+0305">
+   <test label="U+1D177 U+00032 U+033F U+0033 U+033F U+0020 U+0305 U+00034 U+033F U+0035 U+033F U+0020 U+0034 U+0305 U+1D178 U+0020 U+0305 U+0033 U+0305" stylename="ss01_1">
       <comment>slur</comment>
       <string>\u1D177\u00032\u033F\u0033\u033F\u0020\u0305\u00034\u033F\u0035\u033F\u0020\u0034\u0305\u1D178\u0020\u0305\u0033\u0305</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D177\u00034\u0305\u0020\u033F\u002E\u033F\u0020\u033F\u0035\u0020\u00034\u1D178</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above / combining mark codepoints also change but not with stylistic set</comment>
       <string>\u1D177\u00034\u0332\u0020\u0333\u002E\u0333\u0020\u0333\u0035\u0020\u00034\u1D178</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D177\u00035\u0305\u0020\u0305\u002E\u0305\u0020\u0305\u002E\u0305\u0020\u0035\u0305\u1D178\u0020\u0305\u002E\u0305\u1D112</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above / combining mark codepoints also change but not with stylistic set </comment>
       <string>\u1D177\u00035\u0332\u0020\u0332\u002E\u0332\u0020\u0332\u002E\u0332\u0020\u0035\u0332\u1D178\u0020\u0332\u002E\u0332\u1D112</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D177\u00035\u0305\u0020\u0305\u002E\u033F\u0020\u033F\u0034\u033F\u0020\u0033\u0305\u1D178\u0020\u0305\u0031\u0307\u0305</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above / combining mark codepoints also change but not with stylistic set</comment>
       <string>\u1D177\u00035\u0332\u0020\u0332\u002E\u0333\u0020\u0333\u0034\u0333\u0020\u0033\u0332\u1D178\u0020\u0332\u0031\u0332\u0323</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D177\u00035\u0307\u0305\u0020\u0305\u002E\u0305\u0020\u0305\u0036\u0307\u033F\u1D178</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above / combining mark codepoints also change but not with stylistic set </comment>
       <string>\u1D177\u00035\u0332\u0323\u0020\u0332\u002E\u0332\u0020\u0332\u0036\u0333\u0323\u1D178</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D177\u00035\u0020\u266F\u0034\u1D178</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above</comment>
       <string>\u1D177\u00035\u0020\u266F\u0034\u1D178</string>
     </test>
-   <test label="ketapihan">
+   <test label="ketapihan" stylename="ss01_1">
       <comment>slur below</comment>
       <string>\u1D100\u1D177\u00036\u0305\u0031\u0307\u0305\u1D178</string>
     </test>
-   <test label="jianpu" stylename="ss01_1">
+   <test label="jianpu" stylename="slur_2_ss02_1">
       <comment>slur above</comment>
+      <string>\u1D100\u1D177\u00036\u0332\u0031\u0332\u0323\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>demonstrating graphite slur above feature in old font and ss02 in new font</comment>
       <string>\u1D100\u1D177\u00036\u0332\u0031\u0332\u0323\u1D178</string>
     </test>
 

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Doulos SIL Cipher - About</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Doulos SIL Cipher - About</h1>
+    </header>
+    <h2 id="about">About</h2>
+    <p>The Cipher music notation is used throughout Indonesia and China
+    for all kinds of music. The font is not intended for general
+    orthographic use, although it is usable for song lyrics in simple
+    Roman writing systems. This solution is primarily intended for
+    fairly straightforward songbooks for singers, not for complex
+    instrumental music. It can handle harmony lines fine, but not a lot
+    of intricacies or subtleties (e.g. no staccato).</p>
+    <p>If you use this font for developing songbooks and you have
+    suggestions for improvements we would like to hear back from you.
+    Contact information is below.</p>
+    <h3 id="cipher-music-notation-requirements">Cipher Music Notation
+    Requirements</h3>
+    <p>The main requirements for this font were originally to support
+    the Indonesian Cipher Music Notation (Kepatihan). However, where it
+    was straightforward to add support for the Chinese jianpu style, we
+    have done so.</p>
+    <table>
+    <colgroup>
+    <col style="width: 23%" />
+    <col style="width: 15%" />
+    <col style="width: 61%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align: left;">Characters</th>
+    <th style="text-align: left;">USV</th>
+    <th style="text-align: left;">Meaning</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: left;"><strong>Musical note</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">1-7</span></td>
+    <td style="text-align: left;">U+0031..U+0037</td>
+    <td style="text-align: left;">musical notes (do re mi fa so la
+    ti)</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><strong>Octaves</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̣</span></td>
+    <td style="text-align: left;">U+0323 COMBINING DOT BELOW</td>
+    <td style="text-align: left;">down one octave (Chinese jianpu: goes
+    below any underlines)<br/><em>turunkan satu oktaf (Cina: taruh di
+    bawah garis bawah jika ada)</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̇</span></td>
+    <td style="text-align: left;">U+0307 COMBINING DOT ABOVE</td>
+    <td style="text-align: left;">up one octave (Indonesian kepatihan:
+    goes below any overlines)<br/><em>naikkan satu oktaf; ditaruh di
+    bawah garis atas jika ada</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><strong>Note length</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">.</span></td>
+    <td style="text-align: left;">U+002E FULL STOP</td>
+    <td style="text-align: left;">Indonesian kepatihan: extend duration
+    of the preceding note by an entire quarter note (becomes a half
+    note)<br/><em>Kepatihan: perpanjang waktu not yang
+    sebelumnya.</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">-</span></td>
+    <td style="text-align: left;">U+002D HYPHEN-MINUS or U+2012 FIGURE
+    DASH</td>
+    <td style="text-align: left;">Chinese jianpu: extend duration of the
+    preceding note by an entire quarter note (becomes a half
+    note)<br/><em>Cina: perpanjang waktu not yang sebelumnya.</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">·</span></td>
+    <td style="text-align: left;">U+00B7 MIDDLE DOT</td>
+    <td style="text-align: left;">Chinese jianpu: extend duration of the
+    preceding note by half, two dots extends duration by three
+    quarters</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̅</span></td>
+    <td style="text-align: left;">U+0305 COMBINING OVERLINE</td>
+    <td style="text-align: left;">Indonesian kepatihan: eighth
+    note<br/><em>not (nada) kedelapan</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̿</span></td>
+    <td style="text-align: left;">U+033F COMBINING DOUBLE OVERLINE</td>
+    <td style="text-align: left;">Indonesian kepatihan: sixteenth
+    note<br/><em>not (nada) keenam belas</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̲</span></td>
+    <td style="text-align: left;">U+0332 COMBINING LOW LINE</td>
+    <td style="text-align: left;">Chinese jianpu: eighth
+    note<br/><em>Cina: not (nada) kedelapan</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌̳</span></td>
+    <td style="text-align: left;">U+0333 COMBINING DOUBLE LOW LINE</td>
+    <td style="text-align: left;">Chinese jianpu: sixteenth
+    note<br/><em>Cina: not (nada) keenam belas</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><strong>Musical rest</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">0</span></td>
+    <td style="text-align: left;">U+0030 DIGIT ZERO</td>
+    <td style="text-align: left;">musical rest (i.e. don't sing or
+    play)<br/><em>istirahat (diam); jangan menyanyi atau
+    mainkan)</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><strong>Bar lines</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄀</span></td>
+    <td style="text-align: left;">U+1D100 MUSICAL SYMBOL SINGLE
+    BARLINE</td>
+    <td style="text-align: left;">measure boundary<br/><em>batas
+    birama</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄁</span></td>
+    <td style="text-align: left;">U+1D101 MUSICAL SYMBOL DOUBLE
+    BARLINE</td>
+    <td style="text-align: left;">end of a section of
+    music<br/><em>akhir dari suatu bagian musik</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄂</span></td>
+    <td style="text-align: left;">U+1D102 MUSICAL SYMBOL FINAL
+    BARLINE</td>
+    <td style="text-align: left;">very end of a piece of music</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄃</span></td>
+    <td style="text-align: left;">U+1D103 MUSICAL SYMBOL REVERSE FINAL
+    BARLINE</td>
+    <td style="text-align: left;">unsure of usage</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄆</span></td>
+    <td style="text-align: left;">U+1D106 MUSICAL SYMBOL LEFT REPEAT
+    SIGN</td>
+    <td style="text-align: left;">this section will be
+    repeated<br/><em>bagian ini akan diulangi</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄇</span></td>
+    <td style="text-align: left;">U+1D107 MUSICAL SYMBOL RIGHT REPEAT
+    SIGN</td>
+    <td style="text-align: left;">go back to the left repeat
+    sign<br/><em>kembali ke tanda ulang kiri</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄈</span></td>
+    <td style="text-align: left;">U+1D108 MUSICAL SYMBOL REPEAT
+    DOTS</td>
+    <td style="text-align: left;">a simpler repeat sign; sometimes used
+    in conjunction with U+1D100</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><strong>Accidentals</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">/</span></td>
+    <td style="text-align: left;">U+0338 COMBINING LONG SOLIDUS
+    OVERLAY</td>
+    <td style="text-align: left;">Indonesian kepatihan: sharp (used on
+    numbers 1-6)<br/><em>1-6: tinggikan (naikkan) nada 1/2
+    laras</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">⃥</span></td>
+    <td style="text-align: left;">U+20E5 COMBINING REVERSE SOLIDUS
+    OVERLAY</td>
+    <td style="text-align: left;">Indonesian kepatihan: sharp (used on
+    number 7)<br/><em>7: tinggikan (naikkan) nada 1/2 laras</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">♭</span></td>
+    <td style="text-align: left;">U+266D MUSIC FLAT SIGN&lt;</td>
+    <td style="text-align: left;">Chinese jianpu: flat<br/><em>Cina:
+    turunkan nada 1/2 laras (mol)</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">♯</span></td>
+    <td style="text-align: left;">U+266F MUSIC SHARP SIGN</td>
+    <td style="text-align: left;">Chinese jianpu: sharp<br/><em>Cina:
+    tinggikan (naikkan) nada 1/2 laras</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">♮</span></td>
+    <td style="text-align: left;">U+266E MUSIC NATURAL SIGN</td>
+    <td style="text-align: left;">Chinese jianpu: restore to natural
+    (not sharp/flat)<br/><em>Cina: kembali ke biasa</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span class="cipher-R normal">𝅷
+    <br/>𝅸</span></td>
+    <td style="text-align: left;">U+1D177 MUSICAL SYMBOL BEGIN
+    SLUR<br/>U+1D178 MUSICAL SYMBOL END SLUR</td>
+    <td style="text-align: left;">In music, this is a slur or a tie
+    (multiple notes are run together smoothly). In lyrics, a slur
+    contracts multiple syllables into one (multiple vowels become one
+    diphthong).<br/><em>Tanda legato. Dalam musik, satu suku kata
+    memberi jarak semua not (nada). Dalam lirik, ini berarti "vocal
+    rangkap" Huruf-huruf hidup berdekatan diucapkan sebagai satu suku
+    kata."</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><strong>Expression marks</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">◌͒</span></td>
+    <td style="text-align: left;">U+0352 COMBINING FERMATA</td>
+    <td style="text-align: left;">"hold", or "grand
+    pause"<br/><em>"tahan", atau "istirahat untuk seluruh
+    pemusik"</em></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝄒</span></td>
+    <td style="text-align: left;">U+1D112 MUSICAL SYMBOL BREATH
+    MARK</td>
+    <td style="text-align: left;">singers, breathe now<br/><em>para
+    penyanyi tarik nafas</em></td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><strong>Glissandi</strong></td>
+    <td style="text-align: left;"></td>
+    <td style="text-align: left;"></td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝆱</span></td>
+    <td style="text-align: left;">U+1D1B1 MUSICAL SYMBOL GLISSANDO
+    UP</td>
+    <td style="text-align: left;">The glissandi symbols tell the singer
+    to swoop through the notes. The angle indicates an upward
+    swoop.</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;"><span
+    class="cipher-R normal">𝆲</span></td>
+    <td style="text-align: left;">U+1D1B2 MUSICAL SYMBOL GLISSANDO
+    DOWN</td>
+    <td style="text-align: left;">Swoop down through the notes.</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>All of the characters documented above (not including combining
+    marks) are either of "full" width or "half" width. This allows for
+    the font to use the proper width of the overlines or underlines. In
+    addition, regular orthographic characters are provided for use in
+    lyrics. Lyric characters have proportional widths. As long as you
+    don't mix in other characters, you should therefore be able to align
+    harmony lines with the melody line by adding spaces (which are
+    "half" width) appropriately. Because lyric characters have
+    proportional widths they cannot be precisely aligned unless you use
+    tabs, but this is generally less important.</p>
+    <p><em>Semua tanda yang tercantum di atas, lebarnya "lengkap" atau
+    "setengah". Sepanjang Anda tidak mencampurkan tanda/huruf lain, maka
+    Anda dapat memantapkan baris-baris harmonis dengan baris melodi,
+    dengan menambahkan jarak / spasi (yang adalah "setengah" lebarnya).
+    Huruf-huruf lirik mempunyai lebar yang proporsional dan tidak dapat
+    dengan tepat dipaskan jika Anda tidak menggunakan tabs, namun
+    biasanya ini kurang penting.</em></p>
+    <p><strong>NOTE:</strong> The font cannot properly display
+    diacritics that are "out of order". You must input the base followed
+    by an optional centered diacritic, followed by optional below
+    diacritic(s), followed by optional above diacritics. Beginning and
+    ending slurs should be at the outer edge of each run of text. The
+    example below shows the proper order of characters:</p>
+    <img src="assets/images/Cipher_IndonesianKepatihan.png"
+    class="fullsize" alt="Indonesian kepatihan" />
+    <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/08/Cipher_IndonesianKepatihan.png -->
+    <figcaption>
+    Indonesian kepatihan
+    </figcaption>
+    <img src="assets/images/Cipher_ChineseJianpu.png" class="fullsize"
+    alt="Chinese jianpu" />
+    <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/08/Cipher_ChineseJianpu.png -->
+    <figcaption>
+    Chinese jianpu
+    </figcaption>
+    <h3 id="rendering">Rendering</h3>
+    <p>This font makes use of the OpenType smart font technologies.
+    However, many Windows applications do not support combining marks on
+    spaces, punctuation or numbers — all of which are used in Cipher
+    Notation! In addition, Windows applications do not support the use
+    of combining marks from the BMP in combination with base characters
+    from the SMP (the breathing mark is in the SMP).</p>
+    <h3 id="font-features">Font features</h3>
+    <p>This font uses the "edit" mode by default. The default mode has
+    tiny slur tips rather than the slur. This mode allows for easier
+    editing between the beginning and ending of the slur. When a
+    document is ready for turning the slurs "on", A Stylistic set can be
+    chosen for <strong>Below (Indonesian kepatihan)</strong> or
+    <strong>Above (Chinese jianpu)</strong>.</p>
+    <ul>
+    <li><strong>Indonesian kepatihan (Below)</strong> (ss01=1)</li>
+    <li><strong>Chinese jianpu (Above)</strong> (ss02=1)</li>
+    </ul>
+    <p>Slurs will display as slurs for up to 8 base characters. It might
+    be less than that if there are many dots, fermata, and over- or
+    under-lines. Once the slurs "fail" they default to small beginning
+    and ending marks under the base characters.</p>
+    <p>At this time the support for the Slurs is dependent on the
+    examples seen in use. If a slur is not working with a particular
+    string, please report it through the Github issues.</p>
+    <h3 id="supported-characters">Supported characters</h3>
+    <p>The following character ranges are supported by this font:</p>
+    <table>
+    <colgroup>
+    <col style="width: 46%" />
+    <col style="width: 53%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align: left;">Unicode block</th>
+    <th style="text-align: left;">Doulos SIL Cipher support</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: left;">Codepage 1252 (Western) &amp;
+    MacRoman</td>
+    <td style="text-align: left;">✓</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Combining Diacritical Marks</td>
+    <td style="text-align: left;">U+0305 U+0307 U+0323 U+0332..U+0333
+    U+0338 U+033F U+034F U+0352 U+03C0</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;">Superscripts and Subscripts</td>
+    <td style="text-align: left;">U+2070 U+2074..U+2079
+    U+2080..U+2089</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Combining Diacritical Marks for
+    Symbols</td>
+    <td style="text-align: left;">U+20E5</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;">Arrows</td>
+    <td style="text-align: left;">U+2197..U+2198</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Miscellaneous Symbols</td>
+    <td style="text-align: left;">U+266D..U+266F</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;">Latin Extended-D</td>
+    <td style="text-align: left;">U+A78B..U+A78C</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Musical Symbols</td>
+    <td style="text-align: left;">U+1D100..U+1D103 U+1D106..U+1D108
+    U+1D110 U+1D112 U+1D177..U+1D178</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2 id="downloads">Downloads</h2>
+    <h3 id="license">License</h3>
+    <p>Theis font is licensed under the <a
+    href="https://openfontlicense.org/">SIL Open Font License
+    (OFL)</a></p>
+    <h3 id="keyman-keyboard">Keyman Keyboard</h3>
+    <p>The <a
+    href="https://keyman.com/keyboards/sil_cipher_music">Cipher Music
+    (SIL)</a> Keyman keyboard is available to help you type using the
+    Cipher music notation.</p>
+    <h3 id="libreoffice-cipher-songs-template">LibreOffice Cipher Songs
+    Template</h3>
+    <p>To use this template, type your songs using the provided "song"
+    styles. At first, it's easiest to start by copying the sample song
+    text into a blank page, since all of the styles are set up already.
+    Delete the instructions in this document once you don't need them
+    anymore. You may not want to delete the "Special Symbols" part until
+    you're ready to publish.</p>
+    <p><em>Untuk memakai "template" ini, ketiklah lagu-lagu dengan
+    memakai style-style "song" yang tersediah. Untuk pemula, cara yang
+    paling mudah adalah: kopi lagu contoh ke halaman kosong, sebab semua
+    style telah disetel dalam contohnya. Silahkan hapus
+    petunjuk-petunjuk seperti ini kalau tidak diperlukan lagi.</em></p>
+    <p>Cipher template changes:</p>
+    <ul>
+    <li>Changed the page size to 12.5cm x 17.5cm (but in inches: 4.92" x
+    6.89"), with 0.5" margins all around</li>
+    <li>TOC settings: added a space before each song title.</li>
+    <li>Formatted numbering for song titles to use a space rather than a
+    tab. This helps with longer song numbers.</li>
+    <li>"song lyrics only": switched away from fixed height (back to
+    "single") since slurs were getting cut off. Added more slurs to the
+    initial example for better awareness in the future.</li>
+    <li>"song verse lyrics", "song verse lyrics indented": added 0.08"
+    line spacing after each paragraph, so notes will seem closer to
+    their own lyrics.</li>
+    <li>Added a tip: "Or, you can edit the song title style to toggle
+    page breaks before songs for the whole file."</li>
+    <li>Renamed "song verse indented" to "song verse notes indented",
+    for consistency.</li>
+    <li>Enabled "Keep with next paragraph" for these styles (the two
+    lyrics styles inherited that, so I then turned it off for them):
+    <ul>
+    <li>song title</li>
+    <li>song info</li>
+    <li>song verse notes</li>
+    <li>song verse notes indented</li>
+    </ul></li>
+    </ul>
+    <h2 id="future-plans">Future plans</h2>
+    <p>This font is actively maintained and improved, and recent changes
+    to the development process will enable more frequent releases.</p>
+    <p>The highest priorities for future additions and enhancements are
+    mainly driven by:</p>
+    <ul>
+    <li>New additions to <a href="https://unicode.org/">The Unicode
+    Standard</a></li>
+    <li>Requests from language communities using the fonts</li>
+    <li>Needs of the linguistic and academic community</li>
+    </ul>
+    <h2 id="announcement-list">Announcement list</h2>
+    <p>If you wish to receive announcements about updates to any of our
+    SIL fonts, please subscribe to our <a
+    href="https://groups.google.com/a/groups.sil.org/forum/#!forum/sil-font-news">SIL
+    Font News Announcement List</a>. This is an announcement-only list
+    with messages approximately once a month. It does not allow any
+    discussion.</p>
+    <p>You can subscribe using either of the two following options.</p>
+    <ul>
+    <li><p>If you use a Google profile and join the group, you will be
+    able to access the group and control your subscription and
+    notification options with a web browser. Make sure you are logged in
+    to your Google profile and go to the <a
+    href="https://groups.google.com/a/groups.sil.org/forum/#!forum/sil-font-news">SIL
+    Font News Google Group</a>. Click on <strong>Join
+    group</strong>.</p></li>
+    <li><p>If you would rather not use a Google profile, you can
+    subscribe any email address by sending a message to <a
+    href="mailto:sil-font-news+subscribe@groups.sil.org">sil-font-news+subscribe@groups.sil.org</a>
+    and following the instructions you get in the confirmation
+    message.</p></li>
+    </ul>
+    <h2 id="supporting-the-project">Supporting the project</h2>
+    <p>These fonts are provided at no cost; however, they are expensive
+    to produce and maintain. Please consider donating to SIL’s font
+    development efforts to support future development. Go to the <a
+    href="https://give.sil.org/campaign/725115/donate">WSTech donation
+    page</a>. <strong>Thank you!</strong></p>
+    <p>Before requesting technical support, please <strong>carefully
+    read all the documentation included with the fonts and linked pages
+    on the web site</strong>. The <a
+    href="https://software.sil.org/fonts/guides/">Font Help pages</a>
+    are a good place to begin.</p>
+    <h2 id="about-sil-global">About SIL Global</h2>
+    <p><a href="https://www.sil.org/">SIL Global</a> is a global,
+    faith-based nonprofit that works with local communities around the
+    world to develop language solutions that expand possibilities for a
+    better life.</p>
+    <p>As of 2024, we are involved in approximately 1,530 active
+    language projects in 107 countries. These projects impact more than
+    950+ million people. SIL’s work brings together more than 4,373
+    staff from 86 countries who work alongside thousands more local
+    partners and community volunteers worldwide. Our services are
+    available without regard to religious belief, political ideology,
+    gender, race or ethnic background.</p>
+    <p>Our Vision: We long to see people flourishing in community using
+    the languages they value most.</p>
+    <p>Our Mission: Inspired by God’s love, we advocate, build capacity,
+    and work with local communities to apply language expertise that
+    advances meaningful development, education, and engagement with
+    Scripture.</p>
+    <p><a href="https://software.sil.org/">SIL Language Technology</a>
+    supports these activities by developing <a
+    href="https://software.sil.org/software-products/">software</a>, <a
+    href="https://software.sil.org/fonts/">fonts</a>, and <a
+    href="https://keyman.com/">keyboard technologies</a>.</p>
+    <h2 id="language-software-community">Language Software
+    Community</h2>
+    <p>For person-to-person support visit the <a
+    href="https://community.software.sil.org/c/silfonts">SIL Language
+    Software Community</a>, where font developers and users can help
+    each other. These support discussions can also help others in the
+    future.</p>
+    <h2 id="reporting-bugs-and-feature-requests">Reporting bugs and
+    feature requests</h2>
+    <p>If you have a bug to report or a suggestion for how we could
+    improve the fonts please create an issue in the <a
+    href="https://github.com/silnrsi/font-doulos-sil-cipher/issues">Github
+    Doulos SIL Cipher project</a> or contact us directly.</p>
+    <h2 id="contact-form">Contact form</h2>
+    <p>For support, or for more information, please visit the Doulos SIL
+    Cipher page on SIL Global's Computers and Writing systems website:
+    https://software.sil.org/doulos-sil-cipher/</p>
+    <!-- PRODUCT SITE ONLY
+    [font id='cipher' face='DoulosSILCipher-Regular' size='150%']
+    -->
+    <footer class="footer">
+        <p>This guide is from the <a href="https://software.sil.org/doulos-sil-cipher/" title="" class="active">Doulos SIL Cipher project</a> version 2.02 and is copyright © 1994-2026 SIL Global.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

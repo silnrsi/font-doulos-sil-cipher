@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# To generate PDFs that are somewhat OK you will need to have the Roboto and Roboto mono font families installed on your system
+# https://fonts.google.com/specimen/Roboto
+# https://fonts.google.com/specimen/Roboto+Mono
+
+# Verify fonts are built:
+if [ ! -e results/DoulosSILCipher-Regular.ttf ]
+then
+    echo "Fonts must be built before rebuilding documentation."
+    exit 1
+fi
+
+# Update woff2 fonts needed in web/ folder to build PDFs
+cp results/web/DoulosSILCipher-Regular.woff2 web/
+
+echo "-----Rebuilding documentation..."
+
+echo "     >>> HTML (documentation/)"
+
+echo "     > about.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/about.md -o documentation/about.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+
+echo "     >>> PDF (documentation/pdf/)"
+mkdir -p documentation/source/pdftemp
+
+echo "     > about.html > about.pdf"
+pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/about.md -o documentation/source/pdftemp/about.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
+weasyprint documentation/source/pdftemp/about.html documentation/pdf/about.pdf
+
+echo "     >>> PRODUCT SITE MARKDOWN (documentation/source/productsite/)"
+mkdir -p documentation/source/productsite
+
+echo "     > about.md"
+python3 documentation/source/makepsmd.py documentation/source/about.md documentation/source/productsite/about.md -q
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/about.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/about.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/about.html documentation/source/productsite/about.wphtml -q
+
+echo "-----Completed!"

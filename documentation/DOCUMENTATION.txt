@@ -1,0 +1,13 @@
+DOCUMENTATION
+Doulos SIL Cipher
+========================
+
+The documentation for this project is listed in about.html.
+
+There are also PDF versions of these files in the `pdf` folder.
+
+Developer notes:
+
+These html and pdf files are produced from markdown sources (in `source`) using pandoc,
+weasyprint, and custom python scripts. See the `makedocs` shell script
+in the main project folder.
