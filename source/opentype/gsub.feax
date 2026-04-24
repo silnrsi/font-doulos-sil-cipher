@@ -241,14 +241,39 @@ lookup slur_below { #
         sub @open @base @base @base @base @base @base @base @close' lookup slur12_ss01;                                           # 7 Bases, no HalfBase
         sub @open @base @base @base @base @base @base @base @base @close' lookup slur14_ss01;                                     # 8 Bases, no HalfBase
 # need to evaluate how to include all possibilities
-        sub @open @HalfBase @base @base @close' lookup slur3_ss01;                                                                   # 2 Bases, 1 HalfBase
-        sub @open @base @HalfBase @base @close' lookup slur3_ss01;                                                                   # 2 Bases, 1 HalfBase
-        sub @open @base @HalfBase @base @base @close' lookup slur4_ss01;
-        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss01;
-        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss01;
-        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss01;
-        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss01;
-        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss01;
+        sub @open @HalfBase @base @base @close' lookup slur3_ss01;                                                                # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @close' lookup slur3_ss01;                                                                # 2 Bases, 1 HalfBase
+        sub @open @base @base @HalfBase @close' lookup slur3_ss01;                                                                # 2 Bases, 1 HalfBase
+
+        sub @open @HalfBase @HalfBase @base @base @close' lookup slur4_ss01;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss01;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @close' lookup slur4_ss01;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @close' lookup slur4_ss01;                                                      # 2 Bases, 2 HalfBase
+
+        sub @open @HalfBase @HalfBase @HalfBase @base @base @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @HalfBase @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @HalfBase @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+        sub @open @HalfBase @base @base @HalfBase @HalfBase @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+        sub @open @HalfBase @base @HalfBase @base @HalfBase @close' lookup slur5_ss01;                                            # 2 Bases, 3 HalfBase
+
+        sub @open @base @base @HalfBase @base @close' lookup slur5_ss01;                                                          # 3 Bases, 1 HalfBase
+        sub @open @HalfBase @base @base @base @close' lookup slur5_ss01;                                                          # 3 Bases, 1 HalfBase
+        sub @open @base @base @base @HalfBase @close' lookup slur5_ss01;                                                          # 3 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @base @close' lookup slur5_ss01;                                                          # 3 Bases, 1 HalfBase
+
+        sub @open @HalfBase @base @base @HalfBase @base @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @HalfBase @HalfBase @base @base @base @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @base @base @HalfBase @HalfBase @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @HalfBase @base @base @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @base @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @base @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @base @HalfBase @close' lookup slur6_ss01;                                                # 3 Bases, 2 HalfBase
+
+        sub @open @base @HalfBase @base @base @close' lookup slur4_ss01;                                                          # 4 Bases, 1 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss01;                        # 2 Bases, 5 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss01;                            # 3 Bases, 4 HalfBase
+        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss01;                                   # 5 Bases, 2 HalfBase
 } slur_below;
 
 lookup slur_above { #
@@ -262,14 +287,39 @@ lookup slur_above { #
         sub @open @base @base @base @base @base @base @base @close' lookup slur12_ss02;                                           # 7 Bases, no HalfBase
         sub @open @base @base @base @base @base @base @base @base @close' lookup slur14_ss02;                                     # 8 Bases, no HalfBase
 # need to evaluate how to include all possibilities
-        sub @open @HalfBase @base @base @close' lookup slur3_ss02;                                                                   # 2 Bases, 1 HalfBase
-        sub @open @base @HalfBase @base @close' lookup slur3_ss02;                                                                   # 2 Bases, 1 HalfBase
-        sub @open @base @HalfBase @base @base @close' lookup slur4_ss02;
-        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss02;
-        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss02;
-        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss02;
-        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss02;
-        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss02;
+        sub @open @HalfBase @base @base @close' lookup slur3_ss02;                                                                # 2 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @close' lookup slur3_ss02;                                                                # 2 Bases, 1 HalfBase
+        sub @open @base @base @HalfBase @close' lookup slur3_ss02;                                                                # 2 Bases, 1 HalfBase
+
+        sub @open @HalfBase @HalfBase @base @base @close' lookup slur4_ss02;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @HalfBase @HalfBase @base @close' lookup slur4_ss02;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @close' lookup slur4_ss02;                                                      # 2 Bases, 2 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @close' lookup slur4_ss02;                                                      # 2 Bases, 2 HalfBase
+
+        sub @open @HalfBase @HalfBase @HalfBase @base @base @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @HalfBase @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @HalfBase @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+        sub @open @HalfBase @base @base @HalfBase @HalfBase @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+        sub @open @HalfBase @base @HalfBase @base @HalfBase @close' lookup slur5_ss02;                                            # 2 Bases, 3 HalfBase
+
+        sub @open @base @base @HalfBase @base @close' lookup slur5_ss02;                                                          # 3 Bases, 1 HalfBase
+        sub @open @HalfBase @base @base @base @close' lookup slur5_ss02;                                                          # 3 Bases, 1 HalfBase
+        sub @open @base @base @base @HalfBase @close' lookup slur5_ss02;                                                          # 3 Bases, 1 HalfBase
+        sub @open @base @HalfBase @base @base @close' lookup slur5_ss02;                                                          # 3 Bases, 1 HalfBase
+
+        sub @open @HalfBase @base @base @HalfBase @base @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @HalfBase @HalfBase @base @base @base @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @base @base @HalfBase @HalfBase @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @HalfBase @base @base @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @base @HalfBase @HalfBase @base @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @HalfBase @base @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+        sub @open @base @HalfBase @base @base @HalfBase @close' lookup slur6_ss02;                                                # 3 Bases, 2 HalfBase
+
+        sub @open @base @HalfBase @base @base @close' lookup slur4_ss02;                                                          # 4 Bases, 1 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @HalfBase @HalfBase @base @close' lookup slur7_ss02;                        # 2 Bases, 5 HalfBase
+        sub @open @base @HalfBase @HalfBase @HalfBase @base @HalfBase @base @close' lookup slur8_ss02;                            # 3 Bases, 4 HalfBase
+        sub @open @base @base @HalfBase @base @base @HalfBase @base @close' lookup slur10_ss02;                                   # 5 Bases, 2 HalfBase
 } slur_above;
 
 
@@ -285,8 +335,8 @@ lookup slur_above { #
 
 feature ccmp {  # Glyph Composition/Decomposition
         lookup FontCheck;             # 
-        lookup half;      # 
-        lookup slur_ccmp;      # 
+        lookup half;                  # 
+        lookup slur_ccmp;             # 
 } ccmp ;
 
 

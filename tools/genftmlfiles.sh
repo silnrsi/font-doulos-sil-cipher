@@ -5,7 +5,7 @@
 # Copyright (c) 2020-2026 SIL Global  (https://www.sil.org)
 # Released under the MIT License (https://opensource.org/licenses/
 
-# Assumes we're in the root folder, i.e., font-idiqlat
+# Assumes we're in the root folder, i.e., font-doulos-sil-cipher
 
 set -e
 
@@ -29,7 +29,7 @@ commonParams=( \
 	-w 75%  \
 #	--ucdxml source/additional_ucd.xml  \
 #	-s "url(../references/v1.100/EASTSM-Regular.ttf)|ref"  \
-#	-s "url(../results/Idiqlat-Regular.ttf)|Reg" \
+#	-s "url(../results/DoulosSILCipher-Regular.ttf)|Reg" \
 )
 
 echo "Rebuilding ftml files..."

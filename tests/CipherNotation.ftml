@@ -171,6 +171,47 @@
       <comment>demonstrating graphite slur above feature in old font and ss02 in new font</comment>
       <string>\u1D100\u1D177\u00036\u0332\u0031\u0332\u0323\u1D178</string>
     </test>
+   <test label="ketapihan" stylename="ss01_1">
+      <comment>2 bases, 1 halfbase</comment>
+      <string>\u1D177\u00036\u0305\u002D\u0305\u0031\u0307\u0305\u1D178 \u1D177\u002D\u0305\u00036\u0305\u0031\u0307\u0305\u1D178 \u1D177\u00036\u0305\u0031\u0307\u0305\u002D\u0305\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>2 bases, 1 halfbase</comment>
+      <string>\u1D177\u00036\u0332\u002D\u0332\u0031\u0307\u0332\u1D178 \u1D177\u002D\u0332\u00036\u0332\u0031\u0307\u0332\u1D178 \u1D177\u00036\u0332\u0031\u0307\u0332\u002D\u0332\u1D178</string>
+    </test>
+   <test label="ketapihan" stylename="ss01_1">
+      <comment>2 bases, 2 halfbases</comment>
+      <string>\u1D177\u00036\u0305\u002D\u0305\u002D\u0305\u0031\u0307\u0305\u1D178 \u1D177\u00036\u0305\u002D\u0305\u0031\u0307\u0305\u002D\u0305\u1D178 \u1D177\u002D\u0305\u002D\u0305\u00036\u0305\u0031\u0307\u0305\u1D178 \u1D177\u00036\u0305\u0031\u0307\u0305\u002D\u0305\u002D\u0305\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>2 bases, 2 halfbases</comment>
+      <string>\u1D177\u00036\u0332\u002D\u0305\u002D\u0332\u0031\u0307\u0332\u1D178 \u1D177\u00036\u0332\u002D\u0332\u0031\u0307\u0332\u002D\u0332\u1D178 \u1D177\u002D\u0332\u002D\u0332\u00036\u0332\u0031\u0307\u0332\u1D178 \u1D177\u00036\u0332\u0031\u0307\u0332\u002D\u0332\u002D\u0332\u1D178</string>
+    </test>
+   <test label="ketapihan" stylename="ss01_1">
+      <comment>2 bases, 3 halfbases</comment>
+      <string>\u1D177\u00036\u002D\u002D\u002D\u0031\u1D178 \u1D177\u002D\u002D\u002D\u00036\u0031\u1D178 \u1D177\u00036\u0031\u002D\u002D\u002D\u1D178 \u1D177\u002D\u00036\u0031\u002D\u002D\u1D178 \u1D177\u002D\u00036\u002D\u0031\u002D\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>2 bases, 3 halfbases</comment>
+      <string>\u1D177\u00036\u002D\u002D\u002D\u0031\u1D178 \u1D177\u002D\u002D\u002D\u00036\u0031\u1D178 \u1D177\u00036\u0031\u002D\u002D\u002D\u1D178 \u1D177\u002D\u00036\u0031\u002D\u002D\u1D178 \u1D177\u002D\u00036\u002D\u0031\u002D\u1D178</string>
+    </test>
+
+   <test label="ketapihan" stylename="ss01_1">
+      <comment>3 bases, 1 halfbase</comment>
+      <string>\u1D177\u00036\u0305\u00036\u0305\u002D\u0305\u0031\u0307\u0305\u1D178 \u1D177\u00036\u0305\u002D\u0305\u00036\u0305\u0031\u0307\u0305\u1D178 \u1D177\u002D\u0305\u00036\u0305\u00036\u0305\u0031\u0307\u0305\u1D178 \u1D177\u00036\u0305\u00036\u0305\u0031\u0307\u0305\u002D\u0305\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>3 bases, 1 halfbase</comment>
+      <string>\u1D177\u00036\u0332\u00036\u0332\u002D\u0332\u0031\u0307\u0332\u1D178 \u1D177\u00036\u0332\u002D\u0332\u00036\u0332\u0031\u0307\u0332\u1D178 \u1D177\u002D\u0332\u00036\u0332\u00036\u0332\u0031\u0307\u0332\u1D178 \u1D177\u00036\u0332\u00036\u0332\u0031\u0307\u0332\u002D\u0332\u1D178</string>
+    </test>
+   <test label="ketapihan" stylename="ss01_1">
+      <comment>3 bases, 2 halfbases</comment>
+      <string>\u002D\u1D177\u00036\u00036\u002D\u0031\u1D178 \u1D177\u00036\u00036\u002D\u002D\u0031\u1D178 \u1D177\u002D\u002D\u00036\u00036\u0031\u1D178 \u1D177\u00036\u00036\u0031\u002D\u002D\u1D178 \u1D177\u00036\u002D\u00036\u0031\u002D\u1D178 \u1D177\u002D\u002D\u00036\u00036\u0031\u1D178</string>
+    </test>
+   <test label="jianpu" stylename="slur_2_ss02_1">
+      <comment>3 bases, 2 halfbases</comment>
+      <string>\u002D\u1D177\u00036\u00036\u002D\u0031\u1D178 \u1D177\u00036\u00036\u002D\u002D\u0031\u1D178 \u1D177\u002D\u002D\u00036\u00036\u0031\u1D178 \u1D177\u00036\u00036\u0031\u002D\u002D\u1D178 \u1D177\u00036\u002D\u00036\u0031\u002D\u1D178 \u1D177\u002D\u002D\u00036\u00036\u0031\u1D178</string>
+    </test>
 
   </testgroup>
 </ftml>
